@@ -1,0 +1,403 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0"><title>Vaya Themes</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;800;900&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Mono:wght@400;500&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Outfit:wght@500;700;800&display=swap">
+<style>
+/* ---------- showcase chrome (follows the viewer's theme) ---------- */
+:root{--bg:#efe9e4;--bg2:#e6dfd8;--fg:#221a18;--fg2:#6b5b56;--edge:#d9cfc7;--chip:#ffffff;--chip-on:#221a18;--chip-on-fg:#ffffff;--accent:#e3162b;--frame-shadow:0 30px 60px -30px rgba(60,20,10,.35)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171312;--bg2:#211b19;--fg:#f3ebe7;--fg2:#a89a94;--edge:#332a27;--chip:#241e1c;--chip-on:#f3ebe7;--chip-on-fg:#171312;--accent:#ff4a55;--frame-shadow:0 30px 60px -30px rgba(0,0,0,.7)}}
+:root[data-theme="dark"]{--bg:#171312;--bg2:#211b19;--fg:#f3ebe7;--fg2:#a89a94;--edge:#332a27;--chip:#241e1c;--chip-on:#f3ebe7;--chip-on-fg:#171312;--accent:#ff4a55;--frame-shadow:0 30px 60px -30px rgba(0,0,0,.7)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.top{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--edge)}
+.top .in{max-width:1240px;margin:0 auto;padding:12px clamp(14px,3vw,28px);display:flex;flex-direction:column;gap:10px}
+.row1{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.ttl{font-family:'Archivo',system-ui,sans-serif;font-weight:900;font-size:15px;letter-spacing:.02em;text-transform:uppercase}
+.ttl small{font-family:'DM Mono',monospace;font-weight:400;font-size:11px;letter-spacing:.06em;color:var(--fg2);margin-left:10px;text-transform:none}
+.dev{display:flex;border:1px solid var(--edge);border-radius:99px;padding:3px;gap:2px;background:var(--bg2)}
+.dev button{font:500 12px 'DM Mono',monospace;letter-spacing:.04em;border:0;background:transparent;color:var(--fg2);padding:6px 12px;border-radius:99px;cursor:pointer;transition:transform .08s}
+.dev button:active{transform:scale(.94)}
+.dev button.on{background:var(--chip-on);color:var(--chip-on-fg)}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;display:inline-flex;align-items:center;gap:8px;font:500 13px 'DM Sans',system-ui,sans-serif;padding:8px 13px 8px 10px;border-radius:99px;border:1px solid var(--edge);background:var(--chip);color:var(--fg);cursor:pointer;transition:transform .08s,background .2s,color .2s}
+.chip:active{transform:scale(.95)}
+.chip .dot{width:12px;height:12px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(0,0,0,.12)}
+.chip.on{background:var(--chip-on);color:var(--chip-on-fg);border-color:var(--chip-on)}
+.chip:focus-visible,.dev button:focus-visible,.mini:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.note{max-width:1240px;margin:0 auto;padding:16px clamp(14px,3vw,28px) 6px;display:grid;grid-template-columns:1fr auto;gap:10px 28px;align-items:start}
+@media(max-width:760px){.note{grid-template-columns:1fr}}
+.note h2{margin:0;font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:22px;letter-spacing:-.02em}
+.note h2 em{font-style:normal;font-weight:500;color:var(--fg2);font-size:15px;margin-left:10px}
+.note p{margin:6px 0 0;max-width:68ch;font-size:15px;line-height:1.5;color:var(--fg)}
+.note .tr{font-size:13.5px;color:var(--fg2)}
+.note .tr b{color:var(--fg);font-weight:600}
+.meta{display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+@media(max-width:760px){.meta{align-items:flex-start}}
+.meta .f{font:12px 'DM Mono',monospace;color:var(--fg2);letter-spacing:.02em}
+.sw{display:flex;gap:5px}
+.sw i{width:30px;height:30px;border-radius:8px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.1)}
+.stage{max-width:1240px;margin:0 auto;padding:14px clamp(14px,3vw,28px) 40px;display:flex;justify-content:center}
+.frame{width:100%;max-width:1180px;border-radius:14px;overflow:hidden;box-shadow:var(--frame-shadow);border:1px solid var(--edge);transition:max-width .35s cubic-bezier(.2,1.2,.3,1)}
+.frame.phone{max-width:400px}
+.frame.phone .navlinks .hide{display:none}
+.swap{animation:swap .45s cubic-bezier(.2,1.4,.3,1)}
+@keyframes swap{0%{transform:scale(.985);opacity:.6}100%{transform:none;opacity:1}}
+.all{max-width:1240px;margin:0 auto;padding:10px clamp(14px,3vw,28px) 60px}
+.all h3{font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:18px;letter-spacing:-.01em;margin:0 0 4px}
+.all p{margin:0 0 16px;color:var(--fg2);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+.mini{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:12px;padding:16px;border-radius:12px;border:2px solid transparent;box-shadow:0 1px 0 rgba(0,0,0,.05),0 10px 30px -20px rgba(0,0,0,.4);transition:transform .15s cubic-bezier(.2,1.4,.3,1),border-color .2s}
+.mini:hover{transform:translateY(-3px)}
+.mini:active{transform:scale(.98)}
+.mini.on{border-color:var(--accent)}
+.mini .mnav{display:flex;justify-content:space-between;align-items:center;padding-bottom:8px;border-bottom:2px solid var(--ink)}
+.mini .mnav .brand{font-size:18px}
+.mini .mlinks{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.mini .mhero{padding:6px 0 0;border:0}
+.mini .mhero .eyebrow{font-size:9.5px}
+.mini .mhero h1{font-size:26px;margin-top:8px}
+.mini .mhero .cta{margin-top:14px;gap:8px}
+.mini .mhero .btn{font-size:10px;padding:8px 12px}
+.mini .mrow{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mini .city{min-height:0;padding:12px;gap:4px}
+.mini .city h3{font-size:17px}
+.mini .badge{top:10px;right:10px}
+.mini .news{padding:12px;display:flex;align-items:center;font-family:var(--disp);font-size:12px}
+.mini .mname{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-family:'DM Sans',system-ui,sans-serif;color:var(--muted);font-size:11px}
+.mini .mname b{font-family:var(--disp);color:var(--ink);font-size:13px}
+.t-redhero.mini .mhero{background:var(--signal);margin:0;padding:14px;border-radius:8px}
+@media (prefers-reduced-motion:reduce){.swap,.frame,.mini,.chip,.dev button{animation:none;transition:none}}
+
+/* ---------- the Vaya site, scoped ---------- */
+.site *{box-sizing:border-box;margin:0}.site{background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.6;-webkit-font-smoothing:antialiased}.site a{color:inherit;text-decoration:none}.site .mono{font-family:var(--mono)}.site .wrap{max-width:1080px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}.site /* nav */
+  nav{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:20}.site .nav{display:flex;align-items:center;justify-content:space-between;height:60px}.site .brand{font-family:var(--disp);font-weight:900;font-size:24px;letter-spacing:-.02em;text-transform:uppercase}.site .brand .d{color:var(--signal)}.site .navlinks{display:flex;gap:22px;font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;text-transform:uppercase}.site .navlinks a{color:var(--muted)}.site .navlinks a:hover{color:var(--ink)}.site .navlinks .soon{color:var(--faint);cursor:default}
+  @media(max-width:640px){.site .navlinks{gap:13px;font-size:11px}.site .navlinks .hide{display:none}}.site /* hero */
+  .hero{padding:clamp(40px,7vw,84px) 0 clamp(30px,5vw,54px);border-bottom:1px solid var(--line)}.site .eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--signal)}.site .hero h1{font-family:var(--disp);font-weight:800;font-size:clamp(38px,7vw,74px);line-height:.99;letter-spacing:-.025em;margin:18px 0 0;max-width:16ch;text-wrap:balance}.site .hero p{font-size:clamp(17px,2.4vw,21px);color:var(--ink2);max-width:56ch;margin-top:22px;line-height:1.5}.site .hero p b{color:var(--ink);font-weight:600}.site .cta{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.site .btn{font-family:var(--mono);font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:13px 22px;border-radius:var(--rb);border:1.5px solid var(--ink);display:inline-flex;align-items:center;gap:8px;transition:.15s}.site .btn.p{background:var(--signal);border-color:var(--signal);color:#fff}.site .btn.p:hover{filter:brightness(1.08)}.site .btn.s:hover{background:var(--ink);color:var(--paper)}.site section{padding:clamp(40px,6vw,68px) 0;border-bottom:1px solid var(--line)}.site .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:22px}.site .lbl::before{content:"";width:26px;height:2px;background:var(--stamp);flex:none}.site h2{font-family:var(--disp);font-weight:800;font-size:clamp(25px,4vw,38px);line-height:1.04;letter-spacing:-.02em;text-wrap:balance;max-width:20ch}.site .say{font-size:clamp(16.5px,2.1vw,19px);color:var(--ink2);max-width:62ch;margin-top:16px;line-height:1.55}.site .say b{color:var(--ink);font-weight:600}.site /* cities */
+  .cities{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+  @media(max-width:720px){.site .cities{grid-template-columns:1fr}}.site .city{position:relative;border:1px solid var(--line);border-radius:var(--r);background:var(--card);padding:22px;display:flex;flex-direction:column;gap:8px;min-height:180px;transition:.15s}.site .city.live:hover{border-color:var(--signal);transform:translateY(-2px)}.site .city .co{font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.04em}.site .city h3{font-family:var(--disp);font-weight:900;font-size:27px;letter-spacing:-.02em;text-transform:uppercase;line-height:1}.site .city p{font-size:14.5px;color:var(--muted);line-height:1.4}.site .badge{position:absolute;top:18px;right:18px;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;padding:4px 8px;border-radius:99px}.site .badge.on{background:var(--stamp);color:#fff}.site .badge.off{background:var(--paper2);color:var(--faint)}.site .city .go{margin-top:auto;font-family:var(--mono);font-size:12px;color:var(--signal);letter-spacing:.03em}.site .city.soon{opacity:.72}.site /* pillars */
+  .pill{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:26px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  @media(max-width:720px){.site .pill{grid-template-columns:1fr 1fr}}
+  @media(max-width:460px){.site .pill{grid-template-columns:1fr}}.site .p{background:var(--card);padding:20px;display:flex;flex-direction:column;gap:7px}.site .p .n{font-family:var(--mono);font-size:11px;color:var(--stamp)}.site .p h4{font-family:var(--disp);font-weight:700;font-size:16.5px;letter-spacing:-.01em}.site .p span{font-size:13.5px;color:var(--muted);line-height:1.42}.site /* who */
+  .who{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}
+  @media(max-width:640px){.site .who{grid-template-columns:1fr}}.site .w{border-left:3px solid var(--signal);padding:6px 0 6px 16px}.site .w h4{font-family:var(--disp);font-weight:800;font-size:19px}.site .w p{font-size:14.5px;color:var(--muted);margin-top:4px;line-height:1.45}.site /* newsletter */
+  .news{background:var(--signal);color:#fff;border-radius:var(--rl);padding:clamp(26px,4vw,44px);margin:8px 0}.site .news h2{color:#fff}.site .news p{font-size:16px;opacity:.82;margin-top:12px;max-width:52ch;line-height:1.5}.site .form{display:flex;gap:10px;margin-top:22px;max-width:440px;flex-wrap:wrap}.site .form input{flex:1;min-width:180px;font-family:var(--serif);font-size:15px;padding:13px 15px;border-radius:var(--rb);border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.14);color:#fff}.site .form button{font-family:var(--mono);font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;padding:13px 20px;border-radius:var(--rb);border:0;background:#fff;color:var(--signal);cursor:pointer}.site .form input::placeholder{color:rgba(255,255,255,.72)}.site .news small{display:block;margin-top:12px;font-family:var(--mono);font-size:11px;opacity:.75}.site footer{padding:34px 0;color:var(--faint);font-family:var(--mono);font-size:12px;line-height:1.9}.site footer .row{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:baseline}.site footer b{color:var(--muted)}.site footer .fl{display:flex;gap:16px;flex-wrap:wrap}.site /* ecosystem */
+  .eco3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+  @media(max-width:680px){.site .eco3{grid-template-columns:1fr}}.site .e3{border:1px solid var(--line);border-radius:var(--r);background:var(--card);padding:22px;display:flex;flex-direction:column;gap:8px;position:relative;overflow:hidden}.site .e3::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--signal)}.site .e3 .et{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--signal)}.site .e3 h4{font-family:var(--disp);font-weight:800;font-size:20px;letter-spacing:-.01em}.site .e3 p{font-size:14px;color:var(--muted);line-height:1.45}.site .e3 .live{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--stamp);margin-top:2px}
+
+.site .news{background:var(--news)}
+.site .news .form input{font-family:var(--serif)}
+.site .news .form button{color:var(--news)}
+
+/* ---------- themes ---------- */
+.t-virgin{--paper:#ffffff;--paper2:#fff4ee;--card:#fffaf7;--ink:#1f1516;--ink2:#463033;--muted:#7a5c60;--faint:#a98f92;--line:#f0dcd4;--signal:#e3162b;--signal-soft:#e3162b12;--stamp:#ff7a45;--stamp-soft:#ff7a4518;--news:#e3162b;--disp:'Archivo',system-ui,sans-serif;--serif:'Newsreader',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;--r:12px;--rb:6px;--rl:16px}
+
+.t-redhero{--paper:#ffffff;--paper2:#fff4ee;--card:#fffaf7;--ink:#1f1516;--ink2:#463033;--muted:#7a5c60;--faint:#a98f92;--line:#f0dcd4;--signal:#e3162b;--signal-soft:#e3162b12;--stamp:#ff7a45;--stamp-soft:#ff7a4518;--news:#1f1516;--disp:'Archivo',system-ui,sans-serif;--serif:'Newsreader',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;--r:12px;--rb:6px;--rl:16px}
+.t-redhero nav{border-bottom-color:var(--signal)}
+.t-redhero .hero{background:var(--signal);color:#fff;border-bottom:0;margin:0 calc(-1 * clamp(18px,4vw,40px));padding-left:clamp(18px,4vw,40px);padding-right:clamp(18px,4vw,40px)}
+.t-redhero .hero .eyebrow{color:#ffd2c2}
+.t-redhero .hero h1{color:#fff}
+.t-redhero .hero p{color:#ffe6df}.t-redhero .hero p b{color:#fff}
+.t-redhero .hero .btn.p{background:#fff;border-color:#fff;color:var(--signal)}
+.t-redhero .hero .btn.s{border-color:#fff;color:#fff}.t-redhero .hero .btn.s:hover{background:#fff;color:var(--signal)}
+.t-redhero .news .form button{background:var(--signal);color:#fff}
+.t-sunset{--paper:#ffffff;--paper2:#fff3e4;--card:#fff8ef;--ink:#1c1616;--ink2:#4a3a36;--muted:#7b6660;--faint:#ab9a93;--line:#f4e2cf;--signal:#f2263a;--signal-soft:#f2263a12;--stamp:#ffb020;--stamp-soft:#ffb02022;--news:#ff5a3c;--disp:'Bricolage Grotesque',system-ui,sans-serif;--serif:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',ui-monospace,Menlo,monospace;--r:16px;--rb:10px;--rl:22px}
+.t-sunset .hero h1{font-weight:800;letter-spacing:-.03em}
+.t-sunset .badge.on{color:#1c1616}
+.t-sunset .say,.t-sunset .hero p{font-size:clamp(16px,2vw,18.5px)}
+.t-beachclub{--paper:#fff4e6;--paper2:#ffe9d2;--card:#ffffff;--ink:#2a0c10;--ink2:#5b2a30;--muted:#8a5a5f;--faint:#b48c90;--line:#f0d2bd;--signal:#d8102e;--signal-soft:#d8102e12;--stamp:#c8f04f;--stamp-soft:#c8f04f33;--news:#d8102e;--disp:'Archivo',system-ui,sans-serif;--serif:'Newsreader',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;--r:3px;--rb:3px;--rl:4px}
+.t-beachclub nav{border-bottom-width:3px}
+.t-beachclub .badge.on{color:#2a0c10}
+.t-beachclub .city,.t-beachclub .e3,.t-beachclub .pill{border-color:var(--ink)}
+.t-beachclub .pill{background:var(--ink)}
+.t-beachclub .hero h1{font-weight:900;text-transform:uppercase;letter-spacing:-.03em;font-size:clamp(36px,6.4vw,68px)}
+.t-beachclub .lbl::before{background:var(--signal)}
+.t-beachclub .e3::before{background:var(--stamp)}
+.t-beachclub .e3 .et,.t-beachclub .p .n{color:var(--signal)}
+.t-bleached{--paper:#fbf6ef;--paper2:#f4e9dc;--card:#fffdf9;--ink:#2b211c;--ink2:#54443c;--muted:#7f6d63;--faint:#a99a90;--line:#e7d8c8;--signal:#e0563f;--signal-soft:#e0563f14;--stamp:#4fa8c2;--stamp-soft:#4fa8c21c;--news:#e0563f;--disp:'Fraunces',Georgia,serif;--serif:'DM Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;--r:22px;--rb:12px;--rl:28px}
+.t-bleached .hero h1{font-weight:500;font-style:italic;letter-spacing:-.02em;font-size:clamp(40px,7.2vw,78px);line-height:1.02}
+.t-bleached h2{font-weight:600;letter-spacing:-.015em}
+.t-bleached .brand{font-weight:900;text-transform:none;letter-spacing:-.03em;font-size:27px}
+.t-bleached .city h3{text-transform:none;font-weight:700;letter-spacing:-.02em}
+.t-bleached .btn{border-radius:99px}
+.t-bleached .say,.t-bleached .hero p{font-size:clamp(16px,2vw,18.5px)}
+.t-hibiscus{--paper:#ffffff;--paper2:#fff0f2;--card:#fff7f8;--ink:#23141b;--ink2:#4b3540;--muted:#7d6670;--faint:#ad9aa3;--line:#f4dde2;--signal:#ff2d55;--signal-soft:#ff2d5512;--stamp:#ff8a3d;--stamp-soft:#ff8a3d1f;--news:#ff2d55;--disp:'Plus Jakarta Sans',system-ui,sans-serif;--serif:'Plus Jakarta Sans',system-ui,sans-serif;--mono:'DM Mono',ui-monospace,Menlo,monospace;--r:20px;--rb:99px;--rl:26px}
+.t-hibiscus .hero h1{font-weight:800;letter-spacing:-.035em}
+.t-hibiscus .say,.t-hibiscus .hero p{font-size:clamp(16px,2vw,18px)}
+.t-hibiscus nav{border-bottom:1px solid var(--line)}
+.t-hibiscus .brand{font-weight:800;text-transform:none;letter-spacing:-.04em}
+.t-hibiscus .city h3{text-transform:none;font-weight:800;letter-spacing:-.02em}
+.t-hibiscus .form input{border-radius:99px}
+.t-manila{--paper:#ffffff;--paper2:#f3f7f1;--card:#fbfcf9;--ink:#171d19;--ink2:#38443c;--muted:#5f6f64;--faint:#93a198;--line:#dfe8e0;--signal:#e0202a;--signal-soft:#e0202a12;--stamp:#1f8a5b;--stamp-soft:#1f8a5b1a;--news:#e0202a;--disp:'Archivo',system-ui,sans-serif;--serif:'Newsreader',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;--r:12px;--rb:6px;--rl:16px}
+
+.t-postcard{--paper:#ffffff;--paper2:#eefaf9;--card:#f8fdfc;--ink:#12242a;--ink2:#334a51;--muted:#5f7a80;--faint:#98adb1;--line:#d6ebea;--signal:#e8302a;--signal-soft:#e8302a12;--stamp:#16b3c6;--stamp-soft:#16b3c61c;--news:#12242a;--disp:'Outfit',system-ui,sans-serif;--serif:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',ui-monospace,Menlo,monospace;--r:14px;--rb:8px;--rl:18px}
+.t-postcard section{border-bottom:2px dashed var(--line)}
+.t-postcard .hero{border-bottom:2px dashed var(--line)}
+.t-postcard .hero h1{font-weight:800;letter-spacing:-.03em}
+.t-postcard .city.live{border:2px dashed var(--signal)}
+.t-postcard .badge.on{background:var(--signal)}
+.t-postcard .news .form button{background:var(--signal);color:#fff}
+.t-postcard .say,.t-postcard .hero p{font-size:clamp(16px,2vw,18.5px)}
+.t-nightmarket{--paper:#1a0d12;--paper2:#24141a;--card:#2a181f;--ink:#fff3ee;--ink2:#e8d3cf;--muted:#b89a9d;--faint:#7f676b;--line:#3d262d;--signal:#ff4a55;--signal-soft:#ff4a5518;--stamp:#ffc44d;--stamp-soft:#ffc44d1c;--news:#ff4a55;--disp:'Archivo',system-ui,sans-serif;--serif:'Newsreader',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;--r:12px;--rb:6px;--rl:16px}
+.t-nightmarket .badge.on{color:#1a0d12}
+.t-nightmarket .news{color:#fff}.t-nightmarket .news .form button{color:var(--news)}
+</style>
+
+<div class="top"><div class="in">
+  <div class="row1">
+    <div class="ttl">Vaya themes <small>← → to switch</small></div>
+    <div class="dev" role="group" aria-label="Device"><button type="button" data-dev="desk" class="on">Desktop</button><button type="button" data-dev="phone">Phone</button></div>
+  </div>
+  <div class="chips" id="chips"><button class="chip" data-t="virgin" type="button"><span class="dot" style="background:#e3162b"></span>Virgin Warm</button><button class="chip" data-t="redhero" type="button"><span class="dot" style="background:#ff7a45"></span>Red Hero</button><button class="chip" data-t="sunset" type="button"><span class="dot" style="background:#ffb020"></span>Sunset</button><button class="chip" data-t="beachclub" type="button"><span class="dot" style="background:#d8102e"></span>Beach Club</button><button class="chip" data-t="bleached" type="button"><span class="dot" style="background:#4fa8c2"></span>Sun-bleached</button><button class="chip" data-t="hibiscus" type="button"><span class="dot" style="background:#ff8a3d"></span>Hibiscus</button><button class="chip" data-t="manila" type="button"><span class="dot" style="background:#1f8a5b"></span>Manila Heat</button><button class="chip" data-t="postcard" type="button"><span class="dot" style="background:#16b3c6"></span>Postcard</button><button class="chip" data-t="nightmarket" type="button"><span class="dot" style="background:#ffc44d"></span>Night Market</button></div>
+</div></div>
+
+<div class="note" id="note"></div>
+
+<div class="stage"><div class="frame" id="frame"><div class="site t-virgin" id="site">
+<a id="top"></a>
+
+<nav><div class="wrap nav">
+  <a href="#top" class="brand">Vaya<span class="d">.</span></a>
+  <div class="navlinks">
+    <a href="#cities">Manila</a>
+    <span class="soon hide">Mexico City</span>
+    <span class="soon hide">Bali</span>
+    <a href="#about">About</a>
+    <a href="#newsletter">Newsletter</a>
+  </div>
+</div></nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <p>Vaya is the friend who already moved. Real voices from the cities people are moving to — <b>what it costs, what it's like, whether you'd thrive there</b> — told by the people who live it.</p>
+    <div class="cta">
+      <a href="#cities" class="btn p">Start with Manila →</a>
+      <a href="#newsletter" class="btn s">Get the newsletter</a>
+    </div>
+  </header>
+
+  <section id="idea">
+    <div class="lbl">Why Vaya</div>
+    <h2>Tourism boards sell you a postcard. We send you a correspondent.</h2>
+    <p class="say">Before you move, visit, or invest in a city, you ask one question — <b>what's it really like?</b> Today the only answers are a brochure, a 45-second clip, or a forum thread from three years ago. Vaya is the missing thing: <b>a local newsroom in every city worth moving to</b>, telling you the truth on camera.</p>
+  </section>
+
+  <section id="cities">
+    <div class="lbl">The cities</div>
+    <h2>One masthead. A bureau in every city.</h2>
+    <div class="cities">
+      <a href="#cities" class="city live">
+        <span class="badge on">Live</span>
+        <span class="co">14.60°N · 120.98°E</span>
+        <h3>Manila</h3>
+        <p>The English-speaking megacity most people underestimate.</p>
+        <span class="go">Explore Vaya Manila →</span>
+      </a>
+      <div class="city soon">
+        <span class="badge off">Coming soon</span>
+        <span class="co">19.43°N · 99.13°W</span>
+        <h3>Mexico City</h3>
+        <p>The nomad capital of the Americas.</p>
+        <span class="go" style="color:var(--faint)">In the works</span>
+      </div>
+      <div class="city soon">
+        <span class="badge off">Coming soon</span>
+        <span class="co">8.65°S · 115.14°E</span>
+        <h3>Bali</h3>
+        <p>The island that rewrote remote work.</p>
+        <span class="go" style="color:var(--faint)">In the works</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="what">
+    <div class="lbl">What you'll find</div>
+    <h2>Six things, every city.</h2>
+    <div class="pill">
+      <div class="p"><span class="n">01</span><h4>The real cost of a month</h4><span>What living here actually costs, by neighborhood — with receipts.</span></div>
+      <div class="p"><span class="n">02</span><h4>Neighborhood films</h4><span>Where to live and why, block by block.</span></div>
+      <div class="p"><span class="n">03</span><h4>The work stack</h4><span>Visas, coworking, internet, banking, taxes.</span></div>
+      <div class="p"><span class="n">04</span><h4>People & culture</h4><span>The food, the scene, the city told by locals.</span></div>
+      <div class="p"><span class="n">05</span><h4>The investor's read</h4><span>Property, business, what's rising vs. hype.</span></div>
+      <div class="p"><span class="n">06</span><h4>A week in the life</h4><span>One real resident's actual week.</span></div>
+    </div>
+  </section>
+
+  <section id="ecosystem">
+    <div class="lbl">The Vaya ecosystem</div>
+    <h2>More than videos — a friend in every city.</h2>
+    <p class="say">The films are how you <b>meet</b> Vaya. The ecosystem is how you <b>live</b> with it — do more, settle in, and belong, wherever you land.</p>
+    <div class="eco3">
+      <div class="e3"><span class="et">Do</span><h4>Vaya Experiences</h4><p>Food tours, history, nightlife — the city, hosted by people who live there.</p><span class="live">Live in Manila</span></div>
+      <div class="e3"><span class="et">Settle</span><h4>Vaya Living</h4><p>Cost, neighborhoods, the work stack — and a concierge for your whole move.</p><span class="live">Building</span></div>
+      <div class="e3"><span class="et">Belong</span><h4>Vaya Social</h4><p>Meet other nomads and locals — you won't figure a new city out alone.</p><span class="live">Building</span></div>
+    </div>
+  </section>
+
+  <section id="who">
+    <div class="lbl">Who it's for</div>
+    <h2>For the people betting on a city.</h2>
+    <div class="who">
+      <div class="w"><h4>Movers</h4><p>Choosing a base for the next chapter — and want the truth before they commit.</p></div>
+      <div class="w"><h4>Visitors</h4><p>Here for weeks, not hours — and want past the tourist layer.</p></div>
+      <div class="w"><h4>Investors</h4><p>Sizing up a market — property, business, what's actually rising.</p></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="lbl">About</div>
+    <h2>The product is local, all the way down.</h2>
+    <p class="say">Every Vaya city is a small local newsroom: <b>a journalist and a videographer who live there</b>, paid to show you the real thing — the costs, the neighborhoods, the work life, the culture, the opportunities. No parachuting in. No postcards. When Vaya grows, a local creative economy grows with it. That's the point.</p>
+    <p class="say" style="margin-top:18px"><b>Vaya</b> means <i>“go”</i> in Spanish. It also spells what we do: <b>V</b>oices <b>A</b>round <b>Y</b>our <b>A</b>rea. Say it before a city — <i>Vaya Manila</i> — and it's an invitation. Go find out.</p>
+  </section>
+
+  <section id="newsletter" style="border-bottom:0">
+    <div class="news">
+      <div class="lbl" style="color:var(--paper);opacity:.7">Newsletter</div>
+      <h2>Thinking about a move? Get one city, unpacked, every week.</h2>
+      <p>No fluff, no sponsored postcards — just what it's really like, from the ground.</p>
+      <form class="form" onsubmit="this.querySelector('button').textContent='Thanks — soon';return false;">
+        <input type="email" placeholder="you@email.com" aria-label="Email" required>
+        <button type="submit">Send it to me</button>
+      </form>
+      <small>Starts with Manila. Free, always.</small>
+    </div>
+  </section>
+
+  <footer>
+    <div class="row">
+      <span><b>Vaya</b> — Voices Around Your Area</span>
+      <span class="fl"><a href="#cities">Manila</a> · <span>Mexico City</span> · <span>Bali</span> · <a href="#about">About</a> · <a href="#newsletter">Newsletter</a></span>
+    </div>
+    <div style="margin-top:10px">“<i>vaya</i>” 🇪🇸 — to go.</div>
+  </footer>
+
+</div>
+
+</div></div></div>
+
+<div class="all">
+  <h3>All nine at once</h3>
+  <p>Same hero, same words, nine identities. Tap one to load it above.</p>
+  <div class="grid" id="grid"><button class="mini site t-virgin" data-t="virgin" type="button" aria-label="Choose Virgin Warm">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Virgin Warm</b><span>Archivo · Newsreader · IBM Plex Mono</span></div>
+</button><button class="mini site t-redhero" data-t="redhero" type="button" aria-label="Choose Red Hero">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Red Hero</b><span>Archivo · Newsreader · IBM Plex Mono</span></div>
+</button><button class="mini site t-sunset" data-t="sunset" type="button" aria-label="Choose Sunset">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Sunset</b><span>Bricolage Grotesque · DM Sans · DM Mono</span></div>
+</button><button class="mini site t-beachclub" data-t="beachclub" type="button" aria-label="Choose Beach Club">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Beach Club</b><span>Archivo · Newsreader · IBM Plex Mono</span></div>
+</button><button class="mini site t-bleached" data-t="bleached" type="button" aria-label="Choose Sun-bleached">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Sun-bleached</b><span>Fraunces · DM Sans · IBM Plex Mono</span></div>
+</button><button class="mini site t-hibiscus" data-t="hibiscus" type="button" aria-label="Choose Hibiscus">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Hibiscus</b><span>Plus Jakarta Sans · DM Mono</span></div>
+</button><button class="mini site t-manila" data-t="manila" type="button" aria-label="Choose Manila Heat">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Manila Heat</b><span>Archivo · Newsreader · IBM Plex Mono</span></div>
+</button><button class="mini site t-postcard" data-t="postcard" type="button" aria-label="Choose Postcard">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Postcard</b><span>Outfit · DM Sans · DM Mono</span></div>
+</button><button class="mini site t-nightmarket" data-t="nightmarket" type="button" aria-label="Choose Night Market">
+  <div class="mnav"><span class="brand">Vaya<span class="d">.</span></span><span class="mlinks mono">Manila · About</span></div>
+  <div class="mhero hero">
+    <div class="eyebrow">Voices Around Your Area</div>
+    <h1>What's it actually like to live there?</h1>
+    <div class="cta"><span class="btn p">Start with Manila →</span><span class="btn s">Newsletter</span></div>
+  </div>
+  <div class="mrow"><span class="city live"><span class="badge on">Live</span><h3>Manila</h3></span><span class="news"><b>Get the newsletter</b></span></div>
+  <div class="mname"><b>Night Market</b><span>Archivo · Newsreader · IBM Plex Mono</span></div>
+</button></div>
+</div>
+
+<script>
+(function(){
+  var T=[{"id": "virgin", "name": "Virgin Warm", "tag": "the one applied today", "vibe": "Clean white, one confident red, coral for warmth. Reads as a serious brand that happens to be friendly.", "trade": "Most credible. Least tropical.", "fonts": "Archivo \u00b7 Newsreader \u00b7 IBM Plex Mono", "sw": ["#ffffff", "#fffaf7", "#e3162b", "#ff7a45", "#1f1516"]}, {"id": "redhero", "name": "Red Hero", "tag": "Virgin Atlantic energy", "vibe": "Same palette, but the opening is a full red block with white type. You know the brand color before you read a word.", "trade": "Boldest first impression. Red hero can feel loud on a phone.", "fonts": "Archivo \u00b7 Newsreader \u00b7 IBM Plex Mono", "sw": ["#e3162b", "#ffffff", "#ff7a45", "#1f1516", "#fffaf7"]}, {"id": "sunset", "name": "Sunset", "tag": "summer, immediately", "vibe": "Coral-red, mango, and a sunset-orange newsletter panel. Wide friendly grotesque headlines. The most \"holiday\" of the set.", "trade": "Most summer vibe. Can drift toward travel-deals if the copy gets salesy.", "fonts": "Bricolage Grotesque \u00b7 DM Sans \u00b7 DM Mono", "sw": ["#ffffff", "#f2263a", "#ffb020", "#ff5a3c", "#1c1616"]}, {"id": "beachclub", "name": "Beach Club", "tag": "poster on cream", "vibe": "Cream paper, deep red, lime for what is live. Square corners and heavy rules. Feels printed, like a beach-bar poster.", "trade": "Most distinctive. Not strictly white, and lime splits the room.", "fonts": "Archivo \u00b7 Newsreader \u00b7 IBM Plex Mono", "sw": ["#fff4e6", "#ffffff", "#d8102e", "#c8f04f", "#2a0c10"]}, {"id": "bleached", "name": "Sun-bleached", "tag": "70s tropical, softened", "vibe": "Off-white, a faded tomato red, sky blue for accents, and a soft serif with real italics. Warm like an old photo.", "trade": "Warmest and most human. Softer red reads less \"brand\", more \"magazine\".", "fonts": "Fraunces \u00b7 DM Sans \u00b7 IBM Plex Mono", "sw": ["#fbf6ef", "#e0563f", "#4fa8c2", "#fffdf9", "#2b211c"]}, {"id": "hibiscus", "name": "Hibiscus", "tag": "bright, rounded, app-like", "vibe": "White with a hot hibiscus red and tangerine, one geometric sans for everything, pill buttons. Feels like a product you would download.", "trade": "Most modern and app-like. Least editorial, so the \"newsroom\" idea leans on the copy.", "fonts": "Plus Jakarta Sans \u00b7 DM Mono", "sw": ["#ffffff", "#ff2d55", "#ff8a3d", "#fff7f8", "#23141b"]}, {"id": "manila", "name": "Manila Heat", "tag": "red and palm green", "vibe": "White and a Philippine-flag red, with palm green for what is live. The green is the tropical note instead of orange.", "trade": "Reads local and grounded. Red plus green needs discipline or it tips into holiday colors.", "fonts": "Archivo \u00b7 Newsreader \u00b7 IBM Plex Mono", "sw": ["#ffffff", "#e0202a", "#1f8a5b", "#f3f7f1", "#171d19"]}, {"id": "postcard", "name": "Postcard", "tag": "red stamp, ocean blue", "vibe": "White, a poppy red, and aqua for the sea. Rounded geometric display type, dashed rules like the back of a postcard.", "trade": "Most playful. Aqua pulls it toward \"travel\" more than \"newsroom\".", "fonts": "Outfit \u00b7 DM Sans \u00b7 DM Mono", "sw": ["#ffffff", "#e8302a", "#16b3c6", "#eefaf9", "#12242a"]}, {"id": "nightmarket", "name": "Night Market", "tag": "the wildcard, dark", "vibe": "Deep aubergine ground, the same red, gold for accents. Manila at 9pm. Included so you can see the red against dark before ruling it out.", "trade": "Most atmospheric. Not white, and dark sites fight harder for trust with investors.", "fonts": "Archivo \u00b7 Newsreader \u00b7 IBM Plex Mono", "sw": ["#1a0d12", "#ff4a55", "#ffc44d", "#2a181f", "#fff3ee"]}];
+  var byId={};T.forEach(function(t){byId[t.id]=t});
+  var site=document.getElementById('site'),frame=document.getElementById('frame'),note=document.getElementById('note');
+  var cur='virgin';
+  try{var s=localStorage.getItem('vaya-theme');if(s&&byId[s])cur=s}catch(e){}
+  function render(){
+    var t=byId[cur];
+    site.className='site t-'+cur;
+    site.classList.remove('swap');void site.offsetWidth;site.classList.add('swap');
+    document.querySelectorAll('.chip').forEach(function(c){c.classList.toggle('on',c.dataset.t===cur)});
+    document.querySelectorAll('.mini').forEach(function(c){c.classList.toggle('on',c.dataset.t===cur)});
+    note.innerHTML='<div><h2>'+t.name+'<em>'+t.tag+'</em></h2><p>'+t.vibe+'</p><p class="tr"><b>Tradeoff.</b> '+t.trade+'</p></div>'+
+      '<div class="meta"><div class="sw">'+t.sw.map(function(h){return '<i style="background:'+h+'" title="'+h+'"></i>'}).join('')+'</div><div class="f">'+t.fonts+'</div><div class="f">'+t.sw.join(' · ')+'</div></div>';
+    var on=document.querySelector('.chip.on');if(on&&on.scrollIntoView)on.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'});
+    try{localStorage.setItem('vaya-theme',cur)}catch(e){}
+  }
+  function set(id){if(byId[id]){cur=id;render()}}
+  document.getElementById('chips').addEventListener('click',function(e){var b=e.target.closest('.chip');if(b)set(b.dataset.t)});
+  document.getElementById('grid').addEventListener('click',function(e){var b=e.target.closest('.mini');if(b){set(b.dataset.t);window.scrollTo({top:0,behavior:'smooth'})}});
+  document.querySelectorAll('.dev button').forEach(function(b){b.addEventListener('click',function(){
+    document.querySelectorAll('.dev button').forEach(function(x){x.classList.toggle('on',x===b)});
+    frame.classList.toggle('phone',b.dataset.dev==='phone');
+  })});
+  document.addEventListener('keydown',function(e){
+    if(e.target.tagName==='INPUT')return;
+    var i=T.findIndex(function(t){return t.id===cur});
+    if(e.key==='ArrowRight')set(T[(i+1)%T.length].id);
+    if(e.key==='ArrowLeft')set(T[(i-1+T.length)%T.length].id);
+  });
+  render();
+})();
+</script>
+</body></html>
