@@ -95,6 +95,7 @@
   .ebadge.soon{background:var(--paper2);color:var(--faint)}
   .ecard h4{font-family:var(--disp);font-weight:800;font-size:18.5px;letter-spacing:-.01em}
   .ecard p{font-size:13.5px;color:var(--muted);line-height:1.45;flex:1}
+  .eprice{font-family:var(--mono);font-size:11.5px;color:var(--signal);letter-spacing:.02em}
   .ebtn{font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:10px 14px;border-radius:99px;text-align:center;margin-top:4px;transition:.15s}
   .ebtn.p{background:var(--signal);color:#fff}
   .ebtn.p:hover{filter:brightness(1.08)}
@@ -115,6 +116,7 @@
   <div class="navlinks">
     <a href="index.html">Home</a>
     <a href="manila.html" style="color:var(--ink)">Manila</a>
+    <a href="#services">Services</a>
     <a href="index.html#newsletter">Newsletter</a>
   </div>
 </div></nav>
@@ -148,48 +150,76 @@
     </div>
   </section>
 
-  <section id="ecosystem">
-    <div class="lbl">The Vaya ecosystem</div>
-    <h2>Everything Vaya has for you in Manila.</h2>
-    <p class="say">From your first food tour to your whole move — one friend in the city, across the entire journey. Some of it's live today; the rest is being built for you now.</p>
+  <section id="services">
+    <div class="lbl">Vaya services</div>
+    <h2>The parts of Manila that are hard. Handled.</h2>
+    <p class="say">Every one of these exists because someone we filmed had the problem. Prices are starting prices in Philippine pesos. Email your dates and we reply within a day.</p>
     <div class="eco">
       <div class="ecard on">
-        <div class="etop"><span class="ekind">Experiences</span><span class="ebadge live">Live</span></div>
-        <h4>Vaya Food Tour</h4>
-        <p>Eat Manila like a local — our signature tour, hosted by people who actually live here.</p>
-        <a href="#" class="ebtn p">Book a tour →</a>
+        <div class="etop"><span class="ekind">Arrival</span><span class="ebadge live">Request</span></div>
+        <h4>Vaya Landing</h4>
+        <p>Someone at NAIA with your name, a SIM handed over in the car, GCash set up on the ride, dropped at your door.</p>
+        <div class="eprice">From PHP 2,500</div>
+        <a href="mailto:hello@vayanews.com?subject=Vaya%20Landing" class="ebtn p">Request a pickup</a>
       </div>
       <div class="ecard on">
-        <div class="etop"><span class="ekind">Guides</span><span class="ebadge live">Live</span></div>
-        <h4>Vaya Guides</h4>
-        <p>The honest city playbook — cost, neighborhoods, the work stack. Free, always.</p>
-        <a href="#start" class="ebtn p">Explore the guides →</a>
+        <div class="etop"><span class="ekind">Getting around</span><span class="ebadge live">Request</span></div>
+        <h4>Your own driver</h4>
+        <p>The same driver every day, by the 4-hour block, the 10-hour day, or the month. Nights, day trips, 4am airport runs, no negotiating.</p>
+        <div class="eprice">From PHP 2,000 per 4 hours</div>
+        <a href="mailto:hello@vayanews.com?subject=Vaya%20Driver" class="ebtn p">Request a driver</a>
+      </div>
+      <div class="ecard on">
+        <div class="etop"><span class="ekind">Staying longer</span><span class="ebadge live">Request</span></div>
+        <h4>Visa Desk</h4>
+        <p>You never think about your dates again. We track them, an accredited agency files each extension, your passport comes back by courier.</p>
+        <div class="eprice">PHP 2,500 per filing, or PHP 1,500 a month</div>
+        <a href="mailto:hello@vayanews.com?subject=Vaya%20Visa%20Desk" class="ebtn p">Hand it over</a>
+      </div>
+      <div class="ecard on">
+        <div class="etop"><span class="ekind">Experiences</span><span class="ebadge live">Request a date</span></div>
+        <h4>Vaya Food Tour</h4>
+        <p>Makati and BGC, the elevated version. Where locals actually eat, hosted by someone who lives here.</p>
+        <div class="eprice">From PHP 3,000 a person</div>
+        <a href="mailto:hello@vayanews.com?subject=Vaya%20Food%20Tour" class="ebtn p">Request a date</a>
+      </div>
+      <div class="ecard on">
+        <div class="etop"><span class="ekind">Experiences</span><span class="ebadge live">Request a date</span></div>
+        <h4>Vaya Nights</h4>
+        <p>Poblacion rooftops to a BGC club, one route, curated. Prices, dress codes, what to skip.</p>
+        <div class="eprice">From PHP 3,500 a person</div>
+        <a href="mailto:hello@vayanews.com?subject=Vaya%20Nights" class="ebtn p">Request a date</a>
+      </div>
+      <div class="ecard on">
+        <div class="etop"><span class="ekind">While you are here</span><span class="ebadge live">Request</span></div>
+        <h4>Vaya Line</h4>
+        <p>A real person in Manila on WhatsApp, 8am to midnight, for the length of your trip. Sick at 2am, a lost phone, a table tonight.</p>
+        <div class="eprice">PHP 1,500 a week</div>
+        <a href="mailto:hello@vayanews.com?subject=Vaya%20Line" class="ebtn p">Get the number</a>
+      </div>
+      <div class="ecard on">
+        <div class="etop"><span class="ekind">Care</span><span class="ebadge live">Request</span></div>
+        <h4>Vaya Care</h4>
+        <p>A licensed private nurse or live-in caregiver, placed through a licensed agency and paid properly. It starts with one assessment visit.</p>
+        <div class="eprice">Assessment PHP 3,500. Placements from PHP 45,000 a month</div>
+        <a href="mailto:hello@vayanews.com?subject=Vaya%20Care" class="ebtn p">Request an assessment</a>
+      </div>
+      <div class="ecard on">
+        <div class="etop"><span class="ekind">Long-stay</span><span class="ebadge live">Request dates</span></div>
+        <h4>The Vaya Month</h4>
+        <p>Thirty days in Makati or BGC with the setup done: a studio, airport pickup, SIM and bank, a concierge, a driver if you want one.</p>
+        <div class="eprice">From PHP 55,000</div>
+        <a href="mailto:hello@vayanews.com?subject=Vaya%20Month" class="ebtn p">Request dates</a>
       </div>
       <div class="ecard">
-        <div class="etop"><span class="ekind">Experiences</span><span class="ebadge soon">Coming soon</span></div>
-        <h4>History &amp; neighborhood tours</h4>
-        <p>Walks, nightlife, the deeper city — more ways to see the real Manila.</p>
-        <a href="#join" class="ebtn s">Get notified</a>
-      </div>
-      <div class="ecard">
-        <div class="etop"><span class="ekind">Service</span><span class="ebadge soon">Early access</span></div>
-        <h4>Vaya Concierge</h4>
-        <p>Moving here? We handle the hard parts — visa, housing, setup — so you just arrive.</p>
-        <a href="#join" class="ebtn s">Join early access</a>
-      </div>
-      <div class="ecard">
-        <div class="etop"><span class="ekind">Community</span><span class="ebadge soon">Coming soon</span></div>
-        <h4>Vaya Community</h4>
-        <p>Meet other nomads and locals — figure Manila out together, not alone.</p>
-        <a href="#join" class="ebtn s">Join the list</a>
-      </div>
-      <div class="ecard">
-        <div class="etop"><span class="ekind">Long-stay</span><span class="ebadge soon">Coming soon</span></div>
+        <div class="etop"><span class="ekind">Long-stay</span><span class="ebadge soon">Free</span></div>
         <h4>Retire in Manila</h4>
-        <p>The retiree &amp; long-stay path, done right — for the forever move.</p>
+        <p>The retirement visa, healthcare, housing, and what a nurse costs here. The honest guide, then the people who can do it for you.</p>
+        <div class="eprice">Free guide</div>
         <a href="#join" class="ebtn s">Join the list</a>
       </div>
     </div>
+    <p class="say" style="font-size:14px;margin-top:18px">Delivered by people who live here: licensed guides, accredited agencies, a licensed staffing partner. Vaya designs it and stands behind it.</p>
   </section>
 
   <section>
