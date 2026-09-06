@@ -32,3 +32,13 @@ Append-only. One line per decision: date, the decision, who made it, why in a fe
 | Investor line's home | Vaya; the BD agency | Vaya sells reports and calls, hands BD leads to the agency. |
 | Currency and payment | Pesos with dollars shown; Wise or bank transfer now, PayMongo later | As stated. |
 | Funding | Bootstrapped; raise | Bootstrapped in year one. |
+
+## Added 2026-09-06 (launch research)
+
+| Date | Decision | By | Why |
+|---|---|---|---|
+| 2026-09-06 | Launch as a cluster: four films, newsletter issue one, services page, one day. Not a trickle. | Claude recommended | Every outlet studied launched with a backlog held for day one. |
+| 2026-09-06 | The parking page becomes the launch list the day Pages goes live. | Claude recommended | Defector had 7,000 emails before launch; Puck and Axios did the same. |
+| 2026-09-06 | Email authentication (SPF, DKIM, DMARC, one-click unsubscribe, double opt-in) before the first send. | Claude recommended | Gmail and Yahoo bulk sender rules since Feb 2024. |
+| 2026-09-06 | A standards page before the first film, including a disclosure line covering Vaya's dual role as coverer and seller. | Claude recommended | No publisher template covers a company that both reviews businesses and sells access to them. |
+| 2026-09-06 | Insurance before the first paid experience and the first film naming a business. Waivers are not a substitute. | Claude recommended | Waivers do not cover gross negligence, often void for minors. |

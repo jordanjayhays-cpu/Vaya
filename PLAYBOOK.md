@@ -126,3 +126,27 @@ Measured by episode code, in a sheet, until the volume needs a tool. Judged mont
 **Local to each city:** the audience order, the revenue mix, the series subjects, the routes, the hosts, the partners, the prices themselves, the newsletter's second edition if the audiences split.
 
 The mistake to avoid: copying Manila's slate into Cebu. Copy the playbook. Rerun the demand pass. Let the data set the slate.
+
+## 10. Launch requirements (added 2026-09-06 from `research/launch-checklist.md`)
+
+Every city launch must clear these before day one. Sourced from how Defector, 404 Media, Semafor, Axios, The Athletic and Morning Brew actually launched.
+
+**Before launch day**
+- A landing page collecting emails, live months ahead. Every outlet studied did this. The parking page is the launch list.
+- Email authentication configured before the first send: SPF and DKIM both, DMARC at minimum `p=none`, one-click unsubscribe honoured within two days, double opt-in for everyone. Gmail and Yahoo have required this since Feb 2024. Keep spam complaints under 0.1%.
+- A physical postal address in every email, and a record of who consented and when. Never a bought or scraped list.
+- A standards page: corrections, conflicts of interest, no pre-publication review by anyone outside editorial, we pay our own way when travelling, data and methods labelled, AI use disclosed.
+- **The Vaya-specific disclosure line, which no publisher template covers:** Vaya both covers businesses and sells access to them. Every film states whether a business on screen pays, is commissioned on bookings, or is on a Vaya route.
+- Insurance: general liability before the first paid experience, media liability before the first film that names a business. A waiver is not a substitute for either; waivers do not cover gross negligence and are often void for minors.
+
+**Launch day**
+- Launch as a cluster, not a trickle: four films, newsletter issue one, and the services page on the same day. 404 Media shipped four investigations on day one.
+- Free and open first. Nothing gated at launch.
+
+**Rules that follow**
+- Disclosure is in the same format as the endorsement. Said out loud on camera, not only in the description. A "click for more" link or a bio-page disclosure does not satisfy the FTC.
+- Never discount to fill the first tour. Hell Gate's 99-cent promotion bought churn, not customers.
+- One film a week maximum for a new channel, and nothing published that would not rank in the channel's top 20%. Packaging gets 30% of the effort, not 5%.
+- Never budget revenue that has not arrived.
+
+**Dated: YouTube monetization.** Until 1 Feb 2027 the bar is 1,000 subscribers plus 4,000 watch hours in 12 months. After that it is 8,000 watch hours for new applicants. Channels already in the programme are grandfathered.
