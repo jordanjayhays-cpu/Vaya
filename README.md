@@ -58,7 +58,7 @@ to build. The go-live steps (enable Pages, the exact DNS records for Squarespace
 
 ## Research
 
-`research/` holds sourced briefs: `media-playbook.md` (what Vox, Vice, Semafor, Puck, Morning Brew and others do for content and revenue, with takeaways for Vaya) and `manila-food-tours.md` (partner candidates for Vaya Experiences, nightlife landscape, and how tour partnerships are priced), and `manila-revenue-model.md` (each Manila video series paired with the revenue service it feeds, with a 90-day sequence).
+`research/` holds sourced briefs: `media-playbook.md` (what Vox, Vice, Semafor, Puck, Morning Brew and others do for content and revenue, with takeaways for Vaya) and `manila-food-tours.md` (partner candidates for Vaya Experiences, nightlife landscape, and how tour partnerships are priced), `manila-revenue-model.md` (each Manila video series paired with the revenue service it feeds, with a 90-day sequence), and `how-they-started.md` (origin stories of Vox, Vice, Eater, Time Out, Fever and others, plus the Vaya project list in revenue-first order).
 
 ## Forms
 
