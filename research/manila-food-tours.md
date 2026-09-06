@@ -59,3 +59,28 @@ Jordan's brief: Makati and BGC, cleaner and more elevated than a street-food cra
 **The hook nobody is using yet.** The first Michelin Guide Philippines (2026) put Makati on the map: Helm (two stars) plus five one-star restaurants (Celera, Hapag, Inato, Kasa Palma, Toyo Eatery) and nine Bib Gourmands, per [Manila Bulletin](https://mb.com.ph/2025/11/19/makatis-michelin-moment). UNSURE on the exact list; verify against the Michelin Guide site before using it in copy. No operator found selling a "Michelin-cited Makati" tour.
 
 **Read.** For the elevated Makati and BGC product, Vaya should own the route and rent the delivery: design the itinerary (Salcedo Saturday or Legazpi Sunday market for the clean street-food layer, Poblacion for the chef-driven layer, BGC High Street for the finish), then contract a proven guide (Venus, Mari, or Explore Manila Tours) to run it under the Vaya name. SALO is the partner if the product wants a chef at the front.
+
+## Addendum 2026-09-06: Manila nightlife tour (Jordan's idea)
+
+**What exists.** Nightlife is the most crowded guided-tour category in Manila. Price band US$20 to 70, mostly Poblacion, mostly backpacker positioning.
+- GetYourGuide Poblacion pub crawls: 4.9 on 454 reviews; Manila clubbing category 4.9 on 487 ([GetYourGuide Poblacion](https://www.getyourguide.com/poblacion-makati-l184554/pub-crawls-bar-tours-tc110/), [GetYourGuide Manila clubbing](https://www.getyourguide.com/en-au/manila-l235/clubbing-nightlife-tours-tc2161/)).
+- "Manila Ultimate Nightlife Pub Crawl", from US$51, 3 h ([GetYourGuide](https://www.getyourguide.com/makati-l154099/manila-ultimate-nightlife-pub-crawl-t565357/)).
+- "Club Crawl and Party Experience at BGC", from US$67, 3 to 4 h, small group ([GetYourGuide](https://www.getyourguide.com/manila-l235/club-crawl-and-party-experience-at-bgc-t519974/)). The one BGC product.
+- "Makati Nightlife Tour Rooftops and Clubs, Poblacion, P. Burgos", Klook 5.0 on 61 ([Klook](https://www.klook.com/en-US/activity/131882-makati-nightlife-tour-rooftops-clubs-poblacion-p-burgos/)); Viator sibling "Music Clubs, Rooftops, and Go Go Bars" 5.0 on 55 ([Viator](https://www.viator.com/tours/Luzon/The-Ultimate-Manila-Nightlife-Tour-Rooftops-and-Clubs/d26182-413503P2)).
+- Venus, "A Night in Makati: Signature Cocktails, Hidden Bars", TripAdvisor 5.0 on 18 ([TripAdvisor](https://www.tripadvisor.com/AttractionProductReview-g294248-d26679129-A_Night_in_Makati_Signature_Cocktails_Hidden_Bars-Luzon.html)). The elevated version already exists in small form, and it's the same guide as the food tour.
+- Mari (Mstar), "Makati Bar Hopping and Speakeasy, Pub and Club", Viator 4.5 on 14, about US$29 for 4 h ([Viator](https://www.viator.com/tours/Luzon/Bar-Hopping-with-Mari/d26182-396811P1)).
+- Pobcrawl, a local recurring event brand with unlimited drinks until midnight (Reddit and Facebook mentions; no booking page verified, UNSURE). Mad Monkey hostel runs a crawl Tue/Thu/Sun ([Mad Monkey](https://madmonkeyhostels.com/product/mad-monkey-manila-pub-crawl-2-night-stay-in-shared-dorm/)).
+- "Poblacion Nightlife Tour with Female Guide", about US$70 for 5 h (GetYourGuide category page). Safety-positioned tours command the top of the price band.
+
+**Read.** Demand is proven and the low end is saturated. The gap is the elevated, safe, Makati-to-BGC version: rooftops, cocktail bars, one real club with guest-list entry, no P. Burgos go-go bars (several competitors include them; Vaya should not, for brand and safety reasons).
+
+**Product sketch: "Vaya Nights, Makati to BGC."**
+- 4 hours, Thu to Sat, max 10 guests, 4 stops: Poblacion rooftop, a cocktail bar or speakeasy, live music, BGC club with guest-list entry. One welcome drink per stop. Grab between Poblacion and BGC included.
+- Price PHP 3,500 to 4,000 (about US$60 to 70), above the crawls, level with the female-guide tour.
+- Delivery: a licensed local guide (Venus or Mari are the obvious two; both already run a nightlife product). Vaya designs the route, sells it, and pays a flat guide fee or takes a net rate.
+- Venue economics: bars and clubs typically give free entry plus a free drink for a group of 10+, and some pay a promoter commission on bar spend. Terms vary by venue and are not published; negotiate per venue. UNSURE on Manila-specific commission norms.
+
+**Top 3 ways it goes wrong, and the fix.**
+1. Jordan guides it himself. Tour guiding in the Philippines requires Department of Tourism accreditation, and a foreigner working as a guide needs a work permit. UNSURE on the exact rules; check before running a single paid night. Fix: a licensed local guide fronts it, Jordan sells it.
+2. Liability. Drunk guests, injuries, theft, a guest left behind. Fix: signed waiver, guide-to-guest cap of 1:10, no shots-based format, a WhatsApp group per night, and check whether the guide's or venue's insurance covers the group.
+3. Brand drift. One go-go bar stop or one bad night in a Poblacion dive and "Vaya" reads as a party brand to the movers and investors the site is built for. Fix: curated venues only, female-guide option, and keep it under the Vaya Social line, not the masthead.
