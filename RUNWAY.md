@@ -66,6 +66,7 @@ The shoot week is booked before you fly. Not sketched, booked.
 - WhatsApp Business number live, with a named person answering Manila hours.
 - Standards page published.
 - Your own visa position checked. Most nationals get 30 days visa-free; your extension is the Visa Desk's first case.
+- **Money on the ground.** Do not plan on a Philippine bank account before you land: most banks gate on an ACR I-Card, which only exists after the 59-day extension, and tourist-visa applications get the most scrutiny ([Asian Nomad Hub](https://asiannomadhub.com/blog/philippines-bank-accounts-foreigners-2026), [Wise](https://wise.com/ph/blog/foreigner-open-bank-account)). Sequence: **Wise** for receiving foreign money and sending pesos to partners; a **registered Philippine SIM plus Maya** (passport-verified, unlike GCash) in week one; the bank account and full GCash in month two, off the back of your own ACR I-Card. BDO is the most foreigner-friendly, BPI second. Detail and sources: `research/visitor-mvps.md`.
 - Gear: whatever the videographer does not have. A second camera can be your phone.
 - One page printed: every partner's name, number, and what they agreed to.
 
