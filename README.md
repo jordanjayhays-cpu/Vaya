@@ -30,14 +30,18 @@ Cities on the roadmap: Mexico City, Bali (both "coming soon" on the home page).
 ## How it's built
 
 Plain HTML and CSS, no build step, no framework, no JavaScript dependencies. Fonts load from
-Google Fonts (Archivo, Newsreader, IBM Plex Mono). Every page carries its own `<style>` block.
+Google Fonts (Plus Jakarta Sans, DM Mono). Every page carries its own `<style>` block.
 
 Design tokens are duplicated at the top of each page. Keep them identical across pages:
 
-- White ground with warm off-white cards, light and dark themes (`prefers-color-scheme` plus `data-theme`).
-- `--signal` (Virgin-style red `#e3162b`) for links, primary actions, and the newsletter block.
-- `--stamp` (coral `#ff7a45`) for badges and section labels.
-- `themes.html` shows the home page in nine candidate identities with a switcher. Working file, not linked from the site.
+Theme: **Hibiscus** (chosen 2026-09-06, open to change later).
+
+- White ground with blush off-white cards, light and dark themes (`prefers-color-scheme` plus `data-theme`).
+- `--signal` hibiscus red `#ff2d55` for links, primary actions, and the newsletter block.
+- `--stamp` tangerine `#ff8a3d` for badges and section labels.
+- One typeface, Plus Jakarta Sans, for display and body. DM Mono for labels and buttons.
+- Rounded: 20px cards, 26px panels, pill buttons and inputs.
+- `themes.html` shows the home page in the nine candidates that were considered. Working file, not linked from the site.
 - Archivo for headlines, Newsreader for body, IBM Plex Mono for labels and buttons.
 
 ## Adding a city

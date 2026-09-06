@@ -1,23 +1,23 @@
 <title>Vaya</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;800;900&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap">
 <style>
   :root{
-    /* Vaya palette v1 "white + red, warm": white ground, Virgin-style red as the signal, coral as the stamp, sand lines */
-    --paper:#ffffff; --paper2:#fff4ee; --card:#fffaf7; --ink:#1f1516; --ink2:#463033;
-    --muted:#7a5c60; --faint:#a98f92; --line:#f0dcd4;
-    --signal:#e3162b; --signal-soft:#e3162b12; --stamp:#ff7a45; --stamp-soft:#ff7a4518;
-    --disp:"Archivo",system-ui,sans-serif; --serif:"Newsreader",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+    /* Vaya theme "Hibiscus" (chosen 2026-09-06): white ground, hibiscus red signal, tangerine stamp, one geometric sans, pill buttons */
+    --paper:#ffffff; --paper2:#fff0f2; --card:#fff7f8; --ink:#23141b; --ink2:#4b3540;
+    --muted:#7d6670; --faint:#ad9aa3; --line:#f4dde2;
+    --signal:#ff2d55; --signal-soft:#ff2d5512; --stamp:#ff8a3d; --stamp-soft:#ff8a3d1f;
+    --disp:"Plus Jakarta Sans",system-ui,sans-serif; --serif:"Plus Jakarta Sans",system-ui,sans-serif; --mono:"DM Mono",ui-monospace,Menlo,monospace;
   }
   @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-    --paper:#1b1112; --paper2:#241718; --card:#281a1b; --ink:#fff5f2; --ink2:#e6cfcb;
-    --muted:#b59a97; --faint:#7e6664; --line:#3b2a2b;
-    --signal:#ff4a55; --signal-soft:#ff4a5518; --stamp:#ff8f5e; --stamp-soft:#ff8f5e1c;
+    --paper:#1a1015; --paper2:#231620; --card:#281a23; --ink:#fff3f5; --ink2:#e9d3da;
+    --muted:#b797a3; --faint:#7f6470; --line:#3d2a33;
+    --signal:#ff4d70; --signal-soft:#ff4d701a; --stamp:#ff9a55; --stamp-soft:#ff9a551f;
   }}
   :root[data-theme="dark"]{
-    --paper:#1b1112; --paper2:#241718; --card:#281a1b; --ink:#fff5f2; --ink2:#e6cfcb;
-    --muted:#b59a97; --faint:#7e6664; --line:#3b2a2b;
-    --signal:#ff4a55; --signal-soft:#ff4a5518; --stamp:#ff8f5e; --stamp-soft:#ff8f5e1c;
+    --paper:#1a1015; --paper2:#231620; --card:#281a23; --ink:#fff3f5; --ink2:#e9d3da;
+    --muted:#b797a3; --faint:#7f6470; --line:#3d2a33;
+    --signal:#ff4d70; --signal-soft:#ff4d701a; --stamp:#ff9a55; --stamp-soft:#ff9a551f;
   }
   *{box-sizing:border-box;margin:0}
   body{background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.6;-webkit-font-smoothing:antialiased}
@@ -42,7 +42,7 @@
   .hero p{font-size:clamp(17px,2.4vw,21px);color:var(--ink2);max-width:56ch;margin-top:22px;line-height:1.5}
   .hero p b{color:var(--ink);font-weight:600}
   .cta{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
-  .btn{font-family:var(--mono);font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:13px 22px;border-radius:6px;border:1.5px solid var(--ink);display:inline-flex;align-items:center;gap:8px;transition:.15s}
+  .btn{font-family:var(--mono);font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:13px 22px;border-radius:99px;border:1.5px solid var(--ink);display:inline-flex;align-items:center;gap:8px;transition:.15s}
   .btn.p{background:var(--signal);border-color:var(--signal);color:#fff}
   .btn.p:hover{filter:brightness(1.08)}
   .btn.s:hover{background:var(--ink);color:var(--paper)}
@@ -57,7 +57,7 @@
   /* cities */
   .cities{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
   @media(max-width:720px){.cities{grid-template-columns:1fr}}
-  .city{position:relative;border:1px solid var(--line);border-radius:12px;background:var(--card);padding:22px;display:flex;flex-direction:column;gap:8px;min-height:180px;transition:.15s}
+  .city{position:relative;border:1px solid var(--line);border-radius:20px;background:var(--card);padding:22px;display:flex;flex-direction:column;gap:8px;min-height:180px;transition:.15s}
   .city.live:hover{border-color:var(--signal);transform:translateY(-2px)}
   .city .co{font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.04em}
   .city h3{font-family:var(--disp);font-weight:900;font-size:27px;letter-spacing:-.02em;text-transform:uppercase;line-height:1}
@@ -69,7 +69,7 @@
   .city.soon{opacity:.72}
 
   /* pillars */
-  .pill{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:26px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .pill{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:26px;background:var(--line);border:1px solid var(--line);border-radius:20px;overflow:hidden}
   @media(max-width:720px){.pill{grid-template-columns:1fr 1fr}}
   @media(max-width:460px){.pill{grid-template-columns:1fr}}
   .p{background:var(--card);padding:20px;display:flex;flex-direction:column;gap:7px}
@@ -85,16 +85,16 @@
   .w p{font-size:14.5px;color:var(--muted);margin-top:4px;line-height:1.45}
 
   /* newsletter */
-  .news{background:var(--signal);color:#fff;border-radius:16px;padding:clamp(26px,4vw,44px);margin:8px 0}
+  .news{background:var(--signal);color:#fff;border-radius:26px;padding:clamp(26px,4vw,44px);margin:8px 0}
   .news h2{color:#fff}
   .news p{font-size:16px;opacity:.82;margin-top:12px;max-width:52ch;line-height:1.5}
   .form{display:flex;gap:10px;margin-top:22px;max-width:440px;flex-wrap:wrap}
-  .form input{flex:1;min-width:180px;font-family:var(--serif);font-size:15px;padding:13px 15px;border-radius:7px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.14);color:#fff}
-  .form button{font-family:var(--mono);font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;padding:13px 20px;border-radius:7px;border:0;background:#fff;color:var(--signal);cursor:pointer}
+  .form input{flex:1;min-width:180px;font-family:var(--serif);font-size:15px;padding:13px 15px;border-radius:99px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.14);color:#fff}
+  .form button{font-family:var(--mono);font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;padding:13px 20px;border-radius:99px;border:0;background:#fff;color:var(--signal);cursor:pointer}
   .form input::placeholder{color:rgba(255,255,255,.72)}
   .news small{display:block;margin-top:12px;font-family:var(--mono);font-size:11px;opacity:.75}
-  :root:not([data-theme="light"]) .news, :root[data-theme="dark"] .news{background:#b80f20}
-  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .news{background:#b80f20}}
+  :root[data-theme="dark"] .news{background:#c2153f}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .news{background:#c2153f}}
 
   footer{padding:34px 0;color:var(--faint);font-family:var(--mono);font-size:12px;line-height:1.9}
   footer .row{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:baseline}
@@ -104,12 +104,19 @@
   /* ecosystem */
   .eco3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
   @media(max-width:680px){.eco3{grid-template-columns:1fr}}
-  .e3{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:22px;display:flex;flex-direction:column;gap:8px;position:relative;overflow:hidden}
+  .e3{border:1px solid var(--line);border-radius:20px;background:var(--card);padding:22px;display:flex;flex-direction:column;gap:8px;position:relative;overflow:hidden}
   .e3::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--signal)}
   .e3 .et{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--signal)}
   .e3 h4{font-family:var(--disp);font-weight:800;font-size:20px;letter-spacing:-.01em}
   .e3 p{font-size:14px;color:var(--muted);line-height:1.45}
   .e3 .live{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--stamp);margin-top:2px}
+  /* Hibiscus type + shape overrides */
+  nav{border-bottom:1px solid var(--line)}
+  .brand{font-weight:800;text-transform:none;letter-spacing:-.04em}
+  .hero h1{font-weight:800;letter-spacing:-.035em;text-transform:none}
+  .city h3{text-transform:none;font-weight:800;letter-spacing:-.02em}
+  .hero p,.say{font-size:clamp(16px,2vw,18px)}
+  .form input,.form select{border-radius:99px}
 </style>
 
 <nav><div class="wrap nav">
