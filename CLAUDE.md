@@ -17,6 +17,7 @@ city. Mexico City and Bali are next. See `README.md` for pages, stack, and how t
 
 - Static site: plain HTML and CSS, no build step, no frameworks. Keep it that way unless Jordan
   says otherwise.
+- Brand rules live in `BRAND.md`: voice, naming, the receipt device, what Vaya never does. Read it before writing any copy.
 - Theme is Hibiscus (see README). Design tokens are duplicated at the top of each page. Change them everywhere or nowhere.
 - Voice: direct, concrete, first-hand. "The friend who already moved." No brochure language,
   no buzzwords, no em dashes.
