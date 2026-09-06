@@ -31,7 +31,7 @@ city. Mexico City and Bali are next. See `README.md` for pages, stack, and how t
 
 ## Open items (as of 2026-09-06)
 
-- `THIS-WEEK.md` is the execution list. No new research docs until it is done.
+- `RUNWAY.md` is the pre-departure plan: everything done from Madrid so Manila time is only filming, meeting people, and running tours. `THIS-WEEK.md` is the immediate list. No new research docs until they are done.
 - Site is not live: GitHub Pages is off and vayanews.com points at a Squarespace "Coming Soon" parking page (Jordan).
 - Newsletter and Starter Kit forms have no backend.
 - No films published yet; every film card reads "coming soon".
