@@ -34,8 +34,10 @@ Google Fonts (Archivo, Newsreader, IBM Plex Mono). Every page carries its own `<
 
 Design tokens are duplicated at the top of each page. Keep them identical across pages:
 
-- Paper/ink palette with light and dark themes (`prefers-color-scheme` plus `data-theme`).
-- `--signal` (blue) for links and primary actions, `--stamp` (red) for badges and labels.
+- White ground with warm off-white cards, light and dark themes (`prefers-color-scheme` plus `data-theme`).
+- `--signal` (Virgin-style red `#e3162b`) for links, primary actions, and the newsletter block.
+- `--stamp` (coral `#ff7a45`) for badges and section labels.
+- `palette.html` shows the current scheme next to two alternatives (Sunset, Red on cream). Not linked from the site.
 - Archivo for headlines, Newsreader for body, IBM Plex Mono for labels and buttons.
 
 ## Adding a city

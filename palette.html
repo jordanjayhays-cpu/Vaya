@@ -1,0 +1,66 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Vaya palette options</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;800;900&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+*{box-sizing:border-box;margin:0}
+body{background:#f3f0ec;color:#1d1a1a;font-family:"Newsreader",Georgia,serif;padding:28px;line-height:1.5}
+h1{font-family:"Archivo",sans-serif;font-weight:900;font-size:30px;letter-spacing:-.02em}
+.sub{color:#6a6260;margin:6px 0 24px;max-width:70ch}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+.opt{border-radius:16px;overflow:hidden;border:1px solid #ddd6d0;background:#fff;display:flex;flex-direction:column}
+.opt .hd{padding:16px 18px 10px;border-bottom:1px solid #eee}
+.opt .hd b{font-family:"Archivo",sans-serif;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.opt .hd h2{font-family:"Archivo",sans-serif;font-weight:800;font-size:22px;letter-spacing:-.02em;margin-top:2px}
+.opt .hd p{font-size:14px;color:#6a6260;margin-top:6px}
+.sw{display:flex;gap:6px;padding:12px 18px}
+.sw i{flex:1;height:34px;border-radius:7px;border:1px solid rgba(0,0,0,.08);position:relative}
+.sw i::after{content:attr(data-n);position:absolute;bottom:-16px;left:0;font:10px "IBM Plex Mono",monospace;color:#7a7370;white-space:nowrap}
+.mock{margin-top:16px;padding:22px 18px 18px;background:var(--paper);color:var(--ink);flex:1;display:flex;flex-direction:column;gap:14px}
+.mock .brand{font-family:"Archivo",sans-serif;font-weight:900;font-size:20px;text-transform:uppercase}
+.mock .brand span{color:var(--signal)}
+.mock .eye{font:11px "IBM Plex Mono",monospace;letter-spacing:.22em;text-transform:uppercase;color:var(--signal)}
+.mock h3{font-family:"Archivo",sans-serif;font-weight:800;font-size:26px;line-height:1;letter-spacing:-.025em}
+.mock p{font-size:14px;color:var(--ink2)}
+.mock .row{display:flex;gap:8px;flex-wrap:wrap}
+.mock .btn{font:12px "IBM Plex Mono",monospace;letter-spacing:.04em;text-transform:uppercase;padding:10px 14px;border-radius:6px;border:1.5px solid var(--ink)}
+.mock .btn.p{background:var(--signal);border-color:var(--signal);color:#fff}
+.mock .card{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:14px;position:relative}
+.mock .card h4{font-family:"Archivo",sans-serif;font-weight:900;font-size:18px;text-transform:uppercase}
+.mock .card small{font-size:12.5px;color:var(--muted)}
+.mock .badge{position:absolute;top:10px;right:10px;font:9px "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;padding:3px 7px;border-radius:99px;background:var(--stamp);color:#fff}
+.mock .lbl{font:10px "IBM Plex Mono",monospace;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;align-items:center}
+.mock .lbl::before{content:"";width:22px;height:2px;background:var(--stamp)}
+.mock .news{background:var(--news);color:#fff;border-radius:12px;padding:16px}
+.mock .news h4{font-family:"Archivo",sans-serif;font-weight:800;font-size:16px}
+.mock .news .f{display:flex;gap:6px;margin-top:10px}
+.mock .news .f i{flex:1;height:34px;border-radius:6px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.14)}
+.mock .news .f b{font:11px "IBM Plex Mono",monospace;text-transform:uppercase;padding:10px 12px;border-radius:6px;background:#fff;color:var(--news)}
+.tr{padding:12px 18px;font-size:13.5px;border-top:1px solid #eee;color:#4a4442}
+.tr b{font-family:"Archivo",sans-serif;font-size:12px}
+/* the three options */
+.a{--paper:#ffffff;--card:#fffaf7;--ink:#1f1516;--ink2:#463033;--muted:#7a5c60;--line:#f0dcd4;--signal:#e3162b;--stamp:#ff7a45;--news:#e3162b}
+.b{--paper:#ffffff;--card:#fff8ef;--ink:#1c1616;--ink2:#4a3a36;--muted:#7b6660;--line:#f4e2cf;--signal:#f2263a;--stamp:#ffb020;--news:#ff5a3c}
+.c{--paper:#fff4e6;--card:#ffffff;--ink:#2a0c10;--ink2:#5b2a30;--muted:#8a5a5f;--line:#f2d6c4;--signal:#d8102e;--stamp:#c8f04f;--news:#d8102e}
+.c .mock .badge{color:#2a0c10}
+.c .mock .lbl::before{background:#d8102e}
+</style></head><body>
+<h1>Vaya palette options</h1>
+<p class="sub">Three ways to do "white and red, tropical, Virgin but warmer". Option A is what the site uses now. Fonts unchanged in all three so only color is being compared.</p>
+<div class="grid">
+<div class="opt a"><div class="hd"><b>A · Safe (applied)</b><h2>White + red, warm</h2><p>Virgin-style red as the one signal color. Coral for stamps and labels. Warm sand lines and off-white cards so the white does not feel clinical.</p></div>
+<div class="sw"><i style="background:#fff" data-n="#fff"></i><i style="background:#fffaf7" data-n="#fffaf7"></i><i style="background:#e3162b" data-n="#e3162b"></i><i style="background:#ff7a45" data-n="#ff7a45"></i><i style="background:#1f1516" data-n="#1f1516"></i></div>
+<div class="mock"><div class="brand">Vaya<span>.</span></div><div class="eye">Voices Around Your Area</div><h3>What's it actually like to live there?</h3><p>Vaya is the friend who already moved.</p><div class="row"><span class="btn p">Start with Manila</span><span class="btn">Newsletter</span></div><div class="lbl">The cities</div><div class="card"><span class="badge">Live</span><h4>Manila</h4><small>The English-speaking megacity most people underestimate.</small></div><div class="news"><h4>Get the newsletter</h4><div class="f"><i></i><b>Join</b></div></div></div>
+<div class="tr"><b>Tradeoff:</b> most credible and easiest to keep consistent. Least "tropical" of the three.</div></div>
+
+<div class="opt b"><div class="hd"><b>B · Bold</b><h2>Sunset</h2><p>Coral-red signal, mango yellow stamps, a hot sunset-orange newsletter block. Reads as summer immediately.</p></div>
+<div class="sw"><i style="background:#fff" data-n="#fff"></i><i style="background:#fff8ef" data-n="#fff8ef"></i><i style="background:#f2263a" data-n="#f2263a"></i><i style="background:#ffb020" data-n="#ffb020"></i><i style="background:#ff5a3c" data-n="#ff5a3c"></i></div>
+<div class="mock"><div class="brand">Vaya<span>.</span></div><div class="eye">Voices Around Your Area</div><h3>What's it actually like to live there?</h3><p>Vaya is the friend who already moved.</p><div class="row"><span class="btn p">Start with Manila</span><span class="btn">Newsletter</span></div><div class="lbl">The cities</div><div class="card"><span class="badge">Live</span><h4>Manila</h4><small>The English-speaking megacity most people underestimate.</small></div><div class="news"><h4>Get the newsletter</h4><div class="f"><i></i><b>Join</b></div></div></div>
+<div class="tr"><b>Tradeoff:</b> most summer vibe. Risk of reading like a travel-deals site, and yellow on white needs care for contrast.</div></div>
+
+<div class="opt c"><div class="hd"><b>C · Weird</b><h2>Red on cream, lime pop</h2><p>Cream paper instead of pure white, deep red signal, and a lime accent for "live" badges. Feels like a beach club poster.</p></div>
+<div class="sw"><i style="background:#fff4e6" data-n="#fff4e6"></i><i style="background:#fff" data-n="#fff"></i><i style="background:#d8102e" data-n="#d8102e"></i><i style="background:#c8f04f" data-n="#c8f04f"></i><i style="background:#2a0c10" data-n="#2a0c10"></i></div>
+<div class="mock"><div class="brand">Vaya<span>.</span></div><div class="eye">Voices Around Your Area</div><h3>What's it actually like to live there?</h3><p>Vaya is the friend who already moved.</p><div class="row"><span class="btn p">Start with Manila</span><span class="btn">Newsletter</span></div><div class="lbl">The cities</div><div class="card"><span class="badge">Live</span><h4>Manila</h4><small>The English-speaking megacity most people underestimate.</small></div><div class="news"><h4>Get the newsletter</h4><div class="f"><i></i><b>Join</b></div></div></div>
+<div class="tr"><b>Tradeoff:</b> most distinctive and most tropical. Not strictly "white", and lime is a love-or-hate color.</div></div>
+</div>
+</body></html>
