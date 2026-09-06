@@ -72,6 +72,7 @@ Every Vaya film ends on a receipt-style card with the real numbers from what you
 
 - **Open, 10 seconds:** the question, the place by neighborhood, the number.
 - **Body, 8 to 15 minutes:** one real person, one real day or week, facts on screen, the bad parts stay in.
+- **The pace rule:** every three seconds something changes. A cut, an angle, a graphic, a punch-in, b-roll, a price tag. Never the same frame for more than three seconds. The receipt lands one row at a time.
 - **Close, 15 seconds:** the receipt, one line about the paid thing if it's the honest fix, the newsletter, "Go find out."
 
 ## What Vaya never does
