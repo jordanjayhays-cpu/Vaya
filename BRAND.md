@@ -57,6 +57,25 @@ The test for every line: would the friend who already moved say this over a beer
 
 **Weird.** Manila is not for you. Unless it is. Unless you have a reason: a mother in Quezon City, a job in BGC, a pension that buys a nurse here and a bus pass at home. Then it's the best city you've been told to avoid. We live here. We'll show you the receipt. Manila, actually.
 
+## Disclosure: Vaya is the critic and the salesman
+
+Vaya reviews businesses and sells access to those same businesses. No publisher template covers this, so here is the rule.
+
+**Say the relationship out loud, on camera, in the same breath as the recommendation.** Not in the description, not in fine print. Three cases, three lines:
+
+| The relationship | What is said |
+|---|---|
+| **On a Vaya route, we earn** | "Full disclosure: this place is on our food tour. If you book through us, we make money. We would send you here anyway, and here is why." |
+| **No relationship** | "No relationship here. We just eat here." |
+| **They gave us something** | "They comped our meal. We told them the review runs either way." |
+
+Supporting rules:
+
+- **We pay our own way.** Meals, rooms, and tours are paid for unless the comp is disclosed on screen. Decide before landing in the city, because deciding in the moment always goes the same way.
+- **Nobody pays to be recommended.** Partners are paid to deliver. A business cannot buy a place in a film or on a route.
+- **The recommendation comes first, the link second.** Never the other way round.
+- **This exists before film one.** A disclosure added at film four makes films one to three look like the ones we hid.
+
 ## Signature device: the receipt
 
 Every Vaya film ends on a receipt-style card with the real numbers from what you just watched. Mono type, dotted rules, a total, and the Vaya line last, in red. Numbers only from that episode. Also the format for the newsletter's weekly number and for every quote Vaya sends a customer.
@@ -79,7 +98,7 @@ Every Vaya film ends on a receipt-style card with the real numbers from what you
 
 1. Never says "Manila" when it means Makati, BGC, or Poblacion.
 2. Never makes a worker the punchline. Named, paid fairly, shown being paid.
-3. Never recommends on camera what it wouldn't recommend with no deal attached.
+3. Never recommends on camera what it wouldn't recommend with no deal attached, and never names a business without stating the relationship (see Disclosure).
 4. Never takes sponsors. Vaya makes money when someone books. Partners get paid to deliver, never to be recommended, and every partner relationship on screen is disclosed.
 5. Never goes to P. Burgos, never sells the go-go bars, never runs a night without a female-guide option.
 6. Never films anyone without a signed release, never publishes before they've seen the cut.

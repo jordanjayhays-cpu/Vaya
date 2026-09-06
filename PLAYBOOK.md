@@ -33,6 +33,8 @@ If-then rules. When a question comes up, check here first. If the answer isn't h
 | **Should we take a sponsor?** | No. If a brand wants in, it becomes a partner that delivers something a customer books, disclosed on screen. |
 | **Should we build software?** | Not before ten hosts and fifty bookings in a city. Until then: static site, payment links, a newsletter tool, WhatsApp, a spreadsheet. |
 | **Should we hire?** | Under five full-time people per city, ever. Ops coordinator part-time at booking ten. Videographer retained at film four. Everyone else is a partner or a freelancer. |
+| **What do we say about a business on camera?** | Always state the relationship in the same breath as the recommendation: on a Vaya route and we earn, no relationship, or they comped it. See Disclosure in `BRAND.md`. Never in the description only. |
+| **Should we discount to fill a tour or a launch?** | No. Run it half full and make it better. Add value (an extra stop, a drink, the Starter Kit) rather than cutting the price. A cheap first cohort teaches you nothing about the real product, resets the price in public, and brings people who were never your customer. |
 | **Should we say something negative on camera?** | Yes if it's true, sourced, and about a fact, not a person's character. Anything naming a business gets the fact-check step and, until the media lawyer says otherwise, a read for libel risk. |
 | **Should we go to the next city?** | Only when section 4's test passes in the current one. |
 | **Who decides what?** | Jordan: pricing bands, partners, hiring, city choice, brand. City lead: routes, stories, hosts within the bar, the weekly newsletter. The board records every decision that lands on a person. If it is not on the board, it does not exist. |
