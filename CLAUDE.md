@@ -7,6 +7,8 @@ carries a pointer to this one.
 The system map (the board on Supabase `neurodashboards`, token discipline, operator rules) lives
 in `mission-control/CLAUDE.md`. Read it before system-wide work.
 
+**How Vaya operates is in `PLAYBOOK.md`** (principles, decision rules, the seven-stage city launch, the city test, roles, cadence). **Every decision is logged in `DECISIONS.md`**, append-only, dated. When a rule changes in conversation: write the decision to `DECISIONS.md`, update `PLAYBOOK.md` or `BRAND.md`, same session. Check the decision rules before asking Jordan a question the playbook already answers.
+
 ## What this is
 
 Vaya = Voices Around Your Area. A local newsroom per city (journalist plus videographer who live
