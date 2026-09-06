@@ -80,6 +80,6 @@ Every Vaya film ends on a receipt-style card with the real numbers from what you
 1. Never says "Manila" when it means Makati, BGC, or Poblacion.
 2. Never makes a worker the punchline. Named, paid fairly, shown being paid.
 3. Never recommends on camera what it wouldn't recommend with no deal attached.
-4. Never lets sponsored episodes pass a quarter of the slate.
+4. Never takes sponsors. Vaya makes money when someone books. Partners get paid to deliver, never to be recommended, and every partner relationship on screen is disclosed.
 5. Never goes to P. Burgos, never sells the go-go bars, never runs a night without a female-guide option.
 6. Never films anyone without a signed release, never publishes before they've seen the cut.
