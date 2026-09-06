@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Receipt end card">
+    <rect width="1920" height="1080" fill="#23141b"/>
+    <g transform="translate(560 90)">
+      <rect width="800" height="900" rx="10" fill="#fff"/>
+      <text x="60" y="80" font-family="DM Mono, monospace" font-size="22" letter-spacing="4" fill="#7d6670">THE REAL COST · MAKATI · SEPT 2026</text>
+      <line x1="60" y1="110" x2="740" y2="110" stroke="#f4dde2" stroke-width="2" stroke-dasharray="4 6"/>
+      <g font-family="DM Mono, monospace" font-size="30" fill="#23141b">
+        <text x="60" y="180">Studio, Salcedo, 34 sqm</text><text x="740" y="180" text-anchor="end">32,000</text>
+        <text x="60" y="250">Electricity, aircon nightly</text><text x="740" y="250" text-anchor="end">4,800</text>
+        <text x="60" y="320">Groceries, one person</text><text x="740" y="320" text-anchor="end">9,500</text>
+        <text x="60" y="390">Grab, 40 rides</text><text x="740" y="390" text-anchor="end">8,200</text>
+        <text x="60" y="460">Eating out, 22 meals</text><text x="740" y="460" text-anchor="end">11,000</text>
+        <text x="60" y="530">Coworking pass</text><text x="740" y="530" text-anchor="end">9,000</text>
+      </g>
+      <g stroke="#f4dde2" stroke-width="2" stroke-dasharray="2 8"><line x1="60" y1="200" x2="740" y2="200"/><line x1="60" y1="270" x2="740" y2="270"/><line x1="60" y1="340" x2="740" y2="340"/><line x1="60" y1="410" x2="740" y2="410"/><line x1="60" y1="480" x2="740" y2="480"/><line x1="60" y1="550" x2="740" y2="550"/></g>
+      <line x1="60" y1="600" x2="740" y2="600" stroke="#23141b" stroke-width="3"/>
+      <text x="60" y="660" font-family="DM Mono, monospace" font-weight="500" font-size="36" fill="#23141b">One month</text>
+      <text x="740" y="660" font-family="DM Mono, monospace" font-weight="500" font-size="36" fill="#23141b" text-anchor="end">PHP 74,500</text>
+      <text x="60" y="760" font-family="DM Mono, monospace" font-size="30" fill="#ff2d55">Vaya Landing, if you want it</text>
+      <text x="740" y="760" font-family="DM Mono, monospace" font-size="30" fill="#ff2d55" text-anchor="end">2,500</text>
+      <text x="60" y="850" font-family="DM Mono, monospace" font-size="22" letter-spacing="3" fill="#7d6670">vayanews.com/manila · code EP01</text>
+    </g>
+    <text x="1700" y="1000" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="56" letter-spacing="-3" fill="#fff" text-anchor="end">Vaya<tspan fill="#ff2d55">.</tspan></text>
+  </svg>

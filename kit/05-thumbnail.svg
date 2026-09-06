@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thumbnail template">
+    <rect width="1280" height="720" fill="#4a3a3f"/>
+    <circle cx="960" cy="380" r="230" fill="#8a6f76"/>
+    <text x="960" y="395" font-family="DM Mono, monospace" font-size="26" fill="#fff" text-anchor="middle" opacity=".7">host or subject, real photo</text>
+    <rect x="60" y="60" width="330" height="70" rx="35" fill="#ff8a3d"/>
+    <text x="90" y="107" font-family="DM Mono, monospace" font-size="30" letter-spacing="3" fill="#23141b">MAKATI</text>
+    <text x="60" y="470" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="150" letter-spacing="-8" fill="#fff">PHP</text>
+    <text x="60" y="620" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="150" letter-spacing="-8" fill="#ff2d55">74,500</text>
+    <text x="1220" y="670" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="44" letter-spacing="-2" fill="#fff" text-anchor="end">Vaya<tspan fill="#ff2d55">.</tspan></text>
+  </svg>
