@@ -1,5 +1,7 @@
 # The Vaya Series, and the business behind each one
 
+> **Superseded 2026-09-06 by `vaya-series-v2.md`**, which rebuilt the slate on the demand data in `manila-demand.md`. Kept for the change history.
+
 Date: 2026-09-06. The slate for Manila season one, then the paid thing each series feeds. Names are working titles; Jordan picks. Episode lengths follow the media research: 8 to 15 minutes ages well on YouTube and connected TVs, shorts are trailers.
 
 ## The spine

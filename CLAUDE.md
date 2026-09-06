@@ -21,6 +21,7 @@ city. Mexico City and Bali are next. See `README.md` for pages, stack, and how t
 - Voice: direct, concrete, first-hand. "The friend who already moved." No brochure language,
   no buzzwords, no em dashes.
 - Every city page follows the Manila structure. Do not invent a new layout per city.
+- No city gets a slate or a page before it gets a demand pass: `research/<city>-demand.md` first (who arrives, who has money, who is growing, what the constraint is), then the series and revenue mix are written against it. Manila skipped this and had to be redone (`research/vaya-series-v2.md`).
 - Check light and dark mode before pushing. Pages go live on `main` with no review step.
 - Anything only Jordan can do (domain, DNS, form backend, hiring correspondents, payments) goes
   on `agent_tasks` assigned `jordan`. If it is not on the board, it does not exist.
