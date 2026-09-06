@@ -54,11 +54,7 @@ Theme: **Hibiscus** (chosen 2026-09-06, open to change later).
 ## Publishing
 
 Push to `main`. Once GitHub Pages is on, it serves the repo root at vayanews.com. There is nothing
-to build. To go live, Jordan needs to:
-
-1. Enable Pages on this repo (Settings > Pages > Deploy from branch `main`, folder `/`).
-2. Point vayanews.com DNS (managed at Squarespace) at GitHub Pages: A records to GitHub's Pages IPs, plus a CNAME for `www`.
-3. Confirm the custom domain in the Pages settings and turn on Enforce HTTPS.
+to build. The go-live steps (enable Pages, the exact DNS records for Squarespace) are in `DEPLOY.md`.
 
 ## Research
 
