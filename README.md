@@ -60,6 +60,10 @@ to build. To go live, Jordan needs to:
 2. Point vayanews.com DNS (managed at Squarespace) at GitHub Pages: A records to GitHub's Pages IPs, plus a CNAME for `www`.
 3. Confirm the custom domain in the Pages settings and turn on Enforce HTTPS.
 
+## Research
+
+`research/` holds sourced briefs: `media-playbook.md` (what Vox, Vice, Semafor, Puck, Morning Brew and others do for content and revenue, with takeaways for Vaya) and `manila-food-tours.md` (partner candidates for Vaya Experiences and how tour partnerships are priced).
+
 ## Forms
 
 The newsletter and Starter Kit forms are static markup with no backend wired yet. Hooking them to
