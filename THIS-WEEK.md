@@ -23,6 +23,11 @@ Written 2026-09-06. Twelve research docs exist and zero customers do. This is th
 | 5 | Set up the WhatsApp Business number and decide who answers Manila hours | 20 min | Vaya Line, Landing, the concierge |
 | 7 | Deliver one thing to one person. A pickup, a filing, a tour date. Anyone. | | The first customer, and the first story |
 
+## On the build list, before film one
+
+- **The standards page** (`standards.html`, linked in the site footer): corrections policy, conflicts of interest, no pre-publication review by anyone outside editorial, we pay our own way, data and methods labelled, AI use disclosed, and the disclosure rule from `BRAND.md`. Claude drafts it; a Philippine media lawyer should read the libel-adjacent parts.
+- **Terms, privacy, refunds** pages, once a payment route exists.
+
 ## Claude, on request
 
 - Wire both forms the day the newsletter endpoint arrives.
