@@ -62,7 +62,7 @@ to build. To go live, Jordan needs to:
 
 ## Research
 
-`research/` holds sourced briefs: `media-playbook.md` (what Vox, Vice, Semafor, Puck, Morning Brew and others do for content and revenue, with takeaways for Vaya) and `manila-food-tours.md` (partner candidates for Vaya Experiences and how tour partnerships are priced).
+`research/` holds sourced briefs: `media-playbook.md` (what Vox, Vice, Semafor, Puck, Morning Brew and others do for content and revenue, with takeaways for Vaya) and `manila-food-tours.md` (partner candidates for Vaya Experiences, nightlife landscape, and how tour partnerships are priced), and `manila-revenue-model.md` (each Manila video series paired with the revenue service it feeds, with a 90-day sequence).
 
 ## Forms
 
