@@ -44,3 +44,18 @@ Research for Vaya Manila. Verified 2026-09-06 against live pages. UNSURE = could
 - **Volume anchor:** Explore Manila Tours already sells on five platforms. Realistic ask is a net-rate reseller deal plus one exclusive "Vaya edition" route.
 - **Chains (A Chef's Tour, Secret Food Tours):** affiliate or reseller only.
 - **Watch for exclusivity:** hosts on Airbnb and Traveling Spoon may have platform clauses. Ask before offering white-label.
+
+## Addendum 2026-09-06: Makati and BGC, the elevated version
+
+Jordan's brief: Makati and BGC, cleaner and more elevated than a street-food crawl, street food allowed but the nicer version.
+
+**What exists today**
+- **SALO Ride and Dine** (Makati, chef-curated, 4 stops by motorcycle). The most elevated existing product in Makati. Chef-founded, new in 2026, small review base.
+- **Venus, "Makati Street Food Experience, End in a Rooftop Bar"** (Poblacion). Street food but the clean, curated version with a rooftop finish. Airbnb 4.92 on 331. Best-reviewed option in Makati.
+- **Mstar Tours, "Makati Bites"** (Makati). Sells itself as "six to ten gourmet food tastings", intimate group ([Airbnb](https://www.airbnb.com/experiences/1249805)). Same guide, Mari, also on GetYourGuide at about US$61 ([GetYourGuide](https://www.getyourguide.com/makati-l154099/filipino-street-food-dinner-t515963/)).
+- **Explore Manila Tours**, Makati street food and the Meryenda cooking class. Volume operator, not positioned as premium.
+- **BGC: no established guided food tour found.** The only bookable product is a Viator "Manila Mercato Night Market Street Food Tour" at Mercato Centrale in BGC ([Viator](https://www.viator.com/tours/Manila/Manila-Night-Market-Street-Food-Tour/d4674-34003P5)); supplier UNSURE. BGC's food story is restaurants (Locavore, Singular Manila, Hao, per the [Michelin Guide neighborhood piece](https://guide.michelin.com/us/en/article/travel/neighborhood-guide-bonifacio-global-city-philippines)), and nobody is packaging it as a guided experience.
+
+**The hook nobody is using yet.** The first Michelin Guide Philippines (2026) put Makati on the map: Helm (two stars) plus five one-star restaurants (Celera, Hapag, Inato, Kasa Palma, Toyo Eatery) and nine Bib Gourmands, per [Manila Bulletin](https://mb.com.ph/2025/11/19/makatis-michelin-moment). UNSURE on the exact list; verify against the Michelin Guide site before using it in copy. No operator found selling a "Michelin-cited Makati" tour.
+
+**Read.** For the elevated Makati and BGC product, Vaya should own the route and rent the delivery: design the itinerary (Salcedo Saturday or Legazpi Sunday market for the clean street-food layer, Poblacion for the chef-driven layer, BGC High Street for the finish), then contract a proven guide (Venus, Mari, or Explore Manila Tours) to run it under the Vaya name. SALO is the partner if the product wants a chef at the front.
