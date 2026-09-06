@@ -25,7 +25,7 @@ Append-only. One line per decision: date, the decision, who made it, why in a fe
 
 | Decision | Options | Recommendation |
 |---|---|---|
-| Legal home of Vaya | Services company with media as marketing; or media company | Services company. Philippine mass media ownership is restricted to Filipinos; get a lawyer's hour first. |
+| Legal home of Vaya, long term | Services company with media as marketing; or media company; or a Philippine entity | Decide after the MVP, with the lawyer's answer in hand. Philippine mass media ownership is restricted to Filipinos, so framing matters. Not a blocker for launch (see the MVP decision below). |
 | Vaya and Placewell | Separate company with Placewell as supplier; or Placewell product; or JV | Separate, supply agreement in writing. |
 | City two | Cebu; Mexico City; Bali | Cebu. Same country, entity, network, visa rules. |
 | Tagline | The friend who already moved; Go find out; Manila, actually | Go find out. |
@@ -44,3 +44,6 @@ Append-only. One line per decision: date, the decision, who made it, why in a fe
 | 2026-09-06 | Insurance before the first paid experience and the first film naming a business. Waivers are not a substitute. | Claude recommended | Waivers do not cover gross negligence, often void for minors. |
 | 2026-09-06 | Disclosure rule adopted: the relationship to any business is stated on camera, in the same breath as the recommendation, in one of three forms (on a route and we earn / no relationship / they comped it). We pay our own way otherwise. | Jordan | Vaya is both critic and salesman; no publisher template covers it, and it cannot be retrofitted after film one. |
 | 2026-09-06 | Never discount to fill a tour or a launch. Add value instead. | Jordan | Hell Gate's 99-cent promo bought churn; a cheap cohort tests a different product and resets the price in public. |
+| 2026-09-06 | MVP runs through the existing family business entity. No new company before the Manila trip. Vaya is the customer-facing brand; contracts and invoices carry the entity's registered name. "Kinsol" stays a candidate name for the agency and is not used on anything. | Jordan | Speed. Forming an entity would block the flight, and the licensed Philippine partners (transport company, visa agency, Placewell, guides) are the ones delivering, so Vaya does not need to be a Philippine company for the first customers. |
+| 2026-09-06 | Vaya money sits in a separate account or Wise balance from agency money, from the first peso. | Claude recommended | The playbook requires a per-city P&L; commingled books make it impossible to tell whether Manila works. |
+| 2026-09-06 | General liability policy in the entity's name before the first paid tour. | Claude recommended | Keeps a guest injury from reaching the BD agency's client relationships, which is the main risk of sharing an entity. |

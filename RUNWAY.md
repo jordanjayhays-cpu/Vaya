@@ -44,7 +44,8 @@ Also this week: one hour with a Philippine lawyer. Three questions, nothing else
 
 ### T minus 4: money and cover
 - Insurance quotes: general liability for the experiences, media liability for the films. Both quoted before the first tour date is published.
-- Payment route: how a foreigner pays you. Wise or bank transfer to start. Decide the entity question with the lawyer's answer in hand.
+- Payment route: how a foreigner pays you. Wise or bank transfer to start, into a **separate Vaya balance**, never mixed with agency money.
+- Entity: the MVP runs through the existing family business entity. No new company before the trip. Invoices carry its registered name; the customer sees Vaya. The long-term entity question waits for the lawyer's answer and the first revenue.
 - Set the price scaffolds as real prices from the driver quotes.
 
 ### T minus 3: the people
