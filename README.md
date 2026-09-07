@@ -23,6 +23,7 @@ The ecosystem is how they live with it.
 |---|---|---|
 | `index.html` | Vaya home: why, cities, what you get, ecosystem, who it's for, newsletter | Built |
 | `manila.html` | Vaya Manila: first three films, Manila ecosystem, topics, Starter Kit signup | Built |
+| `standards.html` | Our standards: the disclosure rule, corrections, consent, numbers, AI | Built |
 | `CNAME` | `vayanews.com` for GitHub Pages | Waiting on Pages + DNS |
 
 Cities on the roadmap: Mexico City, Bali (both "coming soon" on the home page).
