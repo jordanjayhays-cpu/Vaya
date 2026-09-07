@@ -2,7 +2,23 @@
 
 v1, 2026-09-06. The organising rule: **anything that does not require your feet on Philippine soil gets done from Madrid.** Manila time is the scarcest thing Vaya has. It is for filming, meeting people, and running the first tour. Nothing else.
 
-Timings are relative (T minus weeks) because the flight date is not set. Convert to real dates once it is. The whole runway is six weeks if partners answer, four if you push.
+**Target: land in Manila in January 2027.** That is about 17 weeks from 6 September 2026, and the runway itself needs six. The slack is not spare time and it is not for building software. It is for the two things that compound: the email list, and publishing from Madrid so January is a warm start.
+
+## The four months, by month
+
+| Month | The job | Done when |
+|---|---|---|
+| **September** | Infrastructure and the list starts | Site live, mailbox, newsletter capturing, landing page replacing the parking page, all four outreach messages sent, lawyer hour done |
+| **October** | Partners signed, publishing begins | Guide, visa agency, driver company and Placewell all confirmed in writing. First guide published. Weekly newsletter running. Insurance quoted. |
+| **November** | People and pre-sell | Correspondent hired, videographer booked, shoot week scheduled with subjects confirmed. January tour dates published for sale. Insurance bound. |
+| **December** | The balikbayan month | Peak search season for the returnee audience. Publish to them from Madrid, grow the list hard. Everything for January booked and paid. |
+| **January** | Land and execute | The landing week below. |
+
+**One trip, three ventures.** Vaya Manila, Puhunan's entrepreneur stories, and New Bali's Bantayan footage all need the same videographer, the same email infrastructure and the same content pipeline. New Bali's own notes say the Manila trip and the Bantayan trip are the same trip. Budget the videographer and the shoot days across all three, not just Vaya.
+
+**On December.** You will not be in Manila to film the December arrivals peak. That is fine: December is when that audience is searching, not when they are convertible. Publish to them from Madrid in December, convert them in January, when the people who are actually moving act on new-year decisions.
+
+Everything below is written in T minus weeks against the January landing date.
 
 ## What can ONLY be done in Manila
 
@@ -19,7 +35,7 @@ If a task is not on that list, it happens before you fly.
 
 ## Pre-departure, by week
 
-### T minus 6: the foundation
+### T minus 6 (September): the foundation
 Nothing else can start until these exist.
 
 | Do | Why it blocks everything |
@@ -29,7 +45,7 @@ Nothing else can start until these exist.
 | Pick the newsletter provider, send Claude the endpoint | Forms capture the same day; the launch list starts filling |
 | Replace the parking page with the manifesto and one email field | Every outlet studied built the list months ahead |
 
-### T minus 5: the partner sweep
+### T minus 5 (September): the partner sweep
 All by email or Airbnb message, all from Madrid. Send them the same day so replies arrive together.
 
 | Send | To | Draft ready at |
@@ -42,18 +58,18 @@ All by email or Airbnb message, all from Madrid. Send them the same day so repli
 
 Also this week: one hour with a Philippine lawyer. Three questions, nothing else. Can a foreign-owned company sell these services. What is the libel exposure when a film names a business. Does the appearance release hold under Philippine law.
 
-### T minus 4: money and cover
+### T minus 4 (October): money and cover
 - Insurance quotes: general liability for the experiences, media liability for the films. Both quoted before the first tour date is published.
 - Payment route: how a foreigner pays you. Wise or bank transfer to start, into a **separate Vaya balance**, never mixed with agency money.
 - Entity: the MVP runs through the existing family business entity. No new company before the trip. Invoices carry its registered name; the customer sees Vaya. The long-term entity question waits for the lawyer's answer and the first revenue.
 - Set the price scaffolds as real prices from the driver quotes.
 
-### T minus 3: the people
+### T minus 3 (November): the people
 - **Correspondent hired.** This is the long pole. Placewell, plus the Facebook groups, plus the guides' own networks. Flat fee per film, terms in writing before they appear on camera.
 - **Videographer booked** for specific dates, with the kit sent to them in advance.
 - Both need to have read `kit/README.md` before you land.
 
-### T minus 2: the schedule
+### T minus 2 (November to December): the schedule
 The shoot week is booked before you fly. Not sketched, booked.
 
 - Four film dates with the subject confirmed for each.
@@ -62,7 +78,7 @@ The shoot week is booked before you fly. Not sketched, booked.
 - Every subject has a signed release, sent and returned by email where possible.
 - Accommodation booked in Makati or BGC. You are also testing the product.
 
-### T minus 1: the last mile
+### T minus 1 (December): the last mile
 - WhatsApp Business number live, with a named person answering Manila hours.
 - Standards page published.
 - Your own visa position checked. Most nationals get 30 days visa-free; your extension is the Visa Desk's first case.
@@ -96,6 +112,10 @@ Week two is Nights, the remaining films, and the partner meetings that need a fa
 The correspondent. Everything else is an email or a form. Finding a person in Manila who has a small following, will be on camera, and is available on your dates takes weeks and cannot be rushed from Madrid. **Start it at T minus 5, not T minus 3.**
 
 If you land without a correspondent, you host film one yourself as the outsider who moved, and cast the local face from people you meet in week one. Not ideal. Not fatal.
+
+## What the slack is NOT for
+
+With 17 weeks there is enough time to build a booking platform. That is exactly why the playbook forbids it before ten hosts and fifty bookings. The backend, until then, is: a newsletter tool for emails, WhatsApp plus a payment link for bookings, and a spreadsheet with episode codes for the numbers. Every hour spent on software is an hour not spent on the list.
 
 ## The pre-departure spend, rough
 
