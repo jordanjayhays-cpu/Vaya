@@ -260,3 +260,80 @@ US counsel, a PPM, subscription documents, Form D and state notice filings cost 
 ## Accept when
 
 One Filipino company has paid Vaya cash for a film, a second has granted equity for one, the disclosure line is running on camera in both, and a US securities lawyer has confirmed in writing that the equity grant as drafted is not transaction-based compensation.
+
+---
+
+# Part 7: Non-accredited is available. The Delaware flip, and what it really costs.
+
+Added 2026-09-13, after Jordan pushed again: "non-accredited investors, there's platforms that happen all the time."
+
+**He is right, and part 1's wall is lower than I described it.** Reg CF genuinely is closed to a Philippine-organized issuer. But the standard cure is not a workaround, it is the ordinary structure every international founder uses, and at small raise sizes it is much cheaper than the 506(c) route in part 6.
+
+## The structure: a US holding company that actually owns the business
+
+A foreign company forms a US holding company, usually a Delaware C-corp. The Filipino owners **execute a share exchange** with the new US entity. The Philippine company becomes a **wholly-owned subsidiary** of the US parent. The US parent raises under Reg CF and US investors hold equity in it ([Bevilacqua PLLC](https://www.bevilacquapllc.com/did-you-know-that-foreign-issuers-can-also-rely-on-regulation-crowdfunding/), [Growth Turbine](https://growthturbine.com/blogs/international-founders-raising-from-us-investors-reg-cf-reg-a-reg-s)).
+
+This is the **"Delaware flip"**, and it is what most startups with foreign operations already do.
+
+**The distinction from the shell problem in part 1:** a Delaware entity with no assets, employees or operations is a violation. **A Delaware parent that actually owns a real operating company is not a shell.** It holds the business. That is the whole difference.
+
+> **UNSURE, and it is the decisive question.** Sources disagree on whether Reg CF requires only that the issuer be *organized* under US law, or **also that its principal place of business be in the US or Canada.** One source states the organizational test only; another states both ([Growth Turbine](https://growthturbine.com/blogs/international-founders-raising-from-us-investors-reg-cf-reg-a-reg-s), [Crowdfunding Attorney](https://crowdfundingattorney.com/2021/07/30/using-reg-cf-to-raise-money-for-a-non-u-s-business/)). A principal-place-of-business test would be a serious problem for a holdco whose operations are entirely in Manila. **Do not build anything until a securities lawyer answers this one specifically.**
+
+## The costs are far lower than I said, at small size
+
+Reg CF's financial-statement requirements are tiered, and the bottom tier is remarkably light:
+
+| Raise size | Financial statements required |
+|---|---|
+| **Up to about US$124,000** | **Self-prepared, certified by the principal executive officer. No CPA.** |
+| About US$124,000 to 1,235,000 | **CPA-reviewed**, not audited |
+| About US$1,235,000 to 5,000,000 | Full independent audit, **but a first-time Reg CF issuer may use reviewed statements instead, once** |
+
+Sources: [DealMaker](https://help.dealmaker.tech/what-are-the-financials-requirements-for-a-regulation-cf-cap-124k-vs.-618k-vs.-1.235m-vs.-5m), [Wefunder](https://help.wefunder.com/form-c/financial-requirements-regulation-crowdfunding), [Growth Turbine](https://growthturbine.com/blogs/reg-cf-financial-statement-requirements-audited-vs-reviewed).
+
+**So a first raise under about US$124,000 needs a US entity, a Form C, and financials the founder certifies.** That is a genuinely small hurdle, and it is where the MVP should sit.
+
+**Platform fees**, all-in ([Angel Investors Network](https://angelinvestorsnetwork.com/capital-raising/wefunder-vs-republic-vs-startengine-for-raising-capital), [AltStreet](https://altstreet.investments/guides/startengine-vs-wefunder)):
+
+| Platform | Cost |
+|---|---|
+| **Wefunder** | 7.5% of the raise, effective 6.4 to 9.5% |
+| **StartEngine** | 9 to 12% |
+| **Republic** | 7% cash plus 2% in securities, roughly 10 to 11% all-in |
+
+The platform is the registered intermediary, which is the requirement Reg CF imposes. **Vaya does not need to be one and must not try to be.**
+
+## Where the difficulty actually moved
+
+It is no longer US securities law. **It is cross-border corporate structuring, and it lands on the Filipino founder, not on Vaya.**
+
+1. **Philippine foreign-ownership rules bite the moment the US parent owns the opco.** A US-owned domestic-market company needs US$200,000 paid-in capital, or US$100,000 with 15 Filipino employees, or an export exemption. See `research/fdi-philippines.md`. A small Manila business that flips may suddenly fail a capital test it never had to think about.
+2. **US tax lands on the parent.** A US parent owning a Philippine subsidiary means CFC treatment, GILTI, Form 5471, and transfer pricing between parent and opco.
+3. **Unwinding is painful.** The cross-border counsel warning is explicit: retrofitting or unwinding a flip mid-raise is expensive.
+4. **And the real bottleneck: you are asking a Filipino business owner to give up direct ownership of their own company** and hold stock in a Delaware entity instead, so that Americans can buy in. **Many will say no, and many should.** That is a bigger obstacle than anything the SEC does, and it is the thing to test first.
+
+## What this changes about the MVP
+
+The ladder in part 6 stands, with one rung reordered and one added.
+
+| Rung | What | Cost and difficulty |
+|---|---|---|
+| **1. Paid production** | The company pays Vaya cash for a film | Zero exposure. **Start now** |
+| **2. Media for equity** | Equity for delivered media, never contingent on a raise | A corporate lawyer |
+| **3a. Small Reg CF** | Flipped company raises **under about US$124,000** on Wefunder. Self-certified financials, platform is the intermediary | **The cheapest route to non-accredited Americans.** Needs the flip and cross-border counsel |
+| **3b. 506(c)** | Company raises from accredited investors only, no flip needed, no platform needed | Higher legal cost, but **no restructuring of the Filipino company** |
+| **4. A vehicle of Vaya's own** | Parts 1 to 5 | Still probably never |
+
+**3a versus 3b is a real choice, and it is the company's to make, not Vaya's:**
+- **3a reaches ordinary Americans** but requires the Filipino owner to flip into a Delaware parent and take on US tax reporting.
+- **3b keeps the Filipino company as it is** but limits investors to the accredited 18.5%.
+
+**Vaya's position in both is identical: make the film, hold the equity if granted, disclose it every time, take nothing connected to the raise.** That does not change no matter which route the company picks, which is exactly why it is the right position.
+
+## What was wrong in part 1
+
+Part 1 said the Reg CF door was closed to Philippine businesses. **More precisely: it is closed to a Philippine-organized issuer, and open to a US holding company that owns one.** The shell warning still stands, and the distinction is whether the US entity actually holds the operating business.
+
+## Accept when
+
+A securities lawyer has answered the principal-place-of-business question in writing, one Filipino company has said yes to a Delaware flip with its eyes open to the tax consequences, and Vaya's film about them is made and paid for before any raise begins.
