@@ -173,3 +173,90 @@ Run it against the three-way test in `fdi-projects-and-funnel.md` part 4. **It p
 ## Accept when
 
 Two or three deals have run to full repayment on your own money, they are filmed, a US securities lawyer has written down which structure is available to you, and the arithmetic shows the fund is big enough to carry its own compliance. Then, and not before, you raise.
+
+---
+
+# Part 6: The MVP. Media for equity, and the company raises its own money.
+
+Added 2026-09-13, after Jordan pushed back: "there's got to be an easier way, even if Vaya gets a percentage of the company and just advertises them, and the Filipino company asks for investment on a platform."
+
+**He was right and this supersedes the fund as the recommended path.** Parts 1 to 5 above remain accurate about funds. They are the harder road, and it is not the road to take first.
+
+## The fact that changes it
+
+**Rule 506(c) is open to all issuers, including foreign ones. There is no citizenship or jurisdiction requirement** ([SEC](https://www.sec.gov/resources-small-businesses/exempt-offerings/general-solicitation-rule-506c), [DealMaker](https://help.dealmaker.tech/does-regulation-d-506-apply-to-foreign-investors), [Syndication Attorneys](https://syndicationattorneys.com/articles/want-to-include-foreign-investors-in-a-u-s-securities-offering-what-you-need-to-know/)).
+
+This is the opposite of Reg CF, which requires a US-organized issuer, and Reg A, which requires US or Canadian management. **The Filipino company can be the issuer itself.**
+
+Which means **Vaya never has to be the issuer, the broker, the fund or the manager.** Vaya makes films.
+
+## The structure
+
+```
+Filipino company  --- is the issuer, raises under Reg D 506(c),
+                      papered by US counsel, Form D filed
+        ^
+        |  equity granted to Vaya for media work,
+        |  NOT contingent on any raise closing
+        |
+   Vaya Media  --- makes the films. Discloses its stake in every one.
+        |
+        v
+   The films are public. 506(c) permits general solicitation.
+        |
+        v
+US accredited investors subscribe directly with the company.
+Vaya is not in the money path at any point.
+```
+
+**Vaya's return is the equity, held for years, realised if the company grows.** Not a fee on the raise. That distinction is the whole compliance position.
+
+## Why media-for-equity is a real model, not a workaround
+
+ProSiebenSat.1 founded **SevenVentures** in 2009 to do exactly this: give a company advertising inventory and services, take equity, sell the stake later once the advertising has grown the company. On the media and cash invested, the group **doubled its value at roughly a 30% IRR** ([ProSiebenSat.1](https://www.prosiebensat1.com/en/newsroom/sevenventures-successful-sale-of-media-for-equity-participations-en-337801), [Broadband TV News](https://www.broadbandtvnews.com/2017/06/28/prosiebensat-1-sells-media-for-equity-portfolio/)).
+
+Vaya is a small version of the same machine: distribution is the asset, equity is the price.
+
+## The MVP ladder. Start at rung one, this month.
+
+| Rung | What | Securities exposure | When |
+|---|---|---|---|
+| **1. Paid production** | The Filipino company pays Vaya cash to make its story film. That is it. | **None.** You are a production company | **Now.** No lawyer, no structure |
+| **2. Media for equity** | Same work, paid in equity instead of cash. The grant is for delivered media, on a schedule, **never contingent on a raise** | Minimal. Needs a corporate lawyer for the grant, not a securities lawyer | After two or three paid films |
+| **3. The company raises** | The company runs its own 506(c) with its own US counsel. Vaya's films exist and are public. Vaya discloses its stake | **The company's, not Vaya's** | When a company is ready |
+| **4. A vehicle** | Parts 1 to 5 above | Yours, entirely | Probably never. Certainly not first |
+
+**Rung one is the whole point.** It is revenue next month, it is the same film you would make anyway, and it builds the portfolio that makes rung two credible.
+
+## The three things that break it
+
+### 1. Section 17(b): you must disclose the stake, every time
+Promoting a security while holding an undisclosed interest in it is touting under Section 17(b) of the Securities Act. This is the provision that produced the crypto-influencer enforcement wave.
+
+**The rule for Vaya, non-negotiable:** if Vaya holds equity in a company, that is stated **on camera, in the video, in the description, and on any page that mentions them.** `standards.html` already commits Vaya to exactly this for restaurants. This is the same rule with a bigger penalty for getting it wrong.
+
+### 2. The equity grant must not be contingent on the raise
+If Vaya's shares vest only when the round closes, or the stake scales with how much is raised, **it is transaction-based compensation wearing a costume**, and Vaya is back to being an unregistered broker.
+
+**Grant for delivered media, on a delivery schedule, payable whether the company raises nothing at all.**
+
+### 3. A sari-sari store cannot do this
+US counsel, a PPM, subscription documents, Form D and state notice filings cost real money. **Estimate, not a quote: US$10,000 to 25,000** for a single-company 506(c). A company raising PHP 300,000 cannot carry that.
+
+**So the target is not a micro-entrepreneur.** It is a **small but real Filipino company raising roughly US$250,000 to 2M**: a food or beverage brand with distribution, a coffee roaster, a three-location restaurant group, a small manufacturer, a clinic group. Companies with books, a manager, and something to show on camera.
+
+**That is a better target anyway.** They can pay for rung one, they are more filmable, and their story is the one an American investor will actually fund.
+
+## The honest downsides of taking equity
+
+- **It is illiquid and long-dated.** SevenVentures made its 30% IRR over years and exited by selling a whole portfolio to a secondaries buyer. Vaya would hold minority stakes in Philippine SMEs with **no obvious exit.** Assume the money is locked until the company is sold, which may be never.
+- **It is not income.** Jordan's stated goal was passive income for the investors. It is, for them. **For Vaya it is an asset, not cash flow.** Rung one is the cash flow.
+- **It is the sharpest conflict in the company.** Vaya reviews businesses and would now own some. The disclosure rule handles it only if it is absolute.
+
+## The rule this adds to the playbook
+
+**Vaya may hold equity in a company it covers, on three conditions:** the stake is granted for delivered media and never contingent on a raise, it is disclosed on camera in every piece of content that mentions the company, and Vaya takes no fee, share or consideration connected to any capital the company raises.
+
+## Accept when
+
+One Filipino company has paid Vaya cash for a film, a second has granted equity for one, the disclosure line is running on camera in both, and a US securities lawyer has confirmed in writing that the equity grant as drafted is not transaction-based compensation.
