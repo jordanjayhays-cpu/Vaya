@@ -139,3 +139,64 @@ Every row is a film. Ownership rules as at 13 September 2026, from `research/fdi
 ## Accept when
 
 Every scenario has one film, one episode page, one free sheet, one qualifier that can say no, and one flat-fee product, with an episode code running from the film to the invoice. And the first Ground Check has been sold, delivered and filmed.
+
+---
+
+# Part 4: The three-way test
+
+Added 2026-09-13, after Jordan asked which FDI helps American businesses, regular Americans, **and** the Filipino economy at the same time.
+
+A project only goes on the Vaya Desk menu if it passes all three:
+
+1. **An American business gets capacity, cost or a market it could not otherwise reach.**
+2. **A regular American gets an outcome they could not otherwise afford.**
+3. **The Filipino side gets jobs at or above market, skills that stay, and money that lands here.**
+
+Two out of three is not a pass. Two out of three is extraction with a nice film attached.
+
+## The complication that reorders everything
+
+The obvious answer is "build elder care facilities, American money creates Filipino nursing jobs." **The data says that is not automatically a win, and it might be a harm.**
+
+The Philippines is heading for a projected shortage of about **196,000 nurses**, part of roughly **290,000 healthcare workers** short by the EDCOM II assessment of February 2026 ([Manila Bulletin](https://mb.com.ph/2026/02/18/healthcare-workers-shortage-56-of-students-dont-make-it-to-the-workforce)). About **27,000 Filipino health workers leave every year**, and **316,000 licensed nurses had already migrated as of 2021**, slightly more than half of all registered nurses in the country ([Context/TRF](https://www.context.news/socioeconomic-inclusion/philippines-nurse-exodus-leaves-hospitals-short-staffed), [BusinessMirror](https://businessmirror.com.ph/2025/08/15/nursing-shortage-and-nurse-migration/)). Hospitals now turn patients away for lack of nurses, not lack of beds.
+
+So a foreign-funded care facility that hires forty nurses to look after American retirees is, on its face, **pulling scarce nurses away from Filipino patients**. That is the criticism, it is fair, and Vaya would deserve it.
+
+**The honest counter, which is an argument and not a fact:** the competitor for that nurse is not a Manila hospital. It is Riyadh, London and Toronto. Local hospitals will not raise wages because they treat nurses as transient trainees, which makes the wage trap self-fulfilling. A nurse paid Gulf-comparable wages in Makati is still **in the Philippines**, paying tax here, near their family, and reachable by the health system in a way one in Jeddah is not.
+
+**But that only holds if the pool grows.** Which is why the ranking below puts training first, not facilities. **56% of Filipino healthcare students never reach the workforce.** Fixing that is positive-sum. Bidding for the nurses who already exist is not.
+
+## What passes, ranked
+
+| # | Project | American business | Regular American | Filipino economy | Can Vaya facilitate? |
+|---|---|---|---|---|---|
+| **1** | **Nursing and caregiver training capacity.** TESDA NC II schools, clinical placement, bridging programmes for the 56% who drop out | US and Gulf staffing firms get certified supply | Cheaper, better-certified care wherever they use it | **Grows the pool instead of fighting over it.** Permanent wage lift, portable skill, stays in country | **Yes.** Placewell knows the certification and placement chain |
+| **2** | **Care facilities and home care, at wages that compete with overseas** | US care operators get capacity | A family gets one-to-one care at a fifth of US cost | Retains a nurse who would otherwise leave the country entirely. **Conditional on #1** | **Yes.** Brief plus Placewell |
+| **3** | **Small-team back offices, 10 to 40 people** | A five-person US firm gets a team it could never afford at home, and survives | The US owner is a regular American; their customers get better service | Real jobs, better than seat-count call centres, and the IT-BPM sector just cut its targets on AI so the growth is in small high-value teams | **Yes.** The 15-employee capital exemption is a hiring plan |
+| **4** | **Filipino food and consumer brands exporting to the US.** The sleeper | US distributors and grocers get product | 4M+ Fil-Ams get the food from home, reliably | **Money flows in, not out.** Export enterprises can be 100% foreign-owned outside the domestic capital rule. Farmers get demand | **Cover only.** Vaya has no competence here yet |
+| **5** | **Dental and medical clinics serving foreigners** | Limited | Dental and elective work Americans genuinely cannot afford at home | Higher-paying work at home for Filipino practitioners. Same retention argument, same caveat | **Partly.** Professional practice is Filipino-only. Lawyer first |
+| **6** | **Rooftop solar for Filipino SMEs** | US solar financiers and installers get a market | Weak. Fails test 2 unless framed as a return | Strong. Power is a Filipino business's biggest cost | **Cover only** |
+
+**The top three are the menu. Four to six are films.**
+
+## What fails, and why saying so is the brand
+
+| Project | Why it fails |
+|---|---|
+| **Condos bought to rent to foreigners** | An American gets yield, a developer clears inventory, and no Filipino gets a job or a skill. Pure extraction with a view |
+| **Data centres** | Enormous headline FDI, very few jobs per peso, and a heavy draw on one of Asia's most expensive grids. Good for the statistics, thin for the neighbourhood |
+| **Importing a US franchise** | Royalties leave the country every month. The local win is a handful of minimum-wage jobs |
+| **Land plays** | Foreigners cannot own land, and the structures people use to pretend otherwise are the thing Vaya should be exposing, not selling |
+| **Pure labour export** | It helps the family and drains the country. Placewell's existing business, and worth naming the tension rather than pretending it is not there |
+
+Publishing this table is the point. A company that lists what it will not sell is more believable about what it will, and `standards.html` already commits Vaya to that posture.
+
+## The flywheel, stated properly
+
+**Glocal** shows Americans what care costs and what it buys here. Some viewers become customers of Vaya Care. A smaller number ask who builds the supply. **Vaya Desk** sells them the brief. **Placewell** trains and employs the people. **The training investment grows the pool**, which is what makes the whole thing defensible rather than extractive.
+
+Vaya is paid at three points and touches nobody's capital at any of them.
+
+## Accept when
+
+The Desk menu lists only projects that pass all three tests, the failing list is published, and Vaya can answer the nurse question on camera without flinching: "we are not taking nurses from Filipino hospitals, we are competing with Riyadh, and here is what we are funding to grow the pool."
