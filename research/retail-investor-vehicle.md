@@ -337,3 +337,77 @@ Part 1 said the Reg CF door was closed to Philippine businesses. **More precisel
 ## Accept when
 
 A securities lawyer has answered the principal-place-of-business question in writing, one Filipino company has said yes to a Delaware flip with its eyes open to the tax consequences, and Vaya's film about them is made and paid for before any raise begins.
+
+---
+
+# Part 8: The company that will never exit. Match the instrument, not the excitement.
+
+Added 2026-09-13, after Jordan asked about a tech startup with an interesting idea that is "not going to be huge."
+
+**This exposes a flaw in everything above.** Equity crowdfunding assumes an exit. A company that will be nicely profitable and never sell is the **worst** possible fit for equity: the investor's shares are worth something on paper and produce nothing, forever, with no buyer. That is not passive income. That is a certificate.
+
+**And it undercuts Jordan's original goal.** He wanted average Americans earning passive income. **Equity in a company that will not exit pays no income, ever.**
+
+## The rule: the instrument follows the exit
+
+| Company shape | Will it exit? | Right instrument | Why the other one fails |
+|---|---|---|---|
+| **Unicorn-track tech** | Maybe | Equity or a SAFE | A revenue share caps the winner that has to pay for all the losers |
+| **Good business, no exit.** Jordan's case | No | **Revenue-share note, or debt** | Equity traps the investor with no buyer and no dividend |
+| **Micro-business** | No | A plain loan | Everything else is overhead |
+
+**A SAFE is the specific trap here.** A SAFE converts at a priced round or an exit. A company that has neither **never converts it**, and the investor holds an instrument that does nothing until the company dies.
+
+## What a revenue-share note is
+
+The investor puts in money. The company pays a fixed **percentage of monthly top-line revenue** until the investor has received a **cap**, typically 1.3 to 2.0 times what they put in. Then it stops.
+
+- No valuation to argue about, which is the hardest part of any small raise
+- **No dilution.** The founder keeps 100% of the company
+- Payments scale with revenue, so a bad month costs the founder little
+- **It ends.** Both sides know when
+
+**This exists at retail scale today.** Honeycomb Credit sells debt and revenue-share notes issued by small businesses to over 18,000 everyday investors, paying **roughly 6% to 14% APR, averaging near 12%**, with minimums as low as **US$100**. It absorbed Mainvest, which was the other platform built on revenue-share notes, and acquired IFundWomen in 2025 ([Honeycomb](https://www.honeycombcredit.com/mainvest-faqs), [Angel Investors Network](https://angelinvestorsnetwork.com/capital-raising/honeycomb-review-2026), [CrowdSpace](https://thecrowdspace.com/platform/honeycomb/)).
+
+**Roughly 12% APR, paid monthly, from a real business.** That is the thing an ordinary American cannot get at home, and it is much closer to Jordan's stated goal than equity ever was.
+
+> Honeycomb's own book is US physical-location businesses. A Philippine company would still need to be an eligible issuer, which means the Delaware flip in part 7 and a platform willing to list it. **Treat Honeycomb as the template and the proof the instrument works, not as a confirmed venue.** UNSURE whether any US retail platform will list a business whose operations are entirely in the Philippines.
+
+## The pre-revenue problem, stated honestly
+
+**A pre-revenue tech startup cannot do a revenue share. There is no revenue to share.**
+
+So a pre-revenue company that will not be huge is in the worst position of all: equity is wrong because there is no exit, revenue share is impossible because there is no revenue.
+
+**The honest advice, which Vaya should be willing to give on camera:** that company should not be raising equity from retail Americans at all. It is the wrong money. It should be chasing:
+
+- **The DOST Startup Grant Fund** under RA 11337, the Innovative Startup Act, which funds R&D to improve core technology and market potential. Non-dilutive
+- **RA 11337 endorsement** as a startup or startup enabler, which also drops the foreign-investment capital threshold from US$200,000 to US$100,000 (see `research/fdi-philippines.md`)
+- **Local venture**, where Kickstart Ventures runs the country's largest technology VC funds including Ayala's ACTIVE Fund
+- **Customers.** Which is the real answer for most of them
+
+## The refinement this forces on Vaya's own deal
+
+Part 6 said Vaya takes **equity** for delivered media. **For a company that will never exit, Vaya's equity is as worthless as the investors' equity.** Same trap, same reason.
+
+**So the rule sharpens: match Vaya's own instrument to the company's shape.**
+
+| Company shape | What Vaya takes for its media |
+|---|---|
+| Exit-track | Equity. That is where the upside lives |
+| **Will not exit** | **A revenue share, capped.** Vaya gets paid out of operations, like everyone else |
+| Unclear | Cash. Rung one. Do not guess |
+
+This is better for Vaya in the ordinary case, because most Filipino companies worth filming will never be acquired.
+
+## And the thing Vaya should actually notice
+
+**For a small tech startup, capital is rarely the binding constraint. Attention is.**
+
+A company with an interesting idea and no distribution does not need US$80,000. It needs people to know it exists. **That is precisely what Vaya sells**, and it is why media-for-value works better here than for a restaurant: a restaurant's constraint is footfall in one neighbourhood; a tech company's constraint is reach, which is unbounded.
+
+**The pitch to this segment is not "we will help you raise." It is "we will get you customers, and we will take part of what that produces."**
+
+## Accept when
+
+Vaya can look at a Filipino company and say which of three things it is, name the right instrument for it, and say plainly when the honest answer is "you should not raise from Americans at all, you should go get a DOST grant and ten customers."
