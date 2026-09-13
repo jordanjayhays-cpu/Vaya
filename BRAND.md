@@ -41,6 +41,7 @@ The test for every line: would the friend who already moved say this over a beer
 - **Cities:** Vaya Manila, Vaya Cebu. The city is the invitation.
 - **Services:** Vaya Care, Vaya Nights, Vaya Line, Visa Desk, Landing, the Vaya Month. Vaya plus what it does. Never coined words.
 - **Series:** no Vaya prefix. Title case, three words or fewer: Block by Block, The Real Cost, Eat Here Not There, After Dark, The Read, A Week In, 48 Hours in Manila, Coming Home, Retire in Manila.
+- **Strands:** a strand is a theme that runs across cities and outlives any one season. A strand may be a coined word where a service never can, because a strand names an idea rather than a thing you buy. First strand: **Glocal**, global money meeting local life. Season one of Glocal is The Cost of Care.
 - **Newsletter:** One City, Unpacked.
 
 ## Tagline, three to pick from

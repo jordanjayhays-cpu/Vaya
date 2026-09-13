@@ -131,12 +131,19 @@ That is the opportunity and it is also the warning: it may be empty because it i
 
 The audience is not the patient. **It is the 45-to-60 year old adult child holding the bill.** They are online, they are searching at 2am, and they are the ones who will move.
 
-### Series name, three versions
-- **Safe: "The Cost of Care."** Descriptive, searchable, no cleverness. Ranks.
-- **Bold: "What Your Money Buys."** Puts the arbitrage in the title. Works across care, housing and staff, so it can outlive this one subject.
-- **Weird: "Eight to One."** The US staffing ratio versus one-to-one. Means nothing until you watch, means everything after. Great for one film, weak as a series name.
+### The name: Glocal
 
-Recommendation: **The Cost of Care** as the series, **Eight to One** as episode one's title.
+**Glocal** is the strand, not one series. Jordan's call, 2026-09-13.
+
+Global money meeting local life is the pattern under everything Vaya sells: what a US pension buys in Makati, what a dollar rents, what care costs, what a two-week visitor overpays. Care is the first season of it, not the whole of it. Naming the strand rather than the series means it repeats in Cebu, Mexico City and Bali with no new naming decision.
+
+- **Strand:** Glocal
+- **Season one:** The Cost of Care
+- **Episode one:** Eight to One
+
+Episode titles carry the search, not the strand name. "Glocal" ranks for nothing and does not need to: the film that ranks is titled "What a US nursing home actually costs in 2026."
+
+Do not register Glocal as a company or a domain. Glocal Media already exists as a media company with Philippine offices ([ZoomInfo](https://www.zoominfo.com/c/glocal-media/539516916)), plus a Tijuana news site and a London localization firm. As a series strand inside Vaya that is not a conflict. As a company name it would be.
 
 ### The slate
 
