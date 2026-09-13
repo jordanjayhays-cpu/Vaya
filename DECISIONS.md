@@ -48,3 +48,13 @@ Append-only. One line per decision: date, the decision, who made it, why in a fe
 | 2026-09-06 | Vaya money sits in a separate account or Wise balance from agency money, from the first peso. | Claude recommended | The playbook requires a per-city P&L; commingled books make it impossible to tell whether Manila works. |
 | 2026-09-06 | General liability policy in the entity's name before the first paid tour. | Claude recommended | Keeps a guest injury from reaching the BD agency's client relationships, which is the main risk of sharing an entity. |
 | 2026-09-06 | Payments: Wise for foreign money and paying partners in pesos; registered Philippine SIM plus Maya (not GCash) in week one; Philippine bank account and full GCash in month two off the ACR I-Card. Vaya Landing sets up Maya, not GCash, and registers the SIM. | Claude recommended | GCash KYC needs a Philippine government ID (ACR I-Card); Maya verifies on a passport. A tourist SIM expires in ~30 days and a dead SIM locks the wallet, which is exactly the failure Landing prevents. |
+
+## Added 2026-09-13 (care migration)
+
+| Date | Decision | By | Why |
+|---|---|---|---|
+| 2026-09-13 | Care migration is a Vaya line, not a side product: the audience is the 45 to 60 year old adult child holding a US care bill, not the patient. Research in `research/care-migration.md`. | Jordan | The audience pass found the care-dependent household is the highest willingness-to-pay segment and is absent from the v2 slate. |
+| 2026-09-13 | Any price quoted for 24-hour care is a two-person price. One worker cannot legally or humanly cover a 24-hour shift under RA 10361. | Claude recommended | Quoting a one-person number is the most common way this business is mis-sold and it collapses at month two. |
+| 2026-09-13 | Vaya is never the clinical decision-maker. A licensed agency employs the worker, a Philippine physician directs care, and Vaya's written role is placement and coordination only. Professional indemnity cover before the first placement. | Claude recommended | The failure mode here is a harmed patient, not a bad review. |
+| 2026-09-13 | The nurse's own episode ships in the same season as the cost comparison, and the worker's pay appears on screen in any film that compares care costs. | Claude recommended | Without it the series is a story about cheap labor. `standards.html` already commits Vaya to this publicly. |
+| 2026-09-13 | Every placement runs through a certified worker under RA 11965 (TESDA NC II, a health degree, or a passed TESDA assessment). No exceptions, whatever the family asks for. | Claude recommended | An uncertified "caregiver" is a labor violation with the customer's name on it. Compliance through Placewell is the moat, not the overhead. |
