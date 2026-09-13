@@ -33,6 +33,10 @@ Append-only. One line per decision: date, the decision, who made it, why in a fe
 | Currency and payment | Pesos with dollars shown; Wise or bank transfer now, PayMongo later | As stated. |
 | Funding | Bootstrapped; raise | Bootstrapped in year one. |
 
+## Open decision, raised 2026-09-13 (paid company films vs the standards page)
+
+`standards.html` publicly promises "nobody pays to be recommended" and "no business can buy a place in a film." The company-films MVP is a business paying for a film. **Jordan must decide before film one.** Proposed resolution, not yet adopted: two labels (Vaya editorial, which nobody pays for, and Puhunan, which the company commissions and which says so on screen in the first fifteen seconds), plus a firewall rule that any company which has paid Vaya is permanently ineligible for a Vaya recommendation, ranking or guide. Detail and proposed page wording in `research/company-films-legal.md` section 1. **The public page is unchanged until Jordan says otherwise.**
+
 ## Added 2026-09-06 (launch research)
 
 | Date | Decision | By | Why |
