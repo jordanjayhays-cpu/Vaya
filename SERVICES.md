@@ -70,7 +70,7 @@ Each becomes sellable the moment its supplier replies with a rate. Then it needs
 | Service | Price | Supplier | Backend steps | Film |
 |---|---|---|---|---|
 | **Vaya Line** | PHP 1,500/week | **None.** Just the WhatsApp number and a person | 1. Number live 2. Named person, Manila hours 3. Page | *A Week In* — a real week, including the day something goes wrong |
-| **Vaya Landing** | PHP 2,500 to 3,500 | Transport company | 1. Rate 2. Buy a stock of registered SIMs, or agree who buys them 3. Write the Maya setup script 4. Page | *What actually happens when you land at NAIA* |
+| **Vaya Landing** | PHP 2,500 to 3,500 | Transport company | 1. Rate 2. **Native Globe or Smart eSIM, not a physical SIM and not Airalo.** Collect passport, accommodation booking and return ticket from the guest in advance so it is registered before they land 3. Write the Maya setup script 4. Page | *What actually happens when you land at NAIA* |
 | **Driver by the block** | PHP 2,000 per 4h, PHP 4,500 per 10h | Transport company | 1. Rate 2. Set your markup 3. Page | *Manila traffic, explained*, filmed from the back seat |
 | **Visa Desk** | PHP 2,500 per filing | BI-accredited agency | 1. Their fee and turnaround 2. Document checklist 3. Courier arrangement 4. **You are customer one** 5. Page ✅ built | *The Visa Truth* — EP03, page already live |
 | **Day Trip** | PHP 6,000 to 9,000 per car | Transport company | 1. Rate 2. Pick two routes: Tagaytay, Pampanga 3. Page | *Escape Manila in 90 minutes* |
