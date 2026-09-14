@@ -172,7 +172,7 @@ Philippine law defines the practice of real estate service broadly enough to inc
 | Enquiries go **to the broker**, never to Vaya | Vaya collects buyer enquiries and passes them on |
 | Vaya is paid a **flat production fee**, invoiced on delivery | Vaya is paid anything contingent on a sale |
 
-**The rule: make the film, never host the listing.**
+**The rule: make the film, never host the listing.** ⚠️ **Superseded by part 5 below. This was too strong.** The correct rule is: never make the representations yourself, and never take a commission.
 
 > **UNSURE and decisive.** Whether an unlicensed media company may produce property advertising for a licensed broker is not settled by any source found. **Add it to the lawyer brief before taking the first peso of this work.**
 
@@ -214,3 +214,68 @@ Exactly the structure already proposed in `company-films-legal.md`, applied to p
 ## Accept when
 
 The lawyer has answered whether Vaya may produce property advertising for a licensed broker, the first twenty buildings are in the index, and there is a written list of every building excluded from it and why.
+
+---
+
+# Part 5: Correction. You can showcase real listings.
+
+Added 2026-09-14. **Part 4 said "make the film, never host the listing." That was too strong and it was wrong.** Jordan pushed back and the research supports him.
+
+## How every property portal in the country operates lawfully
+
+**Lamudi and Property24 do not hold broker licences.** They are platforms, and the mechanism that makes it lawful is stated plainly in Lamudi's own terms:
+
+> **"Product representations expressed on Lamudi are those of the broker, developer or owner of the listings and are not made by the platform itself."**
+
+And their compliance approach is that **most properties come from licensed brokers or trusted developers** ([Lamudi terms](https://www.lamudi.com.ph/terms-and-conditions/), [HomesAndLand](https://homesandland.ph/lamudi-review-for-the-philippines-2025/)).
+
+**So what RESA regulates is the person performing the service — representing a party, negotiating, closing, taking the commission — not the medium carrying the advertisement.** Otherwise every newspaper, portal, photographer and YouTube channel in the Philippines would need a broker's licence, and none of them have one.
+
+**The correct line is not "do not host a listing." It is "do not be the one making the representations, and do not take the commission."**
+
+## The five conditions
+
+Vaya can film real available properties and say "you could buy or rent this," provided all five hold.
+
+| # | Condition | Why |
+|---|---|---|
+| 1 | **Every property shown belongs to a licensed broker or a developer** | This is the whole basis. No private sellers, no unlicensed "agents" |
+| 2 | **The broker's name and PRC licence number appear on the film and the page** | Licensed practitioners must show PRC registration number, professional ID card number and validity, PTR number and date, and AIPO number on everything they issue in practice. Those details travel with the listing ([Realty ONE](https://www.realtyonegroup.ph/guides/how-to-become-a-licensed-real-estate-broker-in-the-philippines-complete-2026-guide)) |
+| 3 | **The representations are the broker's, not Vaya's** | Price, terms, availability, floor area and title status are stated as coming from the broker. Vaya shows what it saw and says who said what |
+| 4 | **The enquiry goes to the broker** | Vaya does not negotiate, does not represent either side, does not hold a deposit, does not "register" a buyer |
+| 5 | **Vaya is paid a flat fee, or nothing. Never a commission** | This is the only one with a criminal penalty behind it and it has not changed |
+
+**Do all five and you are a publisher carrying a licensed broker's advertisement, which is what Lamudi is.**
+
+## The product: Vaya Property — Showcase
+
+**A film touring real, currently available properties, with a licensed broker credited on screen and a link that goes to them.**
+
+| | |
+|---|---|
+| **What it is** | Three to five real units in one building or one neighbourhood. What they cost, what they actually look like, what the brochure crops out, who to call |
+| **How Vaya is paid** | **A flat monthly fee from one featured broker**, not a per-listing fee and never a commission. See the note below |
+| **What the viewer gets** | "I saw the actual unit, at the actual price, and I know who to call. Nobody was pretending it was better than it is." |
+| **The film** | *"Five condos in Makati, five real prices."* This is *Block by Block* with the units in it |
+
+### Why a flat monthly fee beats a per-listing fee
+**If Vaya is paid per property, Vaya has a reason to oversell each one.** If one broker pays a flat monthly to be the featured agent across whatever Vaya films that month, **the payment does not move with any individual unit**, so Vaya can say "this one is overpriced" in the same film. That keeps the voice honest and keeps the product worth watching.
+
+**Rotate the featured broker periodically** so no single agency owns the channel.
+
+### What this does and does not change about the conflict
+- **Showcase is clearly labelled as a broker partnership.** Disclosure on screen in the first fifteen seconds, per `standards.html` and `company-films-legal.md`
+- **The Unit Check stays buyer-paid and independent**, and a building that appears in a paid Showcase is still ineligible for one
+- **The Rent Index stays independent.** The featured broker does not get to see it early, shape it, or be excluded from a bad number in it. **Put that in the agreement in writing**
+
+## What Jordan should ask the lawyer
+
+The question changes shape. It is no longer "may we advertise property." It is:
+
+1. **Confirm the publisher position:** a media company carrying a licensed broker's listing, with the broker's PRC details shown and enquiries going to the broker, is not practising real estate service. Portals operate this way; confirm it holds for video.
+2. **What exactly must appear on screen or on the page:** PRC number alone, or PTR and DHSUD registration too, and in what form.
+3. **Whether a flat monthly sponsorship** from a broker changes the answer against a per-listing fee.
+
+## Accept when
+
+One licensed broker is signed on a flat monthly, their PRC details are on the film and the page, the enquiry button goes to them, and the lawyer has confirmed the publisher position in writing.
