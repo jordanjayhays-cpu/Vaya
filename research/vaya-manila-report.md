@@ -42,7 +42,7 @@ Date: 2026-09-14. Jordan sent the Coface Philippines country risk file and said 
 
 ## The product: the Vaya Manila Report
 
-**A quarterly, graded, ground-truthed report on one city. Free headline, paid detail.**
+**A quarterly, graded, ground-truthed report on one city. FREE, entirely.** ⚠️ *Updated 2026-09-14: Jordan's call is that Vaya does not sell information. The report is the funnel, not the product. The paid editions and corporate seats below are cut; what sells is the work each bad grade points at.*
 
 ### The grades
 Copy the shape, not the scale. Coface's A1-to-E is built for credit risk. Vaya's reader is deciding whether to move, hire, or open something.

@@ -121,3 +121,62 @@ Every product belongs to one family. **The family carries the Vaya name; the pro
 ## Accept when
 
 Three products have a page, a price and a button, one film points at each, and after four weeks you can say which got clicks, which got messages, and which got paid.
+
+---
+
+# The rule: we sell what we do, not what we know
+
+Added 2026-09-14. **Jordan's call: Vaya does not sell information.**
+
+## The test
+
+> **Is the customer paying for what Vaya knows, or for what Vaya does?**
+
+| ❌ What we know. Not a product | ✅ What we do. A product |
+|---|---|
+| A report on how to get a visa | **Filing the visa** |
+| A guide to hiring a nurse | **Hiring the nurse and managing her** |
+| A briefing on market entry | **Doing the setup with the licensed partners** |
+| A neighbourhood guide | **Going to the unit and looking at it** |
+| A cost-of-care analysis | **Placing the caregiver** |
+
+**Everything on the left becomes free.** It is the marketing. **Everything on the right is the business.**
+
+## Why this is the right call
+
+1. **Nobody wakes up wanting to buy a report.** They want the problem gone. Information is the hardest thing in the world to sell to a stranger.
+2. **It fits `standards.html`.** A company that publishes what it knows for free and charges for work is easier to trust than one selling the answer.
+3. **Free information is a better moat than paid information.** Paid research has maybe a hundred readers. The same research given away has a hundred thousand, and every one of them learns that Vaya is the company that goes and looks.
+4. **It is what Jordan is actually good at.** Business development is selling delivery and relationships, not PDFs.
+
+## The honest trade
+
+**Information has near-zero marginal cost. Services do not.**
+
+A report sells a hundred times with no extra work. **A visa filing is one filing, one customer, one fee.** This choice means lower margins, slower scaling, and a business that grows by adding people rather than by adding readers.
+
+**In exchange you get:** higher trust, a real moat, work you can actually do, and no obligation to keep producing research to stay in business.
+
+**That is a good trade for this company. Make it knowingly.**
+
+## What changes
+
+### Now free, permanently
+| Was | Now |
+|---|---|
+| **Manila Report**, paid editions and corporate seats | **Free. All of it.** It is the funnel, not the product |
+| **Rent Index**, sold to brokers | **Free.** Monetised through the Showcase partnership instead |
+| **Vaya Business — Brief** | **Free article.** The money is in doing the setup |
+| **Vaya Business — Comparison and Custom Grade** | **Cut** |
+| **Vaya Care — Feasibility Report** | **Free call.** The money is in the placement |
+| **Vaya Concierge — Before You Land** | **Free.** It was always lead generation pretending to be a product |
+
+### Unchanged, because they are work
+Every Vaya Desk filing · every Vaya Concierge service · Vaya Care placements and management · Vaya Tours · Vaya Studio films · **and the Unit Check and Site Visit**, because the customer is not buying a document, they are buying **someone physically going to a place they cannot get to.** The report is the receipt, not the product.
+
+### The one that has to change shape
+**Vaya Business** was mostly a research product. It becomes **doing the setup**: coordinating the lawyer, the accountant, the SEC registration, the BOI or PEZA filing, and Placewell's hiring, for a flat coordination fee. **Same customer, same knowledge, but Vaya is now doing the work instead of describing it.**
+
+## Accept when
+
+Every paid product on this list is something Vaya physically does for somebody, and everything Vaya merely knows is published free.
