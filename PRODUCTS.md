@@ -1,127 +1,121 @@
-# The full product list, sorted by how fast you can test it
+# The product list
 
-Date: 2026-09-14. Every product idea from every research doc, in one place, with the test for each. Companion to `SERVICES.md`, which is the build order for the ones already chosen.
+Date: 2026-09-14. Every Vaya product, with four things for each: **the name, what it is, how we get paid, and what the viewer gets.** Grouped by how fast each can be tested. Companion to `SERVICES.md`, the build order.
 
 ---
 
-## How to test a product without building it
+## How to test one
 
-**You do not build the service to find out if anyone wants it.** You put up a page with a price and a button, point one film or one post at it, and count.
+Page, price, button. Point one film at it. Count.
 
-| Signal | What it means |
+| Signal | Means |
 |---|---|
-| Nobody clicks | No demand at that price, for that audience, with that wording. Kill it or reword it once |
-| People click, nobody messages | The price or the page is wrong |
-| People message, nobody pays | The offer is wrong, or they do not believe you can deliver |
-| **Someone pays** | **Now go build it.** You have a deadline and a customer, which is the only good way to build anything |
+| No clicks | No demand at that price or wording. Kill it, or reword once |
+| Clicks, no messages | Price or page is wrong |
+| Messages, no payment | The offer is wrong, or they do not believe you can deliver |
+| **Someone pays** | **Now build it.** You have a customer and a deadline |
 
-**A test costs one page.** `visa.html` is the template; copying it takes minutes. **Never discount to close a test** (playbook rule) — a cheap yes teaches you nothing.
+**Three at a time, four weeks each. Never discount to close a test.**
 
-**Test three at a time, not thirty.** Give each one four weeks.
-
----
-
-## A. Testable from Madrid, this month, with no partner and no trip
-
-These need a page, a price, a calendar link and a payment link. Nothing else.
-
-| # | Product | Who | Price scaffold | The test |
-|---|---|---|---|---|
-| 1 | **Before You Land call** | Any first-timer | PHP 1,500 | Page + Calendly. Sell one |
-| 2 | **Payment Setup call** | Month-stayers | PHP 800 | Bundle or standalone |
-| 3 | **Manila Starter Kit** | Everyone | Free | Email capture. Measures audience, not revenue |
-| 4 | **Retire in Manila guide** | Retirees | Free | Same, for the richest segment |
-| 5 | **LTC Policy Check call** | US families facing care costs | Free | The highest-intent lead in the business. See `care-migration.md` |
-| 6 | **Care Feasibility Report** | Same | US$250 to 500 | Their policy, their budget, their parent, and whether Manila works. Can return "no" |
-| 7 | **The Brief** (market entry) | US companies | US$2,000 to 5,000 | One page describing it. Count enquiries |
-| 8 | **Neighbourhood Pick** | Movers | PHP 2,500 | Three vetted options for their dates and budget, researched remotely |
-| 9 | **The Lease Check** (remote) | Renters | PHP 4,000 | Read their contract, flag what to negotiate. Needs no feet on the ground |
-| 10 | **Family Reporting** | Adult children of care clients | US$150 to 300/mo | Cannot deliver until Care exists, but the page can test demand now |
-
-**Start here. Items 1, 2 and 5 need literally nothing but your own knowledge.**
+**And one rule that runs through every row below:** Vaya is paid a **flat fee for work delivered, invoiced before the outcome is known.** Never a percentage of a transaction. That single rule is what keeps Vaya clear of broker-dealer law, RESA, and the rest.
 
 ---
 
-## B. One email away. A single partner unlocks each.
+## A. Sellable from Madrid this month. No partner, no trip.
 
-| # | Product | Partner | Price scaffold | Note |
-|---|---|---|---|---|
-| 11 | **Vaya Landing** | Transport company | PHP 2,500 to 3,500 | Native eSIM, not a travel eSIM |
-| 12 | **Driver by the block** | Transport company | PHP 2,000 / 4h | |
-| 13 | **Day Trip** | Transport company | PHP 6,000 to 9,000 | Tagaytay, Pampanga |
-| 14 | **Visa Desk** | BI-accredited agency | PHP 2,500 / filing | Page already built |
-| 15 | **BI Annual Report filing** ⭐ | Same agency | PHP 1,500 to 2,500 + PHP 310 govt | **Every ACR I-Card holder must file 1 Jan to 1 Mar, every year. 153,651 registered foreigners. Late costs PHP 200/month plus a PHP 1,510 reconsideration fee and blocks future BI transactions.** Recurring, annual, and you land in the middle of the season ([BI](https://immigration.gov.ph/services/annual-report-a-r/), [Fragomen](https://www.fragomen.com/insights/philippines-deadline-upcoming-for-annual-report-for-alien-certificate-of-registration-identity-card-holders.html)) |
-| 16 | **Pet Desk** | None strictly, or a broker | PHP 6,000 to 10,000 | BAI import clearance. See `expansion-films-and-products.md` |
-| 17 | **Food Tour** | Licensed guide | From PHP 3,000 | Route must be walked first |
-| 18 | **Vaya Nights** | Guide | From PHP 3,500 | |
-| 19 | **Vaya Care assessment** | Placewell | PHP 3,500 | Blocked on the RA 11965 answer |
-| 20 | **Vaya Staff** | Placewell | Per role | |
-| 21 | **The Dental Week** ⭐ | One BGC or Makati clinic | PHP 15,000 to 25,000 | The week around the procedure, not the procedure |
-| 22 | **Marriage Desk** ⭐ | A fixer or lawyer | PHP 10,000 to 20,000 | Foreigners need a Certificate of Legal Capacity to Contract Marriage from their embassy (about US$40, appointment only), plus CENOMAR, both parties at the civil registrar, a 10-day posting period. **Legal minimum 10 days; most couples take 3 to 6 weeks** because of embassy scheduling ([phexpats](https://phexpats.com/marriage-in-the-philippines-legal-requirements-for-foreigners-practical-2025-guide/), [Philippine Embassy](https://philippine-embassy.de/legal-capacity-to-contract-marriage-lccm/)) |
-| 23 | **Notary and Apostille Runner** ⭐ | A notary | PHP 2,500 to 5,000 | Documents for visas, business, marriage, property. Same muscle as Visa Desk |
-| 24 | **Driver's licence conversion** ⭐ | An LTO fixer | PHP 5,000 to 8,000 | Foreigners converting a home licence |
-| 25 | **Household shipping referral** | International mover | Flat referral, never a percentage | US$2,500 to 8,500 moves |
-| 26 | **School placement** | Education consultant | PHP 15,000+ | Corporate movers with children |
-| 27 | **The Connection** | An ISP contact | PHP 3,000 | Top remote-work complaint. Fold into the Month |
+| Name | What it is | How we get paid | What the viewer gets |
+|---|---|---|---|
+| **Before You Land** | A 45-minute video call walking one person through their first week in Manila | PHP 1,500, prepaid, direct to Vaya | "I will not arrive confused. Someone who has done this will walk me through it." |
+| **The Payment Setup** | A 20-minute call: Maya, eSIM registration, the right ATM, how much cash to carry | PHP 800 prepaid, or free inside Landing | "My card will not get declined and I will be able to pay for things." |
+| **The Manila Starter Kit** | A free PDF: heat, rain, typhoons, what to pack, when not to come | Nothing. Email address only | "I know what I am walking into, and it cost me nothing." |
+| **The Retire Guide** | A free guide to SRRV, healthcare, costs and neighbourhoods for retirees | Nothing. Email address only | "Someone finally explained the visa without selling me a condo." |
+| **The Policy Check** | A free 20-minute call telling a US family whether their long-term care policy pays abroad | **Nothing.** It is the top of the Care funnel | "I found out in 20 minutes whether my mother's policy is worth US$4,000 a month or nothing." |
+| **The Care Report** | A written verdict on whether moving a parent to Manila works for their policy, budget and condition | US$250 to 500, prepaid. **Allowed to say no** | "I got a real answer instead of a sales pitch, including permission not to do it." |
+| **The Brief** | A written market-entry briefing for a US company: ownership rule, capital threshold, BOI or PEZA, US filings | US$2,000 to 5,000, prepaid. Flat, never a share of anything invested | "I know if this is possible and what it costs, before I spend a cent." |
+| **The Shortlist** | Three vetted places to live for your dates and budget, researched remotely | PHP 2,500 prepaid. **No commission from any landlord, ever** | "Three real options in the right neighbourhood, from someone not paid to sell me one." |
+| **The Lease Check** | We read your Philippine lease and list what to negotiate and what will cost you | PHP 4,000 prepaid | "I did not sign something I did not understand." |
+| **The Monthly Check-In** | A call and a written update to the adult child in the US about their parent in Manila | US$150 to 300 a month | "I can stop lying awake. Someone tells me she is fine, with a photo." |
+
+---
+
+## B. One partner email away
+
+| Name | What it is | How we get paid | What the viewer gets |
+|---|---|---|---|
+| **Vaya Landing** | Driver at arrivals with your name, a native Globe or Smart eSIM with a real +63 number, Maya set up in the car, door to door | PHP 2,500 to 3,500, prepaid. Driver paid at cost, Vaya's fee on top | "I land and someone is there. No taxi queue, no scam, and my phone works." |
+| **Vaya Driver** | Same driver by the 4-hour or 10-hour block, dispatched on WhatsApp | PHP 2,000 per 4h, PHP 4,500 per 10h. Cost plus a flat markup | "I get my day back instead of losing it to EDSA." |
+| **The Day Trip** | A driver, a planned route and stops. Tagaytay, Pampanga, Corregidor | PHP 6,000 to 9,000 per car | "I got out of the city without organising anything." |
+| **Visa Desk** | We collect your documents, an accredited agency files your extension, your passport comes back by courier | PHP 2,500 per filing, or PHP 1,500 a month. Government and agency fees at cost on the receipt | "I keep the day I would have lost at the Bureau." |
+| **The Annual Report** ⭐ | Your mandatory BI annual report, filed for you between 1 January and 1 March | PHP 1,500 to 2,500, plus the PHP 310 government fee at cost | "I do not get fined PHP 200 a month plus a PHP 1,510 reconsideration fee for forgetting a form." |
+| **Pet Desk** | The BAI import clearance filed, and your dog met at the airport | PHP 6,000 to 10,000 plus government fees at cost | "I do not have to leave the dog behind, and he will not end up in quarantine." |
+| **Vaya Food Tour** | Makati and BGC, a licensed local guide, the elevated version | From PHP 3,000 a head. Guide paid a net rate, Vaya sells at retail | "I eat what locals eat without getting fleeced or sick." |
+| **Vaya Nights** | Poblacion to BGC, curated, no P. Burgos, female-guide option | From PHP 3,500 a head | "I go out and get home fine." |
+| **The Care Visit** | A licensed nurse visits your parent and writes the care plan | PHP 3,500 for the visit. Placements priced separately | "A professional tells me what my father actually needs." |
+| **Vaya Staff** | Caregiver, nurse, driver, housekeeper or cook, sourced and employed through Placewell | Placement fee of one month's salary, then PHP 5,000 to 8,000 a month management. Worker's pay is at cost and stated | "Help at home for a fifth of what it costs me at home, and the worker is paid properly." |
+| **The Dental Week** ⭐ | The week around your procedure: pickup, a driver to every appointment, recovery accommodation, someone on WhatsApp at 11pm | PHP 15,000 to 25,000 for the week, paid by the patient. **Not also a clinic kickback. One or the other, disclosed** | "I can do this without organising a foreign country while my face is swollen." |
+| **Marriage Desk** ⭐ | The paperwork run for a foreigner marrying a Filipino: embassy capacity certificate, CENOMAR, civil registrar, the 10-day posting | PHP 10,000 to 20,000 plus fees at cost | "Three to six weeks of appointments and offices, handled, so we just turn up." |
+| **The Document Run** ⭐ | Notarisation, apostille and certified copies, collected and returned | PHP 2,500 to 5,000 plus fees at cost | "I did not spend a day finding out which window I needed." |
+| **The Licence Swap** ⭐ | Your home driving licence converted to a Philippine one | PHP 5,000 to 8,000 plus fees | "I can legally drive here without an LTO saga." |
+| **The Move** | Introduction to a vetted international mover for your household goods | **A flat referral fee, never a percentage.** Or nothing | "I got sent to someone who will not lose my things." |
+| **The School Search** | Shortlist and applications for international schools | PHP 15,000+, prepaid | "My kids are placed before we land." |
+| **The Connection** | A real internet line installed in your unit, chased until it works | PHP 3,000 | "I can actually take the call." |
 
 ---
 
 ## C. Needs you on the ground
 
-| # | Product | Price scaffold | Note |
+| Name | What it is | How we get paid | What the viewer gets |
 |---|---|---|---|
-| 28 | **The Unit Check** | PHP 8,000 to 15,000 | Buyer-paid, prepaid. See `real-estate-product.md` |
-| 29 | **The OFW Unit Check** ⭐ | PHP 5,000 to 12,000 | The bigger market by far. Preselling progress visits and turnover inspection |
-| 30 | **The Ground Check** (business) | US$3,000 to 7,500 | Go look at the factory, the office, the partner |
-| 31 | **Manila Rent and Vacancy Index** | Free | The compounding asset. Sponsorable later, never commissioned |
-| 32 | **Vaya Month** | From PHP 55,000 | A bundle of 11, 12, 27 and housing. Not a new product |
-| 33 | **Fixer for visiting crews** ⭐ | US$300 to 600/day | International press, YouTubers and production companies coming to Manila need local fixers, permits, drivers, translators. **You will be a production company with a driver and a network. This is the same work you already do, sold by the day** |
-| 34 | **Location scouting** ⭐ | US$500 to 1,500 | Same client, different deliverable |
-| 35 | **Corporate offsite planning** ⭐ | 15 to 20% of budget | Remote teams and BPO firms doing Manila offsites |
+| **The Unit Check** | We physically inspect the condo you are about to buy or rent. The lobby at 9pm, the lift at 8am, water pressure, real occupancy, what units actually closed at | PHP 8,000 to 15,000, **paid by the buyer, prepaid, whatever they decide.** Never by the seller, never a commission | "Someone independent looked at it before I signed, and was allowed to tell me not to." |
+| **The Site Visit** ⭐ | For an OFW abroad: we visit the preselling unit you bought and cannot see, film it, and inspect it at turnover | PHP 5,000 to 12,000 per visit, or a subscription during construction | "I put my life savings into a building I have never seen. Now I know what it looks like." |
+| **The Ground Check** | For a company: we go to the factory, the office, the ecozone or the partner, and write what is actually there | US$3,000 to 7,500, prepaid | "I sent someone to look before I committed six figures." |
+| **The Manila Rent Index** | Building-level asking rent, real closing rent and actual vacancy, published quarterly | **Free.** Sponsorable later, never commissioned by a developer | "I know the asking price is fiction and by how much." |
+| **Vaya Month** | Landing, a driver, Vaya Line, internet and a vetted place, for one month | From PHP 55,000. A bundle of the above, priced as one | "I tried living here for a month without any of it being hard." |
+| **The Fixer** ⭐ | For visiting press, YouTubers and production companies: permits, drivers, translators, locations, local knowledge | US$300 to 600 a day | "I land with a crew and everything already works." |
+| **The Scout** | Location scouting and stills for a production shooting in Manila | US$500 to 1,500 | "I chose locations without flying out twice." |
+| **The Offsite** | A Manila offsite planned and run for a remote team or BPO | A flat planning fee. **Not a percentage of their budget** | "My team's week was organised by someone who lives here." |
 
 ---
 
-## D. Blocked on a legal answer. Do not test these yet.
+## D. Blocked on a legal answer. Do not test yet.
 
-| # | Product | Blocked on |
-|---|---|---|
-| 36 | **Broker introductions** | Must be **free**. RESA makes a per-deal referral fee unlicensed practice |
-| 37 | **Company films and media-for-equity** | The standards-page decision, plus the videographer copyright clause |
-| 38 | **Investment introductions** | The US securities lawyer. Flat retainers only, never a success fee |
-| 39 | **The Estate Pack** | One Philippine estate lawyer |
-
----
-
-## E. Parked. Written down, not started.
-
-| # | Product | Why parked |
-|---|---|---|
-| 40 | **The OFW channel** | A second company, not a second series. After ten paid bookings |
-| 41 | **Merch and the Manila map** | A physical product needs inventory. Later |
-| 42 | **Paid community or membership** | Needs an audience first |
-| 43 | **Data licensing** | Sell the rent index to institutions once it has four quarters of history |
-| 44 | **Balikbayan box consolidation** ⭐ | Enormous Fil-Am market, but it is a logistics business with real liability |
+| Name | What it is | How we would get paid | Blocked on |
+|---|---|---|---|
+| **Broker introductions** | Handing a buyer to a PRC-licensed broker | **Nothing. Free, always.** RESA makes a per-deal referral fee unlicensed practice | Lawyer confirming the Unit Check fee structure |
+| **The Company Film** | A film a Filipino company commissions about itself | Cash, flat. Equity only from exit-track companies, revenue share otherwise | The standards-page decision, plus the videographer copyright clause |
+| **Investment introductions** | Connecting Americans to Philippine opportunities | A flat retainer. **Never a success fee** | The US securities lawyer |
+| **The Estate Pack** | A Philippine will, a named local contact, a document folder, a repatriation estimate | Flat, lawyer's fee included | One Philippine estate lawyer |
 
 ---
 
-## The pattern worth noticing
+## E. Parked
 
-**Eleven of these are the same product.** Visa Desk, Annual Report, Pet Desk, Marriage Desk, Notary Runner, Licence Conversion, plus the Estate Pack: **collect documents, deal with a Philippine government office, hand the result back.**
-
-> **That is one operating capability, sold seven ways.** Build it once with one accredited partner and one document checklist, and every new one is a page and a price.
-
-**It is also the most defensible thing Vaya does**, because the barrier is not knowledge, it is being willing to spend the day at the office, and nobody who can afford to pay wants to.
-
-**Name for the cluster:** *safe* **The Desk** · *bold* **Paperwork** · *weird* **The Queue** (names what you are actually selling: not standing in it). Recommend **The Desk**, with Visa Desk, Pet Desk and the rest as rooms inside it.
+**The OFW channel** (a second company, after ten paid bookings) · **Merch and the Manila map** (needs inventory) · **A paid community** (needs an audience) · **Data licensing** (sell the rent index once it has four quarters) · **Balikbayan box consolidation** (a logistics business with real liability).
 
 ---
 
-## The first three to test
+## The pattern: seven products, one capability
 
-1. **Before You Land call.** Zero dependencies, sellable this week.
-2. **BI Annual Report filing.** Recurring, a hard deadline of 1 March, 153,651 people who must do it, and you land in January.
-3. **The Unit Check.** Highest price, clearest value, and it has the biggest untapped market behind it in the OFW version.
+**Visa Desk, The Annual Report, Pet Desk, Marriage Desk, The Document Run, The Licence Swap and The Estate Pack are all the same thing:**
+
+> **Collect documents → deal with a Philippine government office → hand back the result.**
+
+One partner, one checklist, one process. Every new one after that is a page and a price.
+
+**Call the cluster The Desk.** Visa Desk and Pet Desk are rooms inside it. *(Alternatives, if you want them: bold **Paperwork**; weird **The Queue**, which names what you are actually selling, which is not standing in it.)*
+
+**Why it is defensible:** the barrier is not knowledge, it is willingness to spend the day at the office. Nobody who can afford to pay wants to.
+
+---
+
+## Test these three first
+
+| | Why |
+|---|---|
+| **Before You Land** | Zero dependencies. Sellable this week |
+| **The Annual Report** | Recurring, a hard 1 March deadline, 153,651 people who must do it, and you land in January |
+| **The Unit Check** | Highest price, clearest value, and The Site Visit behind it is the biggest untapped market in this document |
 
 ## Accept when
 
-Three products have a page, a price and a button, one film or post points at each, and after four weeks you can say which got clicks, which got messages, and which got paid.
+Three products have a page, a price and a button, one film points at each, and after four weeks you can say which got clicks, which got messages, and which got paid.
