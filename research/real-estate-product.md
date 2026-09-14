@@ -133,3 +133,84 @@ When the client needs an actual transaction, hand them to a **PRC-licensed broke
 ## Accept when
 
 The lawyer has cleared the fee structure in writing, one Unit Check has been sold and delivered to a real buyer, and the first rent index is published with twenty buildings in it.
+
+---
+
+# Part 4: Can Vaya partner with agents and help them sell?
+
+Added 2026-09-14. Jordan asked. **Three different things could be meant and they have three different answers. A fourth model is cleaner than all of them.**
+
+## Model 1: Send buyers to agents for a cut. Illegal.
+
+Already covered in part 1. **A referral fee on each successful transaction, without a PRC licence, is unlicensed practice under RESA.** Fine from PHP 100,000 or imprisonment from two years, doubled for an unlicensed practitioner.
+
+**Not a grey area. Do not do it, whatever the broker offers.**
+
+## Model 2: Make marketing films for brokers and developers. Legal, real money, and it kills the buyer side.
+
+Vaya is not brokering. Vaya is a **production company selling media services to a licensed broker**, for a flat fee, like a photographer or a printer.
+
+**The market is genuinely there.**
+
+| | |
+|---|---|
+| Philippine digital ad spend, 2026 | Growing 8.9% to **US$4.64 billion** ([Yahoo Finance](https://finance.yahoo.com/news/philippines-digital-ad-spend-business-154200159.html)) |
+| Video listings | **Boost enquiries by 403%** ([Reel-E](https://www.reel-e.ai/blog/real-estate-marketing-statistics)) |
+| Agents putting 15%+ of budget into video | Report **49% more listing appointments** |
+| Average agent marketing spend | **US$10,600 a year.** Top producers **over US$30,000** |
+| Digital share of budgets | **52%**, passed print in 2024 |
+| Brokerages raising tech budgets in 2026 | **62%** |
+
+**And 82,900 unsold units is 82,900 reasons somebody needs better marketing.**
+
+### The legal line, and it is a real one
+Philippine law defines the practice of real estate service broadly enough to include **advertising property for sale or lease** ([Housal](https://www.housal.com/legal/laws/ra-9646-resa-broker-licensing), [Respicio](https://www.respicio.ph/commentaries/can-you-legally-broker-a-land-sale-without-a-real-estate-brokers-license-in-the-philippines)). The sources focus on the party offering the service rather than on its vendors, and if producing an advertisement required a licence then every photographer and agency in the country would need one. **But the line has to be drawn carefully:**
+
+| ✅ Almost certainly fine | ❌ Probably crosses the line |
+|---|---|
+| Vaya films a property; **the broker publishes it under their name and PRC licence number** | Vaya publishes listings on vayanews.com with prices and a "contact us" |
+| Enquiries go **to the broker**, never to Vaya | Vaya collects buyer enquiries and passes them on |
+| Vaya is paid a **flat production fee**, invoiced on delivery | Vaya is paid anything contingent on a sale |
+
+**The rule: make the film, never host the listing.**
+
+> **UNSURE and decisive.** Whether an unlicensed media company may produce property advertising for a licensed broker is not settled by any source found. **Add it to the lawyer brief before taking the first peso of this work.**
+
+### What it costs you
+**Model 2 kills Vaya Property's buyer side.** The Unit Check and the Rent Index have value only because Vaya is independent. **You cannot be the seller's marketing agency and the buyer's independent inspector at the same time**, and in property the sums are life-changing for the buyer, so the conflict bites much harder than it does with a restaurant.
+
+## Model 3: Both, behind the same firewall as company films
+
+Exactly the structure already proposed in `company-films-legal.md`, applied to property.
+
+- **Vaya Studio — Property** makes paid films for brokers and developers. **Said on screen in the first fifteen seconds.** Broker's name and PRC licence number on the film. Enquiries to the broker
+- **Any building or developer that has paid Vaya is permanently excluded from the Rent Index and ineligible for a Unit Check.** Not that year. Permanently
+
+**It works, and it costs you something real:** every paid job shrinks the index. Take enough of the work and the independent product is hollow. That trade has to be made deliberately, one building at a time.
+
+## Model 4: Sell the brokers the data, not the coverage. The cleanest of all.
+
+**Nobody in Manila publishes what units actually close at.** Asking prices are holding while real closing prices soften, which means **every broker in the city is negotiating with bad information.**
+
+**Vaya Property — Rent Index**, sold to brokers and developers as a quarterly subscription. Building-level asking rent, estimated real closing rent, actual vacancy.
+
+| Why it is the best of the four | |
+|---|---|
+| **No conflict, structurally** | They are paying for accuracy. Bias would destroy the exact thing they bought. It polices itself in a way paid coverage never can |
+| **It does not compete with the buyer side. It is the buyer side** | The same index that makes a broker better at their job makes a buyer safer |
+| **It is recurring** | A subscription, not a project |
+| **Nobody is doing it** | And it gets harder to replicate every quarter, because the value is the history |
+| **The free version is the marketing** | Publish the headline numbers free, sell the building-level detail |
+
+**The catch:** it needs four quarters of data before anyone will pay for it, and collecting it is real legwork. **Start collecting in the landing weeks, sell it in year two.**
+
+## The recommendation
+
+1. **Never Model 1.** Whatever anyone offers.
+2. **Start the Rent Index in the landing weeks.** Twenty buildings: Makati CBD, BGC, Rockwell, Ortigas. It costs walking time now and becomes the asset later.
+3. **Take Model 2 work selectively, under the Model 3 firewall.** It is real money and the market data supports it, but log every building you exclude from the index as a result, and watch that list. **When the excluded list starts looking like the market, you have sold the wrong thing.**
+4. **Model 4 is the destination.** Everything else is how you fund getting there.
+
+## Accept when
+
+The lawyer has answered whether Vaya may produce property advertising for a licensed broker, the first twenty buildings are in the index, and there is a written list of every building excluded from it and why.
