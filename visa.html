@@ -1,0 +1,145 @@
+<title>Vaya Visa Desk</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    /* Vaya theme "Hibiscus" */
+    --paper:#ffffff; --paper2:#fff0f2; --card:#fff7f8; --ink:#23141b; --ink2:#4b3540;
+    --muted:#7d6670; --faint:#ad9aa3; --line:#f4dde2;
+    --signal:#ff2d55; --signal-soft:#ff2d5512; --stamp:#ff8a3d; --stamp-soft:#ff8a3d1f;
+    --disp:"Plus Jakarta Sans",system-ui,sans-serif; --serif:"Plus Jakarta Sans",system-ui,sans-serif; --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --paper:#1a1015; --paper2:#231620; --card:#281a23; --ink:#fff3f5; --ink2:#e9d3da;
+    --muted:#b797a3; --faint:#7f6470; --line:#3d2a33;
+    --signal:#ff4d70; --signal-soft:#ff4d701a; --stamp:#ff9a55; --stamp-soft:#ff9a551f;
+  }}
+  :root[data-theme="dark"]{
+    --paper:#1a1015; --paper2:#231620; --card:#281a23; --ink:#fff3f5; --ink2:#e9d3da;
+    --muted:#b797a3; --faint:#7f6470; --line:#3d2a33;
+    --signal:#ff4d70; --signal-soft:#ff4d701a; --stamp:#ff9a55; --stamp-soft:#ff9a551f;
+  }
+  *{box-sizing:border-box;margin:0;min-width:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:820px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+
+  nav{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:20}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .brand{font-family:var(--disp);font-weight:800;font-size:24px;letter-spacing:-.04em}
+  .brand .d{color:var(--signal)}
+  .navlinks{display:flex;gap:22px;font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;text-transform:uppercase}
+  .navlinks a{color:var(--muted)} .navlinks a:hover{color:var(--ink)}
+  @media(max-width:640px){.navlinks{gap:13px;font-size:11px}}
+
+  header{padding:clamp(38px,7vw,72px) 0 clamp(26px,4vw,40px)}
+  .ep{font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--signal)}
+  h1{font-family:var(--disp);font-weight:800;font-size:clamp(32px,6vw,56px);line-height:1.02;letter-spacing:-.035em;margin-top:14px;max-width:17ch;text-wrap:balance}
+  .lede{font-size:clamp(16px,2vw,19px);color:var(--ink2);max-width:56ch;margin-top:18px}
+  .lede b{color:var(--ink);font-weight:700}
+
+  .cta{display:flex;flex-wrap:wrap;gap:11px;margin-top:26px;align-items:center}
+  .btn{display:inline-block;padding:13px 24px;border-radius:999px;font-family:var(--disp);font-weight:700;font-size:15px;letter-spacing:-.01em}
+  .btn.p{background:var(--signal);color:#fff}
+  .btn.s{border:1px solid var(--line);color:var(--ink)}
+  .btn:hover{opacity:.9}
+  .price{font-family:var(--mono);font-size:13px;color:var(--signal)}
+
+  section{padding:clamp(28px,5vw,46px) 0;border-top:1px solid var(--line)}
+  .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+  .lbl::before{content:"";width:26px;height:2px;background:var(--stamp);flex:none}
+  h2{font-family:var(--disp);font-weight:800;font-size:clamp(21px,3.4vw,29px);line-height:1.1;letter-spacing:-.025em;max-width:24ch;text-wrap:balance}
+  p{font-size:16px;color:var(--ink2);max-width:62ch;margin-top:12px}
+  p b{color:var(--ink);font-weight:700}
+
+  ol.steps{list-style:none;padding:0;margin-top:20px;display:flex;flex-direction:column;gap:12px;counter-reset:s}
+  ol.steps li{counter-increment:s;border:1px solid var(--line);border-radius:18px;background:var(--card);padding:16px 18px;display:grid;grid-template-columns:30px 1fr;gap:14px;align-items:start}
+  ol.steps li::before{content:counter(s);font-family:var(--mono);font-size:12px;color:var(--signal);border:1px solid var(--line);border-radius:999px;width:26px;height:26px;display:grid;place-items:center;background:var(--paper)}
+  ol.steps .t{font-family:var(--disp);font-weight:700;font-size:16px;color:var(--ink);letter-spacing:-.01em}
+  ol.steps .d{font-size:14.5px;color:var(--ink2);margin-top:3px}
+
+  .rows{margin-top:18px;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+  .row{display:flex;justify-content:space-between;gap:16px;padding:13px 18px;font-size:15px;color:var(--ink2)}
+  .row + .row{border-top:1px solid var(--line)}
+  .row b{color:var(--ink);font-weight:700;font-family:var(--mono);font-size:13.5px;white-space:nowrap}
+
+  ul.plain{padding-left:20px;font-size:15.5px;color:var(--ink2);display:flex;flex-direction:column;gap:8px;margin-top:14px;max-width:62ch}
+  ul.plain b{color:var(--ink);font-weight:700}
+
+  .box{border-radius:20px;background:var(--signal-soft);padding:22px 24px;margin-top:20px}
+  .box p{margin-top:0} .box p + p{margin-top:10px}
+
+  footer{padding:32px 0 60px;color:var(--faint);font-family:var(--mono);font-size:12px;line-height:1.9;border-top:1px solid var(--line)}
+  footer a{color:var(--muted)} footer a:hover{color:var(--ink)}
+</style>
+
+<nav><div class="wrap nav">
+  <a href="index.html" class="brand">Vaya<span class="d">.</span></a>
+  <div class="navlinks">
+    <a href="index.html">Home</a>
+    <a href="manila.html">Manila</a>
+    <a href="manila.html#services">Services</a>
+    <a href="standards.html">Standards</a>
+  </div>
+</div></nav>
+
+<div class="wrap">
+
+  <header>
+    <div class="ep">From the film · EP03 The Visa Truth</div>
+    <h1>You have 30 days. We'll handle the next 29.</h1>
+    <p class="lede">Your visa-free stay runs out and the Bureau of Immigration costs you a day you did not plan for. <b>We collect your documents, an accredited agency files the extension, and your passport comes back by courier.</b> You do not go anywhere.</p>
+    <div class="cta">
+      <a href="https://wa.me/000000000000?text=Visa%20Desk%20%E2%80%94%20EP03" class="btn p">Start on WhatsApp</a>
+      <a href="mailto:hello@vayanews.com?subject=Visa%20Desk%20%E2%80%94%20EP03" class="btn s">Or email us</a>
+      <span class="price">PHP 2,500 per filing, plus government fees</span>
+    </div>
+  </header>
+
+  <section>
+    <div class="lbl">How it works</div>
+    <h2>Three messages and a courier.</h2>
+    <ol class="steps">
+      <li><div><div class="t">You send us a photo of your passport and your arrival stamp</div><div class="d">On WhatsApp. We tell you the same day whether you qualify and exactly what it will cost, including government fees.</div></div></li>
+      <li><div><div class="t">An accredited agency files it</div><div class="d">Vaya never touches the Bureau. A Bureau-accredited agency does the filing, which is the only legal way this works.</div></div></li>
+      <li><div><div class="t">Your passport comes back by courier</div><div class="d">We tell you the day it is lodged and the day it is ready. If anything goes wrong you hear it from us first.</div></div></li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="lbl">What it costs</div>
+    <h2>Our fee, and the fees that are not ours.</h2>
+    <div class="rows">
+      <div class="row"><span>Vaya fee, per filing</span><b>PHP 2,500</b></div>
+      <div class="row"><span>Vaya fee, monthly, if you are staying long</span><b>PHP 1,500 / mo</b></div>
+      <div class="row"><span>Bureau of Immigration and agency fees</span><b>At cost, on the receipt</b></div>
+      <div class="row"><span>Courier</span><b>At cost</b></div>
+    </div>
+    <p>Government fees change and depend on how long you extend for. <b>We quote you the real number before you pay us anything</b>, and the receipt shows what went where.</p>
+  </section>
+
+  <section>
+    <div class="lbl">Before you ask</div>
+    <h2>The honest part.</h2>
+    <ul class="plain">
+      <li><b>There is no digital nomad visa.</b> Executive Order 86 created one in April 2025 and it has still not opened. Anyone selling you one is selling you something else.</li>
+      <li><b>We are not lawyers or immigration agents.</b> We collect your documents and coordinate a Bureau-accredited agency. That agency files. If your case is complicated, we will tell you and send you to someone who can actually advise you.</li>
+      <li><b>Past 59 days you get an ACR I-Card.</b> That is the thing that unlocks a Philippine bank account and full GCash, so it is worth knowing before you plan your money.</li>
+      <li><b>We will tell you when you do not need us.</b> If you are leaving in a week, do not pay us.</li>
+    </ul>
+  </section>
+
+  <section style="border-bottom:0">
+    <div class="lbl">Start</div>
+    <h2>Send the passport photo. We'll take it from there.</h2>
+    <div class="box">
+      <p>Message us with <b>EP03</b> and a photo of your passport page and arrival stamp. You get a real answer the same day, from a person.</p>
+      <p><a href="https://wa.me/000000000000?text=Visa%20Desk%20%E2%80%94%20EP03" class="btn p" style="margin-top:6px">Start on WhatsApp</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <b>Vaya</b> — Voices Around Your Area · <a href="index.html">Home</a> · <a href="manila.html">Manila</a> · <a href="manila.html#services">Services</a> · <a href="standards.html">Standards</a>
+  </footer>
+
+</div>

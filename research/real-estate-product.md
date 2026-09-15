@@ -1,0 +1,281 @@
+# The Vaya real estate product, and the market it serves
+
+Date: 2026-09-13. Sources inline. **Not legal advice.** UNSURE = not verified.
+
+---
+
+## The conclusion first
+
+**Vaya cannot be a broker and cannot take a commission or a per-deal referral fee. That is a criminal offence here, not a grey area.** So the product is not brokerage. It is the same shape as everything else Vaya sells: **you pay us a flat fee to go look and tell you the truth, before you commit.**
+
+**And the biggest customer is not the foreigner. It is the OFW in Riyadh buying a preselling unit in Cavite that he has never seen and will not see until it is finished.** That market is thousands of times larger than the expat one and it is the best fit for a "we go and look at it for you" service that exists in the Philippines.
+
+---
+
+## Part 1: The legal wall, which shapes everything
+
+**RESA, RA 9646, the Real Estate Service Act of 2009.**
+
+- **Section 24: foreigners are prohibited from practising real estate service in the Philippines**, unless the applicant's home country grants Filipinos reciprocal rights ([Realttorney](https://realttorney.com/2009/08/18/can-a-foreigner-become-licensed-real-estate-service-practitioners-in-the-philippines/), [Lamudi](https://www.lamudi.com.ph/journal/10-things-you-need-to-know-about-the-resa-law/))
+- **Collecting a "referral fee" on each successful transaction without a licence is unlicensed practice.** Not a loophole. That is the definition
+- **Penalty: a fine of not less than PHP 100,000 or imprisonment of not less than two years, or both, and doubled where the offender is an unlicensed practitioner** ([Housal](https://www.housal.com/legal/laws/ra-9646-resa-broker-licensing), [Prime Philippines](https://primephilippines.com/post/real-estate-service-act-of-the-philippines-resa-republic-act-no-9646/))
+
+**This is the same trap as the securities finder's fee in `fdi-philippines.md`.** The pattern across this entire business is now unmistakable: **a percentage of a transaction is the thing that gets you arrested. A flat fee for work delivered is not.**
+
+Plus the ownership rules already in `fdi-philippines.md`: no foreign land ownership, condominium corporations capped at **40% foreign**, land leasable for 50 years renewable 25.
+
+### What this permits
+- ✅ **A flat fee, paid by the buyer or renter, for a written report and an inspection, invoiced before anyone knows whether a deal happens**
+- ✅ **Publishing data.** Free, sponsored later
+- ✅ **Introducing someone to a licensed broker for nothing.** Give the introduction away; charge for the report
+- ❌ A commission, a success fee, a cut of the broker's fee, or anything paid by the seller
+- ❌ Negotiating on a client's behalf, or listing property
+
+> **UNSURE and important:** whether a flat, prepaid inspection report commissioned by a buyer counts as "real estate service" under RESA. The safe reading is that a report paid for regardless of outcome is information, not brokerage, but **a Philippine lawyer must confirm this before a peso is charged.** The consequence of being wrong is criminal.
+
+---
+
+## Part 2: The market. This is a buyer's market and most buyers do not know it.
+
+### Supply: the glut
+
+| Metric | Figure | Source |
+|---|---|---|
+| Metro Manila residential vacancy, early 2026 | **~24.7%. One unit in four** | [Property Across](https://propertyacross.com/will-25-vacancy-in-2026-reshape-metro-manila-condo-deals/) |
+| Projected 2026 peak | ~25%, possibly **25.6% by year end** | Colliers via [BusinessWorld](https://bworldonline.com/corporate/2026/02/03/728047/manila-condo-oversupply-seen-keeping-vacancy-high-this-year-colliers/) |
+| **Record unsold inventory** | **82,900 units. Almost three years of supply at the current sales pace** | Leechiu via [International Investment](https://internationalinvestment.biz/en/philippines/8714-manila-condo-inventory-hits-record-as-values-weaken.html) |
+| Inventory life, Q1 2026 | **~30 months**, down from 41 at end-2025, against a pre-pandemic 12 to 15 | [Inquirer](https://business.inquirer.net/594068/the-upside-in-an-uneven-condo-market) |
+| Rents | Slipping through Q4 2025 and early 2026; Colliers expects a further marginal correction in 2026 | Colliers |
+| Bay Area residential vacancy | **57.3%** at Q4 2025, driven by the POGO exit | See `manila-demand.md` |
+| Where the glut sits | Concentrated in **mid and lower-mid income** units | Colliers |
+
+**And the single most useful fact for a customer:** the oversupply is showing up as **record inventory and aggressive promos, not a headline price crash. Asking prices are holding while real closing prices soften.**
+
+> **That gap between asking and closing is the product.** An outsider reads the asking price and thinks that is the price. It is not, right now. Nobody publishes what units actually close at. **Vaya can.**
+
+### Demand: who is actually buying
+
+| Segment | Size | What they buy |
+|---|---|---|
+| **OFWs. The big one** | **~60% of remittances flow into real estate.** Cash remittances hit a record **US$35.63 billion in 2025**, up 3.3%; personal remittances **US$39.62 billion**. A record **2.7 million** deployed in 2025 | **PHP 2.5 to 7 million units**, affordable to lower-mid, often in Cavite, Batangas, Laguna, and very often **preselling and sight-unseen** ([Inquirer](https://business.inquirer.net/516236/ofw-remittances-a-low-hanging-fruit-for-philippine-property-recovery), [Century Properties](https://www.century-properties.com/ofws-in-philippine-real-estate-remittances-to-strategic-investments/)) |
+| **Registered foreign residents** | **153,651, up 13%.** Chinese 49,556, Indians 26,123, Vietnamese 11,671, Americans 10,912, Taiwanese 7,800, Koreans 6,448, Japanese 5,214, British 3,392 | Makati, BGC, Rockwell, Ortigas. Mostly renting |
+| **Retirees on SRRV** | ~59,000 to 60,000 active holders | Long-stay rental, some purchase |
+| **Two-week and returning visitors** | US arrivals **818,318** in Jan to Aug 2026 | Not buyers, but the top of the funnel |
+
+Market size for context: Philippine real estate is projected to grow from about **US$94.4 billion to US$135.9 billion by 2034**.
+
+**The strategic read:** the foreign buyer is a small, high-value, English-speaking audience Vaya already reaches. **The OFW buyer is a vastly bigger audience with the exact problem Vaya is built to solve, and they are buying blind from eight thousand miles away.**
+
+---
+
+## Part 3: The products
+
+### 1. The Unit Check. The core product.
+**A physical inspection and a written verdict, for someone about to sign.**
+
+- We go to the actual unit and the actual building
+- Photographs and video: the unit, the lobby at 9pm, the parking, the lift wait at 8am, water pressure, the view that the brochure cropped
+- **Real occupancy on that floor and in that building**, not the developer's number
+- What units in that building actually closed at, against the asking price
+- Noise, flooding history, what the guards and the neighbours say
+- A written verdict that is allowed to say **do not buy this**
+
+| | |
+|---|---|
+| **Price** | PHP 8,000 to 15,000 (about US$140 to 260) for a unit. More for multiple |
+| **Paid by** | **The buyer or renter. Never the seller. Invoiced and paid before the visit, whatever they decide afterwards** |
+| **Why they pay** | It is under 0.5% of a PHP 3M purchase and it is the only independent look they will get |
+| **Film** | *"I inspected ten condos in Makati. Here is what the brochures crop out."* |
+
+### 2. The OFW Unit Check. The same product, the real market.
+**An OFW in Riyadh or Dubai has put a deposit on a preselling unit in Cavite. He will not see it until turnover, and by then it is too late.**
+
+- We visit the site and film it, at whatever stage it is at
+- Is it actually being built. Is it on schedule. What does the access road look like
+- The turnover inspection, which is the moment defects have to be recorded or they are the buyer's problem forever
+- A video report sent to a phone in the Gulf
+
+| | |
+|---|---|
+| **Price** | PHP 5,000 to 12,000 per visit; a subscription for progress visits during construction |
+| **Why it wins** | The buyer is abroad, the stakes are their life savings, and **literally nobody offers this** |
+| **Films** | *"What your four-million-peso preselling unit actually looks like right now"* · *"Turnover day: what to check before you sign"* |
+| **Note** | Connects directly to the OFW fork in `expansion-films-and-products.md`. This may be the bridge between the two halves of the business |
+
+### 3. The Manila Rent and Vacancy Index. Free, and it builds everything.
+**Building-level, quarterly: asking rent, estimated real closing rent, and actual vacancy. Published free.**
+
+Nobody publishes this. It is the highest-value, lowest-cost content Vaya could make; it is the natural spine of *Block by Block*; and it is the only asset here that compounds. It is also the thing developers and brokers will eventually pay to be measured in, which is a sponsor line, not a commission.
+
+### 4. The Lease Check. Higher volume, lower stakes.
+Most foreigners rent long before they buy. **Read the contract, check the building, list what to negotiate, flag the clauses that cost money.** PHP 4,000 to 7,000. Feeds naturally from Landing and the Month.
+
+### 5. The broker introduction. Free, always.
+When the client needs an actual transaction, hand them to a **PRC-licensed broker** and take **nothing**. Say on camera that Vaya takes no commission. **It is both the legal position and the reason the report is worth paying for.**
+
+---
+
+## The top three ways this goes wrong
+
+1. **Someone offers a commission and it gets taken.** A broker will offer 20% of their fee for a referral. That is up to PHP 200,000 and four years. **Flat fees, buyer-paid, prepaid. There is no small version of this that is safe.**
+2. **A Unit Check misses something and the buyer blames Vaya.** The report states what was observed on a date, by a non-engineer, and is not a structural survey. Written into every report, said in every film.
+3. **Vaya recommends a building and it turns out badly.** The report describes; it does not recommend a purchase. And per `company-films-legal.md`, if a developer ever pays Vaya for anything, that building is out of the index and out of any recommendation, permanently.
+
+## What Jordan has to do
+
+| | Action |
+|---|---|
+| 1 | **Ask the lawyer the RESA question**, added to the existing brief: does a flat, prepaid, buyer-commissioned inspection report count as real estate service under RA 9646? |
+| 2 | Do **one Unit Check on yourself** in the landing weeks, on the place you are staying. That is the product test and the footage |
+| 3 | Find one **PRC-licensed broker** willing to take free referrals and be named on camera |
+| 4 | Pick **twenty buildings** for the first index: Makati CBD, BGC, Rockwell, Ortigas |
+
+## Accept when
+
+The lawyer has cleared the fee structure in writing, one Unit Check has been sold and delivered to a real buyer, and the first rent index is published with twenty buildings in it.
+
+---
+
+# Part 4: Can Vaya partner with agents and help them sell?
+
+Added 2026-09-14. Jordan asked. **Three different things could be meant and they have three different answers. A fourth model is cleaner than all of them.**
+
+## Model 1: Send buyers to agents for a cut. Illegal.
+
+Already covered in part 1. **A referral fee on each successful transaction, without a PRC licence, is unlicensed practice under RESA.** Fine from PHP 100,000 or imprisonment from two years, doubled for an unlicensed practitioner.
+
+**Not a grey area. Do not do it, whatever the broker offers.**
+
+## Model 2: Make marketing films for brokers and developers. Legal, real money, and it kills the buyer side.
+
+Vaya is not brokering. Vaya is a **production company selling media services to a licensed broker**, for a flat fee, like a photographer or a printer.
+
+**The market is genuinely there.**
+
+| | |
+|---|---|
+| Philippine digital ad spend, 2026 | Growing 8.9% to **US$4.64 billion** ([Yahoo Finance](https://finance.yahoo.com/news/philippines-digital-ad-spend-business-154200159.html)) |
+| Video listings | **Boost enquiries by 403%** ([Reel-E](https://www.reel-e.ai/blog/real-estate-marketing-statistics)) |
+| Agents putting 15%+ of budget into video | Report **49% more listing appointments** |
+| Average agent marketing spend | **US$10,600 a year.** Top producers **over US$30,000** |
+| Digital share of budgets | **52%**, passed print in 2024 |
+| Brokerages raising tech budgets in 2026 | **62%** |
+
+**And 82,900 unsold units is 82,900 reasons somebody needs better marketing.**
+
+### The legal line, and it is a real one
+Philippine law defines the practice of real estate service broadly enough to include **advertising property for sale or lease** ([Housal](https://www.housal.com/legal/laws/ra-9646-resa-broker-licensing), [Respicio](https://www.respicio.ph/commentaries/can-you-legally-broker-a-land-sale-without-a-real-estate-brokers-license-in-the-philippines)). The sources focus on the party offering the service rather than on its vendors, and if producing an advertisement required a licence then every photographer and agency in the country would need one. **But the line has to be drawn carefully:**
+
+| ✅ Almost certainly fine | ❌ Probably crosses the line |
+|---|---|
+| Vaya films a property; **the broker publishes it under their name and PRC licence number** | Vaya publishes listings on vayanews.com with prices and a "contact us" |
+| Enquiries go **to the broker**, never to Vaya | Vaya collects buyer enquiries and passes them on |
+| Vaya is paid a **flat production fee**, invoiced on delivery | Vaya is paid anything contingent on a sale |
+
+**The rule: make the film, never host the listing.** ⚠️ **Superseded by part 5 below. This was too strong.** The correct rule is: never make the representations yourself, and never take a commission.
+
+> **UNSURE and decisive.** Whether an unlicensed media company may produce property advertising for a licensed broker is not settled by any source found. **Add it to the lawyer brief before taking the first peso of this work.**
+
+### What it costs you
+**Model 2 kills Vaya Property's buyer side.** The Unit Check and the Rent Index have value only because Vaya is independent. **You cannot be the seller's marketing agency and the buyer's independent inspector at the same time**, and in property the sums are life-changing for the buyer, so the conflict bites much harder than it does with a restaurant.
+
+## Model 3: Both, behind the same firewall as company films
+
+Exactly the structure already proposed in `company-films-legal.md`, applied to property.
+
+- **Vaya Studio — Property** makes paid films for brokers and developers. **Said on screen in the first fifteen seconds.** Broker's name and PRC licence number on the film. Enquiries to the broker
+- **Any building or developer that has paid Vaya is permanently excluded from the Rent Index and ineligible for a Unit Check.** Not that year. Permanently
+
+**It works, and it costs you something real:** every paid job shrinks the index. Take enough of the work and the independent product is hollow. That trade has to be made deliberately, one building at a time.
+
+## Model 4: Sell the brokers the data, not the coverage. The cleanest of all.
+
+**Nobody in Manila publishes what units actually close at.** Asking prices are holding while real closing prices soften, which means **every broker in the city is negotiating with bad information.**
+
+**Vaya Property — Rent Index**, sold to brokers and developers as a quarterly subscription. Building-level asking rent, estimated real closing rent, actual vacancy.
+
+| Why it is the best of the four | |
+|---|---|
+| **No conflict, structurally** | They are paying for accuracy. Bias would destroy the exact thing they bought. It polices itself in a way paid coverage never can |
+| **It does not compete with the buyer side. It is the buyer side** | The same index that makes a broker better at their job makes a buyer safer |
+| **It is recurring** | A subscription, not a project |
+| **Nobody is doing it** | And it gets harder to replicate every quarter, because the value is the history |
+| **The free version is the marketing** | Publish the headline numbers free, sell the building-level detail |
+
+**The catch:** it needs four quarters of data before anyone will pay for it, and collecting it is real legwork. **Start collecting in the landing weeks, sell it in year two.**
+
+## The recommendation
+
+1. **Never Model 1.** Whatever anyone offers.
+2. **Start the Rent Index in the landing weeks.** Twenty buildings: Makati CBD, BGC, Rockwell, Ortigas. It costs walking time now and becomes the asset later.
+3. **Take Model 2 work selectively, under the Model 3 firewall.** It is real money and the market data supports it, but log every building you exclude from the index as a result, and watch that list. **When the excluded list starts looking like the market, you have sold the wrong thing.**
+4. **Model 4 is the destination.** Everything else is how you fund getting there.
+
+## Accept when
+
+The lawyer has answered whether Vaya may produce property advertising for a licensed broker, the first twenty buildings are in the index, and there is a written list of every building excluded from it and why.
+
+---
+
+# Part 5: Correction. You can showcase real listings.
+
+Added 2026-09-14. **Part 4 said "make the film, never host the listing." That was too strong and it was wrong.** Jordan pushed back and the research supports him.
+
+## How every property portal in the country operates lawfully
+
+**Lamudi and Property24 do not hold broker licences.** They are platforms, and the mechanism that makes it lawful is stated plainly in Lamudi's own terms:
+
+> **"Product representations expressed on Lamudi are those of the broker, developer or owner of the listings and are not made by the platform itself."**
+
+And their compliance approach is that **most properties come from licensed brokers or trusted developers** ([Lamudi terms](https://www.lamudi.com.ph/terms-and-conditions/), [HomesAndLand](https://homesandland.ph/lamudi-review-for-the-philippines-2025/)).
+
+**So what RESA regulates is the person performing the service — representing a party, negotiating, closing, taking the commission — not the medium carrying the advertisement.** Otherwise every newspaper, portal, photographer and YouTube channel in the Philippines would need a broker's licence, and none of them have one.
+
+**The correct line is not "do not host a listing." It is "do not be the one making the representations, and do not take the commission."**
+
+## The five conditions
+
+Vaya can film real available properties and say "you could buy or rent this," provided all five hold.
+
+| # | Condition | Why |
+|---|---|---|
+| 1 | **Every property shown belongs to a licensed broker or a developer** | This is the whole basis. No private sellers, no unlicensed "agents" |
+| 2 | **The broker's name and PRC licence number appear on the film and the page** | Licensed practitioners must show PRC registration number, professional ID card number and validity, PTR number and date, and AIPO number on everything they issue in practice. Those details travel with the listing ([Realty ONE](https://www.realtyonegroup.ph/guides/how-to-become-a-licensed-real-estate-broker-in-the-philippines-complete-2026-guide)) |
+| 3 | **The representations are the broker's, not Vaya's** | Price, terms, availability, floor area and title status are stated as coming from the broker. Vaya shows what it saw and says who said what |
+| 4 | **The enquiry goes to the broker** | Vaya does not negotiate, does not represent either side, does not hold a deposit, does not "register" a buyer |
+| 5 | **Vaya is paid a flat fee, or nothing. Never a commission** | This is the only one with a criminal penalty behind it and it has not changed |
+
+**Do all five and you are a publisher carrying a licensed broker's advertisement, which is what Lamudi is.**
+
+## The product: Vaya Property — Showcase
+
+**A film touring real, currently available properties, with a licensed broker credited on screen and a link that goes to them.**
+
+| | |
+|---|---|
+| **What it is** | Three to five real units in one building or one neighbourhood. What they cost, what they actually look like, what the brochure crops out, who to call |
+| **How Vaya is paid** | **A flat monthly fee from one featured broker**, not a per-listing fee and never a commission. See the note below |
+| **What the viewer gets** | "I saw the actual unit, at the actual price, and I know who to call. Nobody was pretending it was better than it is." |
+| **The film** | *"Five condos in Makati, five real prices."* This is *Block by Block* with the units in it |
+
+### Why a flat monthly fee beats a per-listing fee
+**If Vaya is paid per property, Vaya has a reason to oversell each one.** If one broker pays a flat monthly to be the featured agent across whatever Vaya films that month, **the payment does not move with any individual unit**, so Vaya can say "this one is overpriced" in the same film. That keeps the voice honest and keeps the product worth watching.
+
+**Rotate the featured broker periodically** so no single agency owns the channel.
+
+### What this does and does not change about the conflict
+- **Showcase is clearly labelled as a broker partnership.** Disclosure on screen in the first fifteen seconds, per `standards.html` and `company-films-legal.md`
+- **The Unit Check stays buyer-paid and independent**, and a building that appears in a paid Showcase is still ineligible for one
+- **The Rent Index stays independent.** The featured broker does not get to see it early, shape it, or be excluded from a bad number in it. **Put that in the agreement in writing**
+
+## What Jordan should ask the lawyer
+
+The question changes shape. It is no longer "may we advertise property." It is:
+
+1. **Confirm the publisher position:** a media company carrying a licensed broker's listing, with the broker's PRC details shown and enquiries going to the broker, is not practising real estate service. Portals operate this way; confirm it holds for video.
+2. **What exactly must appear on screen or on the page:** PRC number alone, or PTR and DHSUD registration too, and in what form.
+3. **Whether a flat monthly sponsorship** from a broker changes the answer against a per-listing fee.
+
+## Accept when
+
+One licensed broker is signed on a flat monthly, their PRC details are on the film and the page, the enquiry button goes to them, and the lawyer has confirmed the publisher position in writing.
