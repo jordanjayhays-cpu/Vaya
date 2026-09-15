@@ -1,3 +1,17 @@
+# ❌ CUT — the Vaya Manila Report
+
+**Decision, 2026-09-15: not doing this.** Jordan does not want it and it does not survive its own test.
+
+**Why it was proposed:** he sent the Coface country risk file as a good example, and it was. **Why it dies:** it is free, so it earns nothing; it is a quarter's work every quarter; it is not in the four-product offer; and it is a research project pretending to be a business. Two turns after proposing it I wrote that if it were not visibly sending people to paid services it was a hobby. It is a hobby. Cutting it now rather than in two quarters.
+
+**What does the job instead: the films.** A film about 82,900 unsold condos is contrarian, it ranks, it proves Vaya knows the city, it is already in the plan, and it is the thing Jordan is actually good at. **The film is the report.**
+
+**What survives, and it is not a product:** keep the notes. Log how many days each Desk filing actually took, and what rents really are. That is not a report, it is just knowing your own business, and it gives every film a real number in the open.
+
+**Everything below is kept for reference only. Do not build it.**
+
+---
+
 # The Vaya Manila Report: a Coface for one city, graded from the street
 
 Date: 2026-09-14. Jordan sent the Coface Philippines country risk file and said "this is a good example." It is. This is what it would look like as a Vaya product.

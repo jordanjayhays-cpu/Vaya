@@ -164,7 +164,7 @@ A report sells a hundred times with no extra work. **A visa filing is one filing
 ### Now free, permanently
 | Was | Now |
 |---|---|
-| **Manila Report**, paid editions and corporate seats | **Free. All of it.** It is the funnel, not the product |
+| **Manila Report** | **Cut entirely, 2026-09-15.** Not free, not paid. Not doing it. The films do the job |
 | **Rent Index**, sold to brokers | **Free.** Monetised through the Showcase partnership instead |
 | **Vaya Business — Brief** | **Free article.** The money is in doing the setup |
 | **Vaya Business — Comparison and Custom Grade** | **Cut** |
