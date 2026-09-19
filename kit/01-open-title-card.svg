@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open title card">
+    <defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".78"/></linearGradient></defs>
+    <rect width="1920" height="1080" fill="#3b2f33"/>
+    <rect width="1920" height="1080" fill="url(#g1)"/>
+    <text x="120" y="470" font-family="DM Mono, monospace" font-size="30" letter-spacing="8" fill="#ff8a3d">THE REAL COST · MAKATI</text>
+    <text x="120" y="620" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="128" letter-spacing="-5" fill="#fff">What does a month</text>
+    <text x="120" y="760" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="128" letter-spacing="-5" fill="#fff">in Makati cost?</text>
+    <rect x="120" y="830" width="560" height="96" rx="48" fill="#ff2d55"/>
+    <text x="170" y="893" font-family="DM Mono, monospace" font-size="40" fill="#fff">PHP 74,500. To the peso.</text>
+    <text x="1700" y="1000" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="56" letter-spacing="-3" fill="#fff" text-anchor="end">Vaya<tspan fill="#ff2d55">.</tspan></text>
+  </svg>

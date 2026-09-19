@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Price tag">
+    <rect width="1920" height="1080" fill="#6b5257"/>
+    <g transform="translate(1290 140)">
+      <rect width="510" height="150" rx="16" fill="#fff"/>
+      <rect x="0" y="0" width="510" height="150" rx="16" fill="none" stroke="#ff2d55" stroke-width="4"/>
+      <text x="36" y="58" font-family="DM Mono, monospace" font-size="24" letter-spacing="3" fill="#7d6670">STUDIO · 34 SQM · SALCEDO</text>
+      <text x="36" y="118" font-family="DM Mono, monospace" font-size="54" fill="#ff2d55">PHP 32,000 /mo</text>
+    </g>
+  </svg>

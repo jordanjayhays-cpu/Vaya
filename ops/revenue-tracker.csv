@@ -1,0 +1,2 @@
+date,invoice_no,customer,country,product,episode_code,gross_php,pass_through_php,supplier_cost_php,vaya_margin_php,paid_via,status,notes
+2027-01-15,INV-0001,EXAMPLE ROW - delete me,US,Vaya Desk - Visa,EP03,2500,3810,0,2500,Wise,paid,"govt fee 310 + courier 3500 at cost"
