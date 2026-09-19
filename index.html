@@ -110,13 +110,29 @@
   .e3 h4{font-family:var(--disp);font-weight:800;font-size:20px;letter-spacing:-.01em}
   .e3 p{font-size:14px;color:var(--muted);line-height:1.45}
   .e3 .live{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--stamp);margin-top:2px}
-  .eco3.four{grid-template-columns:repeat(2,1fr)}
-  @media(max-width:680px){.eco3.four{grid-template-columns:1fr}}
-  a.e3{text-decoration:none;color:inherit;transition:transform .22s cubic-bezier(.34,1.56,.64,1),border-color .22s ease}
-  a.e3:hover{transform:translateY(-3px);border-color:var(--signal)}
-  a.e3:active{transform:translateY(-1px) scale(.99);transition-duration:.08s}
-  a.e3 .go{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--signal);margin-top:auto;padding-top:8px}
-  @media(prefers-reduced-motion:reduce){a.e3{transition:none}a.e3:hover,a.e3:active{transform:none}}
+  .films{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+  @media(max-width:860px){.films{grid-template-columns:1fr 1fr}}
+  @media(max-width:560px){.films{grid-template-columns:1fr}}
+  .film{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--card);display:flex;flex-direction:column}
+  .thumb{aspect-ratio:16/9;background:linear-gradient(135deg,var(--paper2),var(--card));display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--line);position:relative}
+  .thumb .play{width:52px;height:52px;border-radius:99px;background:var(--signal)}
+  .thumb .tag{position:absolute;top:10px;left:10px;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;background:var(--stamp);color:#fff;padding:3px 7px;border-radius:4px}
+  .film .b{padding:16px 18px;display:flex;flex-direction:column;flex:1}
+  .film .b .n{font-family:var(--mono);font-size:11px;color:var(--stamp)}
+  .film .b h4{font-family:var(--disp);font-weight:700;font-size:16.5px;margin-top:4px;letter-spacing:-.01em}
+  .film .b p{font-size:13.5px;color:var(--muted);margin-top:6px;line-height:1.4}
+  .film .b .tie{margin-top:auto;padding-top:14px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--signal);text-decoration:none;display:block}
+  .film .b .tie.none{color:var(--faint)}
+  .film .b a.tie:hover{text-decoration:underline}
+
+  .pill.four{grid-template-columns:repeat(4,1fr)}
+  @media(max-width:860px){.pill.four{grid-template-columns:1fr 1fr}}
+  @media(max-width:460px){.pill.four{grid-template-columns:1fr}}
+  a.p{text-decoration:none;color:inherit;transition:background .2s ease,transform .2s cubic-bezier(.34,1.56,.64,1)}
+  a.p:hover{background:var(--paper2)}
+  a.p:active{transform:scale(.985);transition-duration:.08s}
+  a.p .pr{font-family:var(--mono);font-size:12.5px;color:var(--signal);margin-top:auto;padding-top:10px}
+  @media(prefers-reduced-motion:reduce){a.p{transition:none}a.p:active{transform:none}}
   /* Hibiscus type + shape overrides */
   nav{border-bottom:1px solid var(--line)}
   .brand{font-weight:800;text-transform:none;letter-spacing:-.04em}
@@ -130,7 +146,7 @@
   <a href="index.html" class="brand">Vaya<span class="d">.</span></a>
   <div class="navlinks">
     <a href="manila.html">Manila</a>
-    <a href="manila.html#services">Services</a>
+    <a href="#services">Services</a>
     <span class="soon hide">Mexico City</span>
     <span class="soon hide">Bali</span>
     <a href="#about">About</a>
@@ -185,38 +201,46 @@
   </section>
 
   <section id="what">
-    <div class="lbl">What we do</div>
-    <h2>We film the problem. Then we fix it.</h2>
-    <p class="say">The films are free and always will be. Everything we know goes on camera. <b>What you pay for is the thing we actually do.</b></p>
-    <div class="eco3 four">
-      <a class="e3" href="visa.html">
-        <span class="et">Vaya Desk &middot; Visa</span>
-        <h4>Your tourist visa runs out, and the nomad visa signed in April 2025 still doesn't exist.</h4>
-        <p>We collect your documents, a BI-accredited agency files the extension, your passport comes back by courier.</p>
-        <span class="live">PHP 2,500 per filing</span>
-        <span class="go">How it works &rarr;</span>
-      </a>
-      <a class="e3" href="landing.html">
-        <span class="et">Vaya Concierge &middot; Landing</span>
-        <h4>You land at NAIA at 11pm with no +63 number.</h4>
-        <p>No number means no Grab, no GCash, no Maya. Someone is at arrivals with your name, a real +63 eSIM, and your wallet set up in the car.</p>
-        <span class="live">PHP 3,000</span>
-        <span class="go">How it works &rarr;</span>
-      </a>
-      <a class="e3" href="food-tour.html">
-        <span class="et">Vaya Tours &middot; Food</span>
-        <h4>You will eat where the algorithm sends you.</h4>
-        <p>Makati and BGC with a licensed guide who lives here. The elevated version, not the tourist loop.</p>
-        <span class="live">From PHP 3,000 a head</span>
-        <span class="go">How it works &rarr;</span>
-      </a>
-      <a class="e3" href="move-in.html">
-        <span class="et">Vaya Home &middot; Move In</span>
-        <h4>Makati scores 62 on safety. Manila as a whole scores 35.</h4>
-        <p>The brochure crops the difference. Five real options, every viewing filmed, the lease read, utilities and internet working before you walk in.</p>
-        <span class="live">PHP 45,000</span>
-        <span class="go">How it works &rarr;</span>
-      </a>
+    <div class="lbl">The films</div>
+    <h2>Every film answers a question. Some of them we can also fix.</h2>
+    <p class="say">The films are the point and they are free. Everything we know goes on camera, including the parts that put us off a sale. <b>If a film leaves you wanting the thing done rather than explained, there is a line at the bottom of it. That is the only pitch.</b></p>
+    <div class="films five">
+
+      <div class="film">
+        <div class="thumb"><span class="tag">In production</span><span class="play"></span></div>
+        <div class="b"><span class="n">01</span><h4>Block by Block, Makati</h4>
+        <p>Manila is ranked one of the worst cities in the world for quality of life. Makati scores 62 on safety where Manila scores 35. Here is what that difference actually looks like on the ground.</p>
+        <span class="tie none">The flagship. Nothing to sell.</span></div>
+      </div>
+
+      <div class="film">
+        <div class="thumb"><span class="tag">Coming soon</span><span class="play"></span></div>
+        <div class="b"><span class="n">02</span><h4>The Visa Truth</h4>
+        <p>You get 30 days. You can stay 36 months. The nomad visa everyone talks about was signed in April 2025 and still does not exist.</p>
+        <a class="tie" href="visa.html">If you want it filed for you &rarr; Vaya Desk</a></div>
+      </div>
+
+      <div class="film">
+        <div class="thumb"><span class="tag">Coming soon</span><span class="play"></span></div>
+        <div class="b"><span class="n">03</span><h4>What happens when you land at NAIA</h4>
+        <p>A real arrival filmed start to finish, including the queue, the taxi touts, and the part where your phone has no +63 number so nothing works.</p>
+        <a class="tie" href="landing.html">If you would rather skip it &rarr; Vaya Concierge</a></div>
+      </div>
+
+      <div class="film">
+        <div class="thumb"><span class="tag">Coming soon</span><span class="play"></span></div>
+        <div class="b"><span class="n">04</span><h4>Eat Here, Not There</h4>
+        <p>The same dish at PHP 180 and PHP 1,200. Here is what you are actually paying for, and when the cheap one is better.</p>
+        <a class="tie" href="food-tour.html">If you want walking through it &rarr; Vaya Tours</a></div>
+      </div>
+
+      <div class="film">
+        <div class="thumb"><span class="tag">Coming soon</span><span class="play"></span></div>
+        <div class="b"><span class="n">05</span><h4>Five days to a home in Makati</h4>
+        <p>Five viewings, one lease, and everything the brochure crops out. The lobby at 9pm, the lift at 8am, and what units on that floor actually closed at.</p>
+        <a class="tie" href="move-in.html">If you want us to do it &rarr; Vaya Home</a></div>
+      </div>
+
     </div>
   </section>
 
@@ -228,6 +252,19 @@
       <div class="w"><h4>Visitors</h4><p>Here for weeks, not hours. They want past the tourist layer.</p></div>
       <div class="w"><h4>Investors</h4><p>Sizing up a market: property, business, what's actually rising.</p></div>
     </div>
+  </section>
+
+  <section id="services">
+    <div class="lbl">Vaya Services</div>
+    <h2>When you want it done, not explained.</h2>
+    <p class="say">Four things, in Manila, today. <b>We are paid a flat fee for work we do.</b> Never a commission, never a percentage, never a cut of anything you buy. Government and partner fees are passed through at cost and shown on your receipt.</p>
+    <div class="pill four">
+      <a class="p" href="visa.html"><span class="n">Vaya Desk</span><h4>Visa extension, filed</h4><span>Documents collected, a BI-accredited agency files it, passport back by courier.</span><span class="pr">PHP 2,500</span></a>
+      <a class="p" href="landing.html"><span class="n">Vaya Concierge</span><h4>Landing</h4><span>Driver at arrivals, a real +63 eSIM in your hand, wallet set up in the car.</span><span class="pr">PHP 3,000</span></a>
+      <a class="p" href="food-tour.html"><span class="n">Vaya Tours</span><h4>Food, Makati and BGC</h4><span>Four hours, six stops, a licensed guide who eats here.</span><span class="pr">From PHP 3,000</span></a>
+      <a class="p" href="move-in.html"><span class="n">Vaya Home</span><h4>Move In</h4><span>Five options through a licensed broker, every viewing filmed, the lease read, internet working.</span><span class="pr">PHP 45,000</span></a>
+    </div>
+    <p class="say" style="margin-top:20px"><a href="manila.html#services">All Manila services</a> &middot; <a href="standards.html">Our standards</a> &middot; <a href="terms.html">Our terms</a></p>
   </section>
 
   <section id="about">
