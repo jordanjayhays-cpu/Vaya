@@ -1,5 +1,7 @@
 # Vaya Manila: the revenue package
 
+> **Ordering superseded 2026-09-06 by `vaya-series-v2.md`**, which re-ranks the streams on the demand data in `manila-demand.md`. The matrix and 90-day sequence here are still useful; the priorities are not.
+
 Date: 2026-09-06. Working model, not a forecast. Prices marked "assumption" are starting points for Jordan to test, not market data.
 
 ## The model in one line
