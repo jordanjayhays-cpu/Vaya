@@ -108,6 +108,10 @@
   .city h3{text-transform:none;font-weight:800;letter-spacing:-.02em}
   .hero p,.say{font-size:clamp(16px,2vw,18px)}
   .form input,.form select{border-radius:99px}
+  .newsbtn{display:inline-block;margin-top:22px;font-family:var(--mono);font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;padding:13px 20px;border-radius:99px;background:#fff;color:var(--signal);text-decoration:none;transition:transform .2s cubic-bezier(.34,1.56,.64,1)}
+  .newsbtn:hover{transform:translateY(-2px)}
+  .newsbtn:active{transform:translateY(0) scale(.97);transition-duration:.08s}
+  @media(prefers-reduced-motion:reduce){.newsbtn{transition:none}.newsbtn:hover,.newsbtn:active{transform:none}}
 </style>
 
 <nav><div class="wrap nav">
@@ -221,19 +225,10 @@
   <section id="join">
     <div class="news">
       <div class="lbl" style="color:var(--paper);opacity:.7">The Vaya Manila Starter Kit</div>
-      <h2>Everything you need for Manila, in one email.</h2>
-      <p>The real costs, the right neighborhood, the setup checklist, plus first access to every Vaya service as it opens. Free.</p>
-      <form class="form" onsubmit="this.querySelector('button').textContent='Sent. Check your inbox soon';return false;">
-        <input type="email" placeholder="you@email.com" aria-label="Email" required>
-        <select aria-label="What brings you to Manila?" required>
-          <option value="" disabled selected>What brings you here?</option>
-          <option>I'm moving to Manila</option>
-          <option>I'm visiting</option>
-          <option>I'm investing / doing business</option>
-          <option>Just curious for now</option>
-        </select>
-        <button type="submit">Send my Starter Kit</button>
-      </form>
+      <h2>Everything you need for Manila, free, right now.</h2>
+      <p>The real costs, the right neighborhood, the setup checklist. No email required. It is a page, not a trade.</p>
+      <a class="newsbtn" href="starter-kit.html">Read the Starter Kit &rarr;</a>
+      <small>Want the weekly one too? Email <a href="mailto:hello@vayanews.com?subject=Newsletter" style="color:inherit">hello@vayanews.com</a>. We have not built the signup form yet.</small>
     </div>
   </section>
 
