@@ -39,28 +39,44 @@ If these are missing, you cannot take money. Not "should not". Cannot.
 |---|---|---|
 | 10 | **One spreadsheet. Episode code against every peso** | Revenue per film is the only success metric that counts. Without it you will be guessing in month three, and you cannot backfill it |
 | 11 | **The four partner agreements in writing** | Guide, visa agency, transport, broker. **Not a signed contract each, but an email that states the rate, who employs whom, and who is liable.** A WhatsApp "sure boss" is not a supply chain |
-| 12 | **Your tax position** | See below. **Nobody has looked at this and it is the real gap** |
+| 12 | **Your tax position** | See below. Simpler than it looked, but **self-employment tax starts at US$400 of net income** |
 
 ---
 
-## The gap nobody has looked at: tax
+## Tax: the picture, corrected
 
-**This has not been raised once in any document in this repo, and it should have been.**
+**Corrected 2026-09-19. Jordan is a US citizen, not a Spanish tax resident.** That changes this and mostly simplifies it. **None of the below is tax advice; it is the map to take to a CPA.**
 
-You are a resident of Spain, earning money from services delivered in the Philippines, invoiced through a family entity, from customers who are mostly American.
+### The one fact that dominates everything
+**The United States taxes its citizens on worldwide income, wherever they live.** Vaya income is US-taxable whether it is earned in Manila, invoiced through a family entity, or paid by an American. Moving does not change it. There is no structure that makes it go away.
 
-**Open questions, none of which I can answer:**
-- Where is this income taxable, and does Spanish tax residency pull it in?
-- Does invoicing through the family entity change where it lands?
-- Does delivering services in the Philippines create a taxable presence there?
-- Does any of this affect your student status in Spain?
-- At what point does the Philippine side need its own registration?
+### The number that actually bites at your revenue level
+**Self-employment tax: 15.3% on net self-employment earnings.**
 
-> **This is not a "sort it later" item.** Getting it wrong for a year and fixing it retroactively is expensive and stressful. **One hour with an accountant who handles cross-border, before the first invoice, is the cheapest hour in this document.**
+And the part people get wrong: **the Foreign Earned Income Exclusion does not reduce self-employment tax.** The FEIE is $132,900 for 2026 and it cuts regular income tax, but a self-employed US expat still owes **15.3% SE tax on net foreign earnings regardless of Form 2555**, unless the host country has a totalization agreement with the US ([taxesforexpats](https://www.taxesforexpats.com/articles/foreign-business/self-employment-tax-foreign-income.html), [Greenback](https://www.greenbacktaxservices.com/knowledge-center/tips-updates-foreign-earned-income-exclusion/)).
 
-**BOARD:** one hour with a cross-border accountant, before the first customer pays.
+**So at the conservative case of roughly US$5,158 net, the FEIE is irrelevant to you.** Your income tax is likely near zero at that level anyway. **The cost is SE tax, roughly US$730, and it starts at US$400 of net self-employment income**, which is to say from about your third customer.
 
----
+**Practical effect: file a Schedule C, expect 15.3% off the top, and price with that in mind.** It is not a reason to do anything differently, but it should not be a surprise in April.
+
+### Spain: verify, do not assume
+You say you are not a Spanish tax resident. **The test is mechanical and worth checking against your actual day count rather than your intent.**
+
+- **More than 183 days in Spain in a calendar year makes you a Spanish tax resident.** Days need not be consecutive, **any part of a day counts as a full day**, and it is counted 1 January to 31 December with no rolling window ([Wise](https://wise.com/us/blog/spain-tax-residency-183-days-rule), [PwC](https://taxsummaries.pwc.com/spain/individual/residence))
+- **The 183-day rule is one of three tests.** You can be a Spanish tax resident on fewer days if your **centre of economic interests** or your family is in Spain
+- If it does apply, Spain taxes worldwide income too, and the US-Spain treaty plus the Foreign Tax Credit prevent most double taxation. **It is a filing problem, not usually a double-payment problem**
+
+**An MBA year in Madrid can easily cross 183 days without anyone deciding anything.** Count your days.
+
+### The other three
+- **FBAR.** If your foreign accounts total more than US$10,000 at any point in the year, you file. **The Wise balance counts.** Likely under the threshold in year one, but know the number before it is not
+- **The family entity.** If it is a foreign corporation and you hold 10% or more, **Form 5471** is in play. This is the same form your future investor customers would face, already researched in `research/fdi-philippines.md`
+- **Philippines.** Once you are living there, its own residency rules apply. Not a year-one problem, but it arrives with you
+
+### What to actually do
+**One hour with a CPA who handles US expat returns. Not a structuring exercise.** At this revenue level the whole conversation is: Schedule C, self-employment tax, count my Spain days, and tell me when FBAR starts mattering.
+
+**BOARD:** one hour with a US expat CPA before the first invoice. Bring: expected revenue, the family entity's structure and your ownership percentage, and your day count in Spain this calendar year.
 
 ## What is NOT a foundation
 
