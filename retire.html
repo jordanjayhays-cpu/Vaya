@@ -1,0 +1,204 @@
+<title>Retire in Manila</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    /* Vaya theme "Hibiscus" */
+    --paper:#ffffff; --paper2:#fff0f2; --card:#fff7f8; --ink:#23141b; --ink2:#4b3540;
+    --muted:#7d6670; --faint:#ad9aa3; --line:#f4dde2;
+    --signal:#ff2d55; --signal-soft:#ff2d5512; --stamp:#ff8a3d; --stamp-soft:#ff8a3d1f;
+    --disp:"Plus Jakarta Sans",system-ui,sans-serif; --serif:"Plus Jakarta Sans",system-ui,sans-serif; --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --paper:#1a1015; --paper2:#231620; --card:#281a23; --ink:#fff3f5; --ink2:#e9d3da;
+    --muted:#b797a3; --faint:#7f6470; --line:#3d2a33;
+    --signal:#ff4d70; --signal-soft:#ff4d701a; --stamp:#ff9a55; --stamp-soft:#ff9a551f;
+  }}
+  :root[data-theme="dark"]{
+    --paper:#1a1015; --paper2:#231620; --card:#281a23; --ink:#fff3f5; --ink2:#e9d3da;
+    --muted:#b797a3; --faint:#7f6470; --line:#3d2a33;
+    --signal:#ff4d70; --signal-soft:#ff4d701a; --stamp:#ff9a55; --stamp-soft:#ff9a551f;
+  }
+  *{box-sizing:border-box;margin:0;min-width:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:820px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+
+  nav{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--paper);z-index:20}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .brand{font-family:var(--disp);font-weight:800;font-size:24px;letter-spacing:-.04em}
+  .brand .d{color:var(--signal)}
+  .navlinks{display:flex;gap:22px;font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;text-transform:uppercase}
+  .navlinks a{color:var(--muted)} .navlinks a:hover{color:var(--ink)}
+  @media(max-width:640px){.navlinks{gap:13px;font-size:11px}}
+
+  header{padding:clamp(38px,7vw,72px) 0 clamp(26px,4vw,40px)}
+  .ep{font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--signal)}
+  h1{font-family:var(--disp);font-weight:800;font-size:clamp(32px,6vw,56px);line-height:1.02;letter-spacing:-.035em;margin-top:14px;max-width:17ch;text-wrap:balance}
+  .lede{font-size:clamp(16px,2vw,19px);color:var(--ink2);max-width:56ch;margin-top:18px}
+  .lede b{color:var(--ink);font-weight:700}
+
+  .cta{display:flex;flex-wrap:wrap;gap:11px;margin-top:26px;align-items:center}
+  .btn{display:inline-block;padding:13px 24px;border-radius:999px;font-family:var(--disp);font-weight:700;font-size:15px;letter-spacing:-.01em}
+  .btn.p{background:var(--signal);color:#fff}
+  .btn.s{border:1px solid var(--line);color:var(--ink)}
+  .btn:hover{opacity:.9}
+  .price{font-family:var(--mono);font-size:13px;color:var(--signal)}
+
+  section{padding:clamp(28px,5vw,46px) 0;border-top:1px solid var(--line)}
+  .lbl{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:16px}
+  .lbl::before{content:"";width:26px;height:2px;background:var(--stamp);flex:none}
+  h2{font-family:var(--disp);font-weight:800;font-size:clamp(21px,3.4vw,29px);line-height:1.1;letter-spacing:-.025em;max-width:24ch;text-wrap:balance}
+  p{font-size:16px;color:var(--ink2);max-width:62ch;margin-top:12px}
+  p b{color:var(--ink);font-weight:700}
+
+  ol.steps{list-style:none;padding:0;margin-top:20px;display:flex;flex-direction:column;gap:12px;counter-reset:s}
+  ol.steps li{counter-increment:s;border:1px solid var(--line);border-radius:18px;background:var(--card);padding:16px 18px;display:grid;grid-template-columns:30px 1fr;gap:14px;align-items:start}
+  ol.steps li::before{content:counter(s);font-family:var(--mono);font-size:12px;color:var(--signal);border:1px solid var(--line);border-radius:999px;width:26px;height:26px;display:grid;place-items:center;background:var(--paper)}
+  ol.steps .t{font-family:var(--disp);font-weight:700;font-size:16px;color:var(--ink);letter-spacing:-.01em}
+  ol.steps .d{font-size:14.5px;color:var(--ink2);margin-top:3px}
+
+  .rows{margin-top:18px;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+  .row{display:flex;justify-content:space-between;gap:16px;padding:13px 18px;font-size:15px;color:var(--ink2)}
+  .row + .row{border-top:1px solid var(--line)}
+  .row b{color:var(--ink);font-weight:700;font-family:var(--mono);font-size:13.5px;white-space:nowrap}
+
+  ul.plain{padding-left:20px;font-size:15.5px;color:var(--ink2);display:flex;flex-direction:column;gap:8px;margin-top:14px;max-width:62ch}
+  ul.plain b{color:var(--ink);font-weight:700}
+
+  .box{border-radius:20px;background:var(--signal-soft);padding:22px 24px;margin-top:20px}
+  .box p{margin-top:0} .box p + p{margin-top:10px}
+
+  footer{padding:32px 0 60px;color:var(--faint);font-family:var(--mono);font-size:12px;line-height:1.9;border-top:1px solid var(--line)}
+  footer a{color:var(--muted)} footer a:hover{color:var(--ink)}
+</style>
+
+<nav><div class="wrap nav">
+  <a href="index.html" class="brand">Vaya<span class="d">.</span></a>
+  <div class="navlinks">
+    <a href="index.html">Home</a>
+    <a href="manila.html">Manila</a>
+    <a href="manila.html#services">Services</a>
+    <a href="standards.html">Standards</a>
+  </div>
+</div></nav>
+
+<div class="wrap">
+
+  <header>
+    <div class="ep">Free guide &middot; checked September 2026</div>
+    <h1>Retire in Manila.</h1>
+    <p class="lede">The Philippines has the cheapest retirement visa in the region and almost nobody explains it properly in English. <b>This does. It also covers the parts that will not appear in a brochure</b>, including what happens if you die here, because that is the thing your family will have to deal with and nobody writes it down.</p>
+  </header>
+
+  <section>
+    <div class="lbl">First, honestly</div>
+    <h2>This works for some people and not for others.</h2>
+    <p><b>Manila is not cheaper than Bangkok.</b> It costs roughly the same and loses on traffic, air quality and walkability. If you are optimising purely for cost or for a beach, there are better answers and we will not pretend otherwise.</p>
+    <p><b>What Manila actually offers is narrower and, for the right person, much bigger:</b> English everywhere, the easiest long-stay rules in the region, and a level of daily care and help that is simply out of reach on the same income at home.</p>
+    <div class="rows">
+      <div class="row"><span>It works if</span><b>You need help at home, now or later</b></div>
+      <div class="row"><span>It works if</span><b>Family here, or you are returning</b></div>
+      <div class="row"><span>It works if</span><b>Your income comes from outside the Philippines</b></div>
+      <div class="row"><span>It does not if</span><b>You want to walk everywhere</b></div>
+      <div class="row"><span>It does not if</span><b>You need US medical coverage to follow you</b></div>
+      <div class="row"><span>It does not if</span><b>Cost alone is the reason</b></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="lbl">The visa</div>
+    <h2>Two routes, and most people pick the wrong one first.</h2>
+    <p><b>Route one: the tourist extension.</b> 30 days visa free, extendable in country up to 36 months in total. No deposit, no minimum age, no commitment. <b>For a first year, this is usually the right answer</b>, and it is how most people should test the idea before locking money up.</p>
+    <p><b>Route two: the SRRV</b>, the Special Resident Retiree's Visa, run by the Philippine Retirement Authority. Indefinite stay, multiple entry, and a deposit you get back if you leave.</p>
+    <div class="rows">
+      <div class="row"><span>Minimum age, since September 2025</span><b>40</b></div>
+      <div class="row"><span>Classic, 50+, with a pension</span><b>US$15,000 deposit</b></div>
+      <div class="row"><span>Classic, 50+, no pension</span><b>US$30,000 deposit</b></div>
+      <div class="row"><span>Age 40 to 49</span><b>US$25,000 or US$50,000</b></div>
+      <div class="row"><span>Courtesy option</span><b>From US$1,500</b></div>
+      <div class="row"><span>Application fee</span><b>Up to US$1,500</b></div>
+      <div class="row"><span>Each dependant beyond two</span><b>US$15,000</b></div>
+    </div>
+    <p>There are roughly <b>59,000 to 60,000 active SRRV holders</b>, and <b>under 10% are American</b>, most of them former Filipinos. The PRA has said it is now actively courting Americans, Canadians and Europeans. <b>You would not be a pioneer, but you would be early.</b></p>
+    <p><b>The thing nobody mentions:</b> past 59 days on an extension you get an ACR I-Card, and <b>that card is what unlocks a Philippine bank account and a full mobile wallet.</b> Until you have it, your financial life here is limited. Plan for it rather than discovering it.</p>
+  </section>
+
+  <section>
+    <div class="lbl">Healthcare</div>
+    <h2>Good and cheap privately. Do not rely on anything following you here.</h2>
+    <ul class="plain">
+      <li><b>Medicare does not cover you outside the United States.</b> Not for routine care and not for long-term care, which it does not cover anywhere. Medigap plans cover limited emergency care abroad, capped and only in the first 60 days of a trip. <b>That is travel insurance, not a plan.</b></li>
+      <li><b>Private care in Makati and BGC is genuinely good and costs a fraction of US prices.</b> Dental work commonly runs 50 to 70% less, medical procedures 40 to 80% less.</li>
+      <li><b>Public healthcare is a different system.</b> Do not plan around it.</li>
+      <li><b>PhilHealth and most expat policies exclude long-term custodial care.</b> SRRV holders pay into PhilHealth and still get no residential care benefit. <b>Care is funded from capital, or from an indemnity long-term care policy that pays cash.</b></li>
+      <li><b>If you hold a US long-term care policy, find out now whether it is indemnity or reimbursement.</b> Indemnity policies pay cash with no geographic restriction and work here. Reimbursement policies frequently do not. <b>This one question can be worth thousands a month and takes ninety seconds to answer.</b></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="lbl">Help at home</div>
+    <h2>The real reason people move here.</h2>
+    <p>This is the part that changes lives and the part that has to be said carefully.</p>
+    <div class="rows">
+      <div class="row"><span>Live-in caregiver, Metro Manila</span><b>About US$400 to 450 a month</b></div>
+      <div class="row"><span>Licensed private nurse, live in</span><b>About US$500 to 800 a month at market salary</b></div>
+      <div class="row"><span>The same coverage in the US</span><b>US$4,000 to 10,500 a month</b></div>
+    </div>
+    <p><b>The point is not that people are cheap.</b> The point is that a Western pension buys a level of care at home here that is out of reach on the same pension in Ohio. <b>The person doing that work should be paid at or above the local market rate, through a licensed agency, with benefits, and you should know what they earn.</b> Anyone who will not tell you that number is not someone to hire through.</p>
+    <p>Two practical things. <b>Round the clock care legally needs two people</b>, not one, so any 24 hour price quoted as one salary is wrong. And under the Caregiver Welfare Act a worker must hold a TESDA certification, a health degree or a passed TESDA assessment to be a caregiver at all, whatever an agency calls them.</p>
+  </section>
+
+  <section>
+    <div class="lbl">Housing</div>
+    <h2>You cannot own land. You can get a very good deal.</h2>
+    <ul class="plain">
+      <li><b>Foreigners cannot own Philippine land.</b> Not through a workaround, not through a friend, not safely.</li>
+      <li><b>You can own a condominium unit</b>, but foreign ownership in any single building is capped at 40%.</li>
+      <li><b>You can lease land</b> for up to 50 years, renewable for 25.</li>
+      <li><b>It is a buyer's and renter's market right now.</b> Metro Manila residential vacancy is around 24.7%, roughly one unit in four, with a record 82,900 unsold units, close to three years of supply.</li>
+      <li><b>And the detail that matters most: asking prices are holding while real closing prices soften.</b> The number on the listing is not the number. <b>Do not pay asking, and do not take a photograph's word for anything.</b></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="lbl">The part nobody writes down</div>
+    <h2>What happens if you die here.</h2>
+    <p>We debated including this. <b>We are including it because your family will face it, usually with no warning and no information, and because a guide that only tells you the good half is a brochure.</b></p>
+    <ul class="plain">
+      <li><b>The death must be reported within 48 hours</b>, and an unembalmed body must be buried within the same 48 hours.</li>
+      <li><b>If the cause is not obvious, an autopsy is mandatory and takes two to three weeks.</b> Nothing moves until it clears. No burial, no cremation, no flight home.</li>
+      <li><b>Repatriation of remains runs roughly PHP 350,000 to 650,000.</b> Cremation with ashes sent home, PHP 125,000 to 185,000. Local burial, PHP 75,000 to 95,000.</li>
+      <li><b>Your embassy pays none of it.</b> It locates next of kin and issues a report of death. Every cost falls on your family.</li>
+      <li><b>Bank accounts are frozen the moment the bank learns of the death.</b></li>
+      <li><b>If you live with a partner you are not married to, she has no legal claim</b> to the money, the remains, or the estate. Not some claim. None.</li>
+    </ul>
+    <p><b>None of this is a reason not to come.</b> It is a reason to spend one afternoon with a Philippine lawyer writing a local will, naming a local contact, and telling your family where the folder is. <b>That afternoon is the single kindest thing on this page.</b></p>
+  </section>
+
+  <section>
+    <div class="lbl">Before you decide</div>
+    <h2>Four questions to answer honestly.</h2>
+    <ul class="plain">
+      <li><b>Have you spent a rainy August here?</b> Two weeks in January tells you nothing about the year.</li>
+      <li><b>Is your income genuinely independent of the Philippines?</b> Local wages are the other side of the arbitrage.</li>
+      <li><b>What is your plan if your health changes suddenly?</b> Not if it declines slowly. If it changes overnight.</li>
+      <li><b>Who is your person here?</b> Everyone needs one. If you cannot name them yet, that is the first job, not the flight.</li>
+    </ul>
+  </section>
+
+  <section style="border-bottom:0">
+    <div class="lbl">Using this</div>
+    <h2>Take it to someone who can be held responsible.</h2>
+    <div class="box">
+      <p><b>This is a guide, not advice.</b> We are not lawyers, doctors, tax advisers or immigration agents. Every figure here was checked in September 2026 and <b>SRRV rules changed as recently as September 2025</b>, so confirm anything you plan to act on.</p>
+      <p>If you want help with the paperwork when you get here, that is <a href="visa.html" style="color:var(--signal)">Vaya Desk</a>. If you want somewhere to live found and checked properly, that is <a href="move-in.html" style="color:var(--signal)">Vaya Home</a>. <b>Neither is required to use anything on this page.</b></p>
+      <p>Found something out of date? <a href="mailto:hello@vayanews.com?subject=Retire%20guide%20correction" style="color:var(--signal)">Tell us</a> and we will fix it and say what changed.</p>
+    </div>
+  </section>
+
+  <footer>
+    <b>Vaya</b> &mdash; Voices Around Your Area &middot; <a href="index.html">Home</a> &middot; <a href="manila.html">Manila</a> &middot; <a href="starter-kit.html">Guides</a> &middot; <a href="standards.html">Standards</a> &middot; <a href="terms.html">Terms</a> &middot; <a href="privacy.html">Privacy</a>
+  </footer>
+
+</div>
