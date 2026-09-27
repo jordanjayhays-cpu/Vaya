@@ -1,4 +1,4 @@
-# The Madrid Three — PRE01 to PRE03
+# The Madrid Three · PRE01 to PRE03
 
 **Shot in Madrid, on a phone, before the move. No crew, no budget, no Manila.**
 
@@ -14,7 +14,7 @@ If you enjoy making these, hire the student in January and the whole plan works.
 
 ---
 
-# PRE01 — Fifteen months out
+# PRE01 · Fifteen months out
 
 **Sells nothing. This is the film that makes you a person instead of a brand.**
 
@@ -56,7 +56,7 @@ If you enjoy making these, hire the student in January and the whole plan works.
 
 ---
 
-# PRE02 — The visa I thought existed
+# PRE02 · The visa I thought existed
 
 **The desk-research version of EP03. Proves you do the work.**
 
@@ -104,7 +104,7 @@ If you enjoy making these, hire the student in January and the whole plan works.
 
 ---
 
-# PRE03 — I am renting a flat I have never seen
+# PRE03 · I am renting a flat I have never seen
 
 **The housing research film. Sets up Vaya Home without selling it.**
 
