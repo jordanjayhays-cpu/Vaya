@@ -149,7 +149,37 @@ Published on immigration.gov.ph. Useful for checking a fact, not for partnership
 
 **Read `research/bi-eservices-flag.md` before sending anything about visas.** The Bureau now says foreigners can extend online without attending an office, which changes what Vaya Desk is actually selling.
 
-### Still not found
-- **A food tour operator with a published email.** The DOT accredited lists exist but only as scanned PDFs on Scribd. Venus via Airbnb remains the only warm route
-- **A third transport company.** Anis Transport and Krian Transport both return 404 on their contact pages
-- **UP Film Institute.** Contact page still erroring. Phone (+632) 9206863
+### 07b · Asia Pacific Film Institute
+**verified** in the site footer of asiapacificfilminstituteedu.com
+
+| | |
+|---|---|
+| Email | **info@asiapacificfilm.net** |
+| Phone | +63 961 419 0266 |
+| Address | YDG Bldg, 219 Katipunan Ave, Project 4, Quezon City |
+
+**The best of the three film schools for this ask, despite being the furthest away.** Three reasons:
+
+1. **They run an "A La Carte" programme** for people already working, taking single subjects in evenings and weekends. Those students are used to fitting film around a job, which is exactly what two days a month is
+2. **Alumni are working.** Their site names alumni credited on Cinemalaya festival entries, and a 2024 alumni batch formed a production company that co-produced a feature
+3. **They place interns already.** Their own posts credit "APFI interns" on student screenings, so an external placement is not a strange request
+
+**Batch 30 intake is January 2027**, the month you land. Do not target that batch; they would be learning while shooting. Ask for A La Carte students or recent alumni instead. The draft says so.
+
+Private school, not a university, so there may be no OJT coordinator in the formal sense. The general address is the right door.
+
+---
+
+## What could not be found, and why it matters
+
+This is a finding, not a gap.
+
+**Food tour operators do not publish emails.** A Chef's Tour, byFood, WithLocals, Manila Meals: all sell through Viator, Airbnb Experiences, Klook or Marriott Bonvoy. The DOT accredited lists exist only as scanned PDFs uploaded to Scribd. **The platform is the front door for this whole category**, which is why the Venus route via Airbnb is not a workaround, it is the normal way in.
+
+**Airport meet-and-greet services are the same.** Jodogo, SkyVip, Asia Fast Track, Manila Airport Assistance: all booking-form businesses. manilaairporttransfer.com returns 404 on its contact page. **Phone or book one and talk to whoever turns up.** For Vaya Concierge you may not want a meet-and-greet company at all, since the product is a driver plus an eSIM plus a wallet, not a uniformed escort through immigration.
+
+**Transport: two of three dead.** Anis Transport and Krian Transport both 404. You have MTSC by email and VPI by form. **Ask a Placewell contact for the third**, which is faster than more searching.
+
+**iAcademy** (Makati, closest campus of all) has no reachable contact page. Worth finding by phone, since Yakal Street is twenty minutes from BGC.
+
+**UP Film Institute** contact page still erroring. Phone **(+632) 9206863** and ask for the OJT coordinator.
