@@ -119,3 +119,37 @@ Not checked. Look it up if the first two do not answer.
 1. **Reopen the page and confirm the address.** These move. The date at the top of this file is when each was last checked
 2. **Fill every bracket.** Rate, name, phone number, the specific sentence
 3. **Read the "top three ways it goes wrong" at the bottom of the email's own file**
+
+---
+
+## Added 2026-09-28
+
+### 02b · Ascentium Philippines, second visa agency
+**verified** on philippines.incorp.asia/contact-us. **Formerly InCorp Philippines**, now trading as Ascentium.
+
+| | |
+|---|---|
+| Email | **philippines@ascentium.com** |
+| Landline | (+632) 8424-1350 |
+| Mobile | (+63) 998 961 0571 |
+| Office | 8th Floor, Marajo Tower, 312 26th St West cnr 4th Ave, BGC, Taguig 1634 |
+| Hours | Mon to Fri, 08:00 to 17:00 |
+
+**Visa Processing** is on their published service list, alongside business registration, payroll, tax and HR. Useful as a second quote against FilePino, and they also do company registration, which you will need eventually.
+
+### Bureau of Immigration, direct
+Published on immigration.gov.ph. Useful for checking a fact, not for partnership.
+
+| | |
+|---|---|
+| Tourist visa section | ird.tvs@immigration.gov.ph |
+| Also published | touristvisaextensionph@gmail.com |
+| Hotline | (+632) 8465 2400 loc 102 |
+| **Online portal** | **e-services.immigration.gov.ph** |
+
+**Read `research/bi-eservices-flag.md` before sending anything about visas.** The Bureau now says foreigners can extend online without attending an office, which changes what Vaya Desk is actually selling.
+
+### Still not found
+- **A food tour operator with a published email.** The DOT accredited lists exist but only as scanned PDFs on Scribd. Venus via Airbnb remains the only warm route
+- **A third transport company.** Anis Transport and Krian Transport both return 404 on their contact pages
+- **UP Film Institute.** Contact page still erroring. Phone (+632) 9206863
