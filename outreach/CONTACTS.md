@@ -299,3 +299,71 @@ What the research confirms, and it matches `FOUNDATIONS.md`:
 - Quarterly estimated payments are required if you expect to owe US$1,000 or more
 
 **Find an individual CPA who will take a one-hour consultation**, not a filing service. Ask in an Americans-abroad group, or ask AmCham once you are a member.
+
+---
+
+# The licensed guide problem is solved
+
+**`intramuros.gov.ph/guides/`**
+
+The Intramuros Administration publishes a **directory of DOT-accredited tour guides**, split by language. The English and Filipino page alone lists **about ninety named guides**, and every one has an individual profile page carrying:
+
+- **DOT accreditation number** and the date it expires
+- Languages spoken
+- **Email address and mobile number**
+- A short biography
+
+This is a government-maintained list of verified licensed guides with published contact details. It replaces the guesswork entirely.
+
+Directory contact: **tourism@intramuros.gov.ph**
+Other language pages: Chinese, German, Japanese, Russian, Spanish, Bahasa Indonesia, Arabic, Italian. **A guide who speaks Japanese or Mandarin is a different product**, and worth remembering when Vaya Tours grows.
+
+**The disclaimer matters to you.** The Administration states plainly that listed guides are freelance private providers with no employer-employee relationship to the Administration or the DOT, and that neither is liable for anything a guide does. That is the same structure Vaya wants, described by a government agency in public. Show it to the lawyer.
+
+**Caveat:** the index page footer says "Updated 12 Feb 2022" while individual profiles carry recent dates. **Check each guide's accreditation expiry on their own profile page before engaging them.**
+
+## Ivan Man Dy, the benchmark
+
+| | |
+|---|---|
+| Email | **fun@oldmanilawalks.com** |
+| Mobile | 0918 962 6452 |
+| DOT accreditation | **DOT-NCR-TGD-00558-2021**, valid to **30 June 2027** |
+| Outfit | Old Manila Walks, oldmanilawalks.com, running since 2005 |
+| Languages | English, Filipino, Tagalog, Mandarin, Hokkien |
+| Background | Master's in Cultural Heritage Studies, UST. Cultural tourism awardee, Manila city government |
+
+Walks Intramuros, Binondo Chinatown, San Miguel-Malacañang and the Chinese Cemetery. **Not a Makati food route, so he is not a supplier for Vaya Tours as designed.** He is something more useful right now: twenty years of doing exactly this, in public, with a published email.
+
+**The ask is a conversation, not a contract.** Drafted that way.
+
+# Food and drink, the company film pipeline
+
+| Who | Contact | Note |
+|---|---|---|
+| **PHILFOODEX** | philfoodex.secretariat@philfoodex.org.ph, philfoodex.secretariat1986@gmail.com, +63 917 559 3967 | Unit 501, 5F CLMC Building, EDSA, Brgy Wack-Wack, Greenhills East, Mandaluyong |
+| Philippine Food Expo | Exhibition manager Cut Unlimited Inc., (02) 8363-4900, (02) 8362-2266 | philippinefoodexpo.ph |
+| IFEX Philippines | ifexconnect.com, run by CITEM | The bigger trade show |
+
+**PHILFOODEX is a non-profit trade body of about 250 member food manufacturers and exporters, founded 1986.** Their expo drew over 300 exhibitors. **This is the company-film pipeline in one place**, and it is very likely the organisation behind the 2025 showcase Jordan attended.
+
+**Do not pitch them yet.** The draft says so explicitly: come back once one film exists that a member can watch. A trade association introduction is worth spending once.
+
+# Coworking, for the work-stack film and for Jordan's own desk
+
+| Who | Note |
+|---|---|
+| **The Company Makati** | Rada St, Legazpi Village. Day pass around PHP 500. The cheapest credible option |
+| KMC Proworking | 30+ locations, BGC, Makati, Ortigas, QC. The scale player |
+| Acceler8 | Makati CBD. Runs workshops and community events, so good for meeting people |
+| The Executive Centre | Ayala Triangle Gardens Tower 2, Makati. Level 28 Six/NEO, BGC. Premium |
+| WeWork | Two floors, Uptown BGC |
+| Regus | Three BGC locations |
+
+No published emails found; all use booking forms. **Acceler8 and The Company Makati are the two worth visiting in landing week**, because both run events, which is how you meet people rather than just rent a chair.
+
+# eSIM
+
+No enterprise contact found for Globe or Smart. Both route through **globe.com.ph/business** or a Globe Business Center.
+
+**The relevant finding: eSIM is available on both Globe Postpaid and Globe Prepaid**, and a postpaid eSIM is delivered by email as a QR code. That matters because `DECISIONS.md` already committed Vaya Landing to a native Globe or Smart eSIM rather than a travel eSIM, and a QR by email is a thing you can provision before the client lands. **Confirm what a foreign national with a passport can actually register under RA 11934 before promising it.**
