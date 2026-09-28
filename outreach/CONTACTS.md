@@ -183,3 +183,119 @@ This is a finding, not a gap.
 **iAcademy** (Makati, closest campus of all) has no reachable contact page. Worth finding by phone, since Yakal Street is twenty minutes from BGC.
 
 **UP Film Institute** contact page still erroring. Phone **(+632) 9206863** and ask for the OJT coordinator.
+
+---
+
+# The long list, 2026-09-28
+
+Everything found in one sweep. **verified** means read off the organisation's own site. **from search** means it came back in a search result and has not been confirmed on the source's own page, so check it before sending.
+
+## Visa and immigration
+
+| Who | Contact | Note |
+|---|---|---|
+| **FilePino** | info@filepino.com, +63 917 892 2337, (02) 7000 7500 | verified. BGC. Visa Processing on their service list |
+| **Ascentium Philippines** (was InCorp) | philippines@ascentium.com, (+632) 8424-1350 | verified. BGC. Also does company registration |
+| Bureau of Immigration, tourist visa | ird.tvs@immigration.gov.ph, (+632) 8465 2400 loc 102 | verified. For checking facts |
+| **BI eServices portal** | **e-services.immigration.gov.ph** | **Read `research/bi-eservices-flag.md` first** |
+
+## SRRV and retirement
+
+| Who | Contact | Note |
+|---|---|---|
+| **Van Ingen Management** | maryrose@vaningenmanagement.com, +63 2 8840 5961, +63 920 969 7933 | from search. PRA accredited marketer |
+| **Visa Consultancy** | RetirementVisaPH@gmail.com | from search |
+| **PRA accredited marketer list** | pra.gov.ph/accredited-marketer | The official list. Verify anyone against it |
+
+## Transport
+
+| Who | Contact | Note |
+|---|---|---|
+| **MTSC Transport** | inquiries@mtsc.com.ph | verified. **Mailbox domain differs from website domain** |
+| VPI Cars | Form only. +63 917 726 8990 | verified. Paste the quote body into their form |
+| Anis Transport, Krian Transport | Both 404 on contact | Ask a Placewell contact for the third quote |
+
+## Film schools
+
+| Who | Contact | Note |
+|---|---|---|
+| **Asia Pacific Film Institute** | info@asiapacificfilm.net, +63 961 419 0266 | verified. **Best fit.** A La Carte programme suits two days a month |
+| **Benilde, School of New Media Arts** | snma@benilde.edu.ph, local 3821 | verified. Malate, closest campus. AB Film sits here |
+| Benilde, Partnership Advancement | partnership@benilde.edu.ph, local 3843 | verified. Copy this one |
+| UP Film Institute | No email. Phone (+632) 9206863 | Contact page erroring. Strongest programme |
+| iAcademy | No reachable contact page | Yakal St, Makati. Twenty minutes from BGC. Worth a phone call |
+
+## Camera and equipment
+
+| Who | Contact | Note |
+|---|---|---|
+| **Glisaz Audio Video** | info@glisaz.com, (632) 8911 4171, +63 917 812 9909 | from search |
+| IM Rentals | +63 912 859 2000 | Phone only |
+| RSVP Film Studios | rsvpfilm.com | Cinema grade, ARRI and RED. Probably above your budget |
+| Cinerent Philippines | cinerent.net | Since 1987, large productions |
+| Gear Rental PH | gearrental.ph | Online catalogue, crew on request |
+
+## Relocation and moving
+
+| Who | Contact | Note |
+|---|---|---|
+| **Santa Fe Relocation** | Manila@santaferelo.com, +63 2 838 1761 | from search. The international name |
+| **Classic Movers and Forwarders** | classic@classic-movers.com, classic@skyinet.net, +63 2 813 4279, +63 2 894 5447 | from search. SMS Building, 213 Sen. Gil Puyat Ave, Makati. Since 1984 |
+| Asian Tigers Lane Moving | asiantigersgroup.com | Since 1977 |
+| Nippon Express Philippines | Since 1995 | |
+| Asia Relocation | asia-relocation.com | Pet and car relocation too |
+
+**These are partners, not competitors.** Vaya Home Move In explicitly does not do the physical move.
+
+## Real estate
+
+**Blocked on the lawyer.** `outreach/06-broker-move-in.md` must not be sent until the RESA position is confirmed. Gathering only.
+
+| Who | Contact | Note |
+|---|---|---|
+| **Easy Property Match** | info@easypropertymatch.com, +63 919 068 6068 leasing, +63 917 1500 963 sales | from search. Claims PRC Broker Licence 0027636 and DHSUD NCR-B-04-7250. **Verify the licence number against the PRC register before trusting it** |
+| MakatiBroker | makatibroker.com | Makati CBD, Rockwell, BGC |
+| FortBonifacioRent | fortbonifaciorent.com | BGC, states it caters to expats |
+| Top Realty | toprealty.com.ph | BGC, Makati, Alabang |
+| NLM Realty | nlmrealty.com | Sales, leasing, management |
+| **REAL directory** | real.ph/find-an-agent | **A directory of licensed agents and brokers. The place to find the three or four to approach** |
+
+## Insurance
+
+| Who | Contact | Note |
+|---|---|---|
+| **AIG Philippines**, general liability | phlweserve_CML@aig.com, +63 2 8878 5456 | from search. Comprehensive General Liability |
+| **Insurance Commission** | (02) 8523 8461 loc 103/127. 1071 United Nations Ave, Ermita, Manila 1000 | The regulator |
+| **Directory of Authorised Insurance Brokers** | PDF on insurance.gov.ph | **Use this to find a broker rather than going direct to an insurer** |
+
+Named in the directory: BOO Insurance Brokers, Insurance Brokerage Phils, DACON Insurance Brokers, DBP Insurance Brokerage, EAB Insurance Brokers. Lockton also has a Philippines office.
+
+**A broker beats going direct.** You want someone comparing policies for a walking food tour, which is an unusual risk for a one-person company.
+
+## Business and network
+
+| Who | Contact | Note |
+|---|---|---|
+| **AmCham Philippines** | amcham@amchamphilippines.com. Membership: victoria@amchamphilippines.com. (632) 8818 7911 to 13 | from search. 2F Corinthian Plaza, 121 Paseo de Roxas cnr Gamboa St, Legazpi Village, Makati 1229 |
+
+**Offers non-resident membership**, which is the relevant category while you are still in Spain. Also the natural route to the American-companies-expanding-to-Asia thread in `research/philippines-as-asean-hub.md`.
+
+## Internet, for Move In
+
+| Who | Note |
+|---|---|
+| Converge ICT | Corporate office: Reliance IT Building, 99 E. Rodriguez Jr. Ave (C5), Brgy Ugong, Pasig |
+| PLDT Home, Globe | Serviceability is address by address |
+
+**The real finding: many condo buildings have an exclusive deal with one provider.** So the question is never "which ISP is best", it is **"which ISP serves this building"**, and you ask building management before the client signs the lease. That belongs in `ops/move-in-brief.md`.
+
+## US tax
+
+No named CPA found worth recommending. The firms that come up (Bright!Tax, Taxes for Expats, Greenback, Universal Tax Professionals) are all volume expat filing services rather than advisers.
+
+What the research confirms, and it matches `FOUNDATIONS.md`:
+- **The filing threshold is net profit of US$400** from self-employment. Very low
+- **FEIE does not erase self-employment tax.** You pay SE tax on net profit even when claiming it
+- Quarterly estimated payments are required if you expect to owe US$1,000 or more
+
+**Find an individual CPA who will take a one-hour consultation**, not a filing service. Ask in an Americans-abroad group, or ask AmCham once you are a member.
