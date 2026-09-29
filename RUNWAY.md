@@ -4,6 +4,46 @@ v1, 2026-09-06. The organising rule: **anything that does not require your feet 
 
 **Target: land in Manila in January 2027.** That is about 17 weeks from 6 September 2026, and the runway itself needs six. The slack is not spare time and it is not for building software. It is for the two things that compound: the email list, and publishing from Madrid so January is a warm start.
 
+## STATUS, 29 September 2026: September's gate is failed
+
+Scored against this document's own September row.
+
+| September gate | Status |
+|---|---|
+| Site live | **DONE.** vayanews.com, 11 pages, HTTPS |
+| Mailbox | **DONE.** jordan@vayanews.com sends and receives, SPF/DKIM/MX/DMARC all verified. `hello@` alias still missing, so every CTA on the site bounces |
+| Landing page replacing the parking page | **DONE** |
+| **Newsletter capturing** | **NOT DONE.** beehiiv chosen, publication never created. The site says so honestly, which is better than lying, but it collects nothing |
+| **All four outreach messages sent** | **NOT DONE. Zero sent.** Twelve are drafted and sitting in Gmail |
+| **Lawyer hour done** | **NOT DONE.** Not booked |
+
+**Three of six.**
+
+**October's gate cannot start.** It reads "guide, visa agency, driver company and Placewell all confirmed in writing, first guide published, weekly newsletter running, insurance quoted." Every one of those depends on an email that has not been sent or a call that has not been booked.
+
+### What happened instead
+
+`THIS-WEEK.md`, dated 6 September, opens: *"Twelve research docs exist and zero customers do."*
+
+On 29 September there are **thirty** research docs and still zero customers. The research is excellent and several findings genuinely changed the plan: the Bureau's eServices portal undercuts what Vaya Desk sells, foreign-language guiding in Manila is one person deep, and California Expat is running Vaya's positioning while actually publishing.
+
+**None of that is worth more than one sent email.**
+
+### The correction
+
+**The runway does not need replanning. It needs the September row closed.**
+
+Four things, none of which takes an hour:
+
+1. Add the `hello@` alias
+2. Create the beehiiv publication
+3. Send the three sendable drafts: Venus via Airbnb, FilePino, MTSC
+4. Book the lawyer hour
+
+Until those are done, every later month in this table is fiction, and no amount of further research changes that.
+
+**Re-score this table on the last day of each month.** A gate that is never scored is not a gate.
+
 ## The four months, by month
 
 | Month | The job | Done when |

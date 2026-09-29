@@ -1,40 +1,48 @@
-# This week: make Vaya real
+# This week: close September
 
-Written 2026-09-06. Twelve research docs exist and zero customers do. This is the list that changes that. Seven days, one owner per line, nothing that needs a build.
+Rewritten 29 September 2026. The previous version was dated 6 September and is three weeks stale.
 
-## Done today, by Claude
+**It said: "Twelve research docs exist and zero customers do."**
 
-- The Manila page now lists nine services with starting prices and an email button each (`manila.html`, "Vaya services"). Every button opens an email to hello@vayanews.com with the service in the subject line.
-- Five outreach drafts are in `outreach/`: Venus, FilePino, the driver quote, the retiree-with-a-nurse casting post, and the release form. Each has its "ways it goes wrong" list.
+**Today: thirty research docs exist and zero customers do.**
 
-## Jordan, in order
+The research is not the problem. Several findings this month genuinely changed the plan. But `RUNWAY.md` set a September gate and three of its six items are not done, which means October cannot begin.
 
-| Day | Do this | Takes | Unblocks |
+---
+
+## The four things, in order
+
+| # | Do this | Takes | What it unblocks |
 |---|---|---|---|
-| 1 | Create the mailbox hello@vayanews.com (forwarding at Squarespace is enough) | 15 min | Every button on the Manila page |
-| 1 | Enable GitHub Pages and point DNS (`DEPLOY.md`) | 15 min plus DNS wait | The site exists |
-| 1 | Merge the research branch so the services page is on `main` | 1 min | The services page is live |
-| 2 | Send `outreach/01` to Venus on Airbnb | 5 min | Food tour, nights, the first host |
-| 2 | Send `outreach/02` to FilePino | 5 min | Visa Desk, and your own next extension |
-| 2 | Send `outreach/03` to three transport companies | 15 min | Landing, driver, day trips, the Month |
-| 3 | Post `outreach/04` in two retiree Facebook groups | 10 min | Story 1, the nurse episode |
-| 3 | Ask Placewell: which license covers in-country placement, and will Placewell be employer of record | One call | Vaya Care, Vaya Staff, the driver without a markup |
-| 4 | Pick a newsletter provider, create the account, send Claude the endpoint | 20 min | Both forms capture emails the same day |
-| 5 | Set up the WhatsApp Business number and decide who answers Manila hours | 20 min | Vaya Line, Landing, the concierge |
-| 7 | Deliver one thing to one person. A pickup, a filing, a tour date. Anyone. | | The first customer, and the first story |
+| **1** | **Add `hello@vayanews.com` as an alias.** admin.google.com → Directory → Users → your user → Add alternate email. Free, no new seat | **5 min** | Every CTA button on 11 live pages. They currently bounce |
+| **2** | **Create the beehiiv publication.** Free Launch plan, up to 2,500 subscribers. Send Claude the embed URL | **15 min** | The list. Every week without it is audience you will not have in January |
+| **3** | **Send three emails.** Venus via Airbnb messaging. FilePino and MTSC from Gmail drafts, already written | **20 min** | The guide, the visa partner, the driver. October's entire gate |
+| **4** | **Book one hour with a Philippine lawyer.** Questions are in `outreach/08`. Two or three firms, compare how they answer question one | **30 min to book** | Visa, Tours, Home and Care. All four products |
 
-## On the build list, before film one
+**Total: about 70 minutes of your time.**
 
-- ~~The standards page~~ **Done.** `standards.html` is built and linked from both page footers. Still needs a Philippine media lawyer to read it before the first film that names a business.
-- **Terms, privacy, refunds** pages, once a payment route exists.
+---
 
-## Claude, on request
+## Also this week, and it costs nothing
 
-- Wire both forms the day the newsletter endpoint arrives.
-- Turn the driver quotes into one comparison table.
-- Draft the Placewell conversation, the coworking and building partner asks, and the second story post.
-- Build the "Stay a month" request form once the backend exists.
+- **Join the IE Philippine Club** (current students). `ieconnects.ie.edu/iephilippine/home`. Message drafted in `outreach/10`
+- **Go to Venture Networks.** Thursday 7pm, Area 31. Free, and it will sharpen how you say what Vaya is faster than any document
 
-## The rule for the week
+---
 
-No new documents. If something needs deciding, it goes on the board. If something needs sending, it gets sent.
+## What Claude should NOT do next
+
+**No more research.** There are thirty documents. The marginal one is worth less than the marginal sent email.
+
+When the four items above are done, the real work is waiting and it is not research:
+
+- **Rewrite `visa.html`, `OFFER.md` and `briefs/02`** against what the BI eServices portal actually does. Vaya Desk is currently sold on "we file it, you keep the day", and the Bureau now lets people file online themselves. See `research/bi-eservices-flag.md`
+- **Reprice Vaya Tours** against `research/language-guide-scarcity.md`. An English food walk competes with ninety guides. A Japanese one competes with one
+- **Wire the beehiiv form** into both pages, replacing the honest mailto placeholder
+- **Write the PRE02 script**, so the first film has words on a page
+
+---
+
+## Accept when
+
+The September row in `RUNWAY.md` scores six of six, and one real person outside this project has replied to something Vaya sent them.
