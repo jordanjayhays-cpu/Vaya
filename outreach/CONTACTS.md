@@ -367,3 +367,89 @@ No published emails found; all use booking forms. **Acceler8 and The Company Mak
 No enterprise contact found for Globe or Smart. Both route through **globe.com.ph/business** or a Globe Business Center.
 
 **The relevant finding: eSIM is available on both Globe Postpaid and Globe Prepaid**, and a postpaid eSIM is delivered by email as a QR code. That matters because `DECISIONS.md` already committed Vaya Landing to a native Globe or Smart eSIM rather than a travel eSIM, and a QR by email is a thing you can provision before the client lands. **Confirm what a foreign national with a passport can actually register under RA 11934 before promising it.**
+
+---
+
+# Round three, 2026-09-29
+
+## Competitors, and one of them sells all four products
+
+| Who | What | Contact |
+|---|---|---|
+| **The Savvy Expat** (Evan) | **Sells Vaya's entire offer**: rental finding, visa, SIM and utilities, banking, lifestyle setup. Claims 200+ expats relocated, six years in country | thesavvyexpat.com/form. **Book the free call** |
+| **California Expat** (John Smulo) | Sells information at US$39/mo. Runs Bridgehouse, BGC, Wednesdays 6pm | Protected forms. **Go to the dinner** |
+
+Full analysis in `research/manila-property-media.md` and `research/partners-sweep.md`.
+
+## Real estate media, brokers who already film
+
+**Why this category:** Vaya Home requires filming every viewing. Most brokers refuse. A broker with a channel already solved that.
+
+| Channel | Who | Subs | Contact |
+|---|---|---|---|
+| **Your Real Estate Finder** | **Armi Tobias** | 2.3K | **armi.realty@gmail.com**, +63 917 532 3240. Licensed 2011, covers BGC, Mandaluyong, Pasig, Pasay, Manila. **DRAFTED** |
+| Homesearch Philippines | | 232K | homesearch.ph |
+| MetroGuide Realty | | 216K | +63 917 820 4088 |
+| Homescape Realty | | 187K | |
+| Top Realty | Bien Singson-Lim | 88.2K | BGC. `@toprealty.com.ph` |
+| Own Property PH | Me-An Clemente, broker + appraiser | 52.9K | `@ownpropertyph.com` |
+| Philippine Realty TV | | 23.6K | `@dragonsnest.co` |
+| **GSR Philippines** | **Japanese-affiliated** | 19.9K | `@gsr-ph.com`. **See the language scarcity finding** |
+| Richard Carvajal, The Real Pro | | 15K | `@iqiphilgems.com` |
+| UPSIDE PH | | 14.5K | BGC. `@upsideph.com` |
+| Ohmyhome Philippines | | 3.9K | `@ohmyhome.com` |
+| RE/MAX Gold PH | Rose Flores, Jimmy Cassells | 2.4K | `@remaxgold.ph` |
+| Colliers Philippines | | 1.4K | `@colliers.com` |
+
+Full list of 60, extending to 171 with socials: **videos.feedspot.com/philippines_real_estate_youtube_channels**. **Feedspot masks the emails and sells the spreadsheet. Do not buy it.** Every channel's About tab carries the real contact.
+
+## Food media
+
+| Who | Contact | Note |
+|---|---|---|
+| **Pepper.ph** | **hello@pepper.ph**, +63 2 758 2238 | Dela Rosa Square, Chino Roces cor Dela Rosa, Makati. **Does food videography and media production**, so both a peer and a possible collaborator. **DRAFTED** |
+| **Booky** | +63 927 425 3496 | 2/F Warehouse 1, 7 Pines cor Sheridan, Mandaluyong. 100+ staff, the country's most used food and lifestyle app |
+
+## Schools, where relocating families are
+
+| Who | Contact | Note |
+|---|---|---|
+| **British School Manila** | **admissions@britishschoolmanila.org**, +63 2 8860 4800. Donna Caballo | University Park, 36th St, BGC. 950+ students, 50+ nationalities. Only non-profit international school in Manila. **DRAFTED** |
+| **Brent International School** | **admissions@brent.edu.ph**, +63 2 8779 5140. Heather Atkins | Biñan, Laguna. American programme plus IB. **DRAFTED, cc** |
+| International School Manila | | BGC. Founded 1920, the oldest |
+
+**The ask is not a referral deal.** It is: what do your incoming families ask that has nothing to do with school? Admissions teams field that constantly and have no reason to be answering it.
+
+## American and expat organisations
+
+| Who | Contact |
+|---|---|
+| **American Association of the Philippines** | **bwamanila@gmail.com**. **DRAFTED** |
+| **ALIG Manila** | **aligmanila@gmail.com**. **DRAFTED, cc** |
+
+## Journalism, for the correspondent
+
+| Who | Contact |
+|---|---|
+| **Philippine Center for Investigative Journalism** | pcij.org, +63 2 433 0331. No. 11 Matimtiman St, UP Village, Diliman, Quezon City. Founded 1989 by nine journalists |
+
+## Medical and dental tourism, an unexplored product line
+
+Costs run **50 to 70% below the US, UK and Australia**, and Manila holds the deepest pool of international-standard clinics.
+
+| Who | Note |
+|---|---|
+| **Dental World Manila** | dentalworld.com.ph. Since 1996. Branches in Makati, Pasay, Quezon City. **Already serves dental tourists from the US, Australia, Guam, Canada, Norway, Germany, Italy, France and Switzerland** |
+| **Sacred Heart Dental Clinic** | filipinodentist.com. **DOT-accredited.** Tailors treatment packages and arranges travel and accommodation |
+| St Luke's Medical Center | Quezon City. The flagship hospital |
+
+**No emails published; all use forms.** But this is a category Vaya has never considered and it sits directly on top of `research/care-migration.md`. Someone flying in for dental work needs exactly what Vaya Concierge sells.
+
+## Production and equipment
+
+| Who | Note |
+|---|---|
+| Reality MM Studios | Makati, founded 2005 |
+| Unitel Straight Shooters | Makati, independent film production |
+| Roundhouse Productions | roundhouse.ph, Manila |
+| Contra, Upwork, ProductionHub | Freelance videographer directories, filterable to Metro Manila |
