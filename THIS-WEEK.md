@@ -36,10 +36,10 @@ The research is not the problem. Several findings this month genuinely changed t
 
 When the four items above are done, the real work is waiting and it is not research:
 
-- **Rewrite `visa.html`, `OFFER.md` and `briefs/02`** against what the BI eServices portal actually does. Vaya Desk is currently sold on "we file it, you keep the day", and the Bureau now lets people file online themselves. See `research/bi-eservices-flag.md`
-- **Reprice Vaya Tours** against `research/language-guide-scarcity.md`. An English food walk competes with ninety guides. A Japanese one competes with one
-- **Wire the beehiiv form** into both pages, replacing the honest mailto placeholder
-- **Write the PRE02 script**, so the first film has words on a page
+- ~~Rewrite `visa.html`, `OFFER.md` and `briefs/02` against the BI eServices portal~~ **Done 7 Oct.** Portal verified, three files plus `index.html`, `manila.html` and `PRODUCTS.md` rewritten. **Two things came back to you:** the Desk price needs a decision (three costed options in `OFFER.md` amendment one, and EP03 cannot be shot until you pick one), and the annual report question is now question one for the lawyer hour
+- ~~Reprice Vaya Tours~~ **Lane opened 7 Oct, price deliberately left blank.** The English walk ships at PHP 3,000. The foreign-language lane waits on DOT arrival figures and on one email to the lapsed guides. See `OFFER.md` amendment two
+- **Wire the beehiiv form** into both pages, replacing the honest mailto placeholder. **Blocked on you** for the embed URL
+- **Write the PRE02 script**, so the first film has words on a page. **Not blocked. This is the next thing Claude does**
 
 ---
 

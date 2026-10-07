@@ -1,6 +1,6 @@
 # The Vaya offer
 
-Date: 2026-09-15. **This is the launch set. It is closed.** Everything else in `PRODUCTS.md` is parked until these five work.
+Date: 2026-09-15. **Amended 2026-10-07: Desk repositioned, Tours given a second lane.** See the two amendments below the table. **This is still the launch set and it is still closed.** Everything else in `PRODUCTS.md` is parked until these five work.
 
 The test each one passed: **deliverable on day one, a film attached, a margin worth having, and not blocked on research.**
 
@@ -10,12 +10,59 @@ The test each one passed: **deliverable on day one, a film attached, a margin wo
 
 | # | Product | What the customer gets | Price | **Vaya keeps** | Partner | The film |
 |---|---|---|---|---|---|---|
-| **1** | **Vaya Desk — Visa** | We collect your documents, an accredited agency files your extension, your passport comes back by courier | PHP 2,500 per filing | **PHP 2,500** | BI-accredited agency | *The Visa Truth* — **page already built** |
+| **1** | **Vaya Desk — Visa** | **Your dates tracked, free. Then the filings the Bureau's portal will not take** | Dates free. PHP 2,500 per filing we handle. PHP 1,500/mo to track | **PHP 2,500** | BI-accredited agency | *The Visa Truth* — **page already built, rewritten 7 Oct** |
 | **2** | **Vaya Concierge — Landing** | Driver at arrivals with your name, a native eSIM with a real +63 number, Maya set up in the car, door to door | PHP 3,000 | **PHP 1,000** | Transport company | *What happens when you land at NAIA* |
-| **3** | **Vaya Tours — Food** | Makati and BGC, a licensed local guide, the elevated version | PHP 3,000 a head | **PHP 1,000** | Licensed guide | *Eat Here, Not There* |
+| **3** | **Vaya Tours — Food** | Makati and BGC, a licensed local guide, the elevated version. **English is lane one. A foreign-language lane is lane two** | PHP 3,000 a head English. **Foreign-language price open** | **PHP 1,000** English | Licensed guide | *Eat Here, Not There* |
 | **4** | **Vaya Home — Move In** | **We find you somewhere to live and hand you the keys working.** See below | PHP 45,000 | **PHP 35,000** | Licensed broker, transport, ISP | *Five days to a home in Makati* |
 
 **Plus one film with nothing to sell:** ***Block by Block, Makati***. The flagship. It builds the audience the other four convert.
+
+---
+
+## Amendment one, 7 October 2026: Desk is not a day saved
+
+**The old pitch was "we file it, you keep the day." That is dead.** The Bureau of Immigration's eServices portal takes a 9A tourist extension, a visa waiver extension and an ECC-B online, paid by GCash, Maya or card, in two to three business days. Verified 7 October 2026. `research/bi-eservices-flag.md` has the detail.
+
+**What is left, and it is real:**
+
+| What survives | Why someone pays for it |
+|---|---|
+| **The dates** | Day 31 is a fine. Day 59 changes what you are. The annual report window shuts 1 March. **Nobody knows a deadline exists until they have missed it**, and the portal does not warn you |
+| **The ACR I-Card** | Required past 59 days, and they take your fingerprints, so it is a physical appearance. The portal cannot do it |
+| **Hearings and broken records** | Anything that triggers a hearing, or a record the portal says does not exist, is an office visit |
+| **The annual report, unresolved** | The portal accepts it. Separate Bureau notices have told ACR I-Card holders personal appearance is mandatory. **We do not know which governs. Question one for the lawyer hour** |
+
+**So the product is now two things sold separately:** the dates, free, as the hook and the honest front door; and the filing, PHP 2,500, only when the portal will not take it.
+
+> **BOARD: Jordan decides the Desk price.** PHP 2,500 was set against a day of your time. Against twenty minutes on a website it needs a different justification or a different number. Three options, and this is yours, not Claude's:
+> 1. **Hold PHP 2,500** and sell it only on the in-person work, which means fewer filings at full margin
+> 2. **Drop the per-filing fee to about PHP 1,200** and push everyone onto the PHP 1,500/mo tracking, which is recurring and higher lifetime value
+> 3. **Make the filing free for tracking subscribers** and sell nothing else. Cleanest story, least revenue per head
+>
+> **Do not shoot EP03 until this is decided**, because the film's last line is the price.
+
+---
+
+## Amendment two, 7 October 2026: Tours has a second lane nobody is standing in
+
+`research/language-guide-scarcity.md` read the Intramuros DOT-accredited guide directory and checked every accreditation individually. **There is exactly one currently accredited guide per major foreign language, and none at all for German.**
+
+| Lane | Competes with | Price |
+|---|---|---|
+| **English food walk, Makati and BGC** | Every food tour in Manila | PHP 3,000 a head, PHP 1,000 margin. **Unchanged** |
+| **Japanese** | **One guide**, Ronaldo Lampaz | **Open. Scarcity pricing, not food-walk pricing** |
+| **Spanish** | **Two guides**, JB Quemado and Agustin Villanueva | Open |
+| **Mandarin** | **One guide**, Ivan Man Dy | Open |
+| **German** | **Nobody** | Open |
+
+**Why Tours is not being repriced today.** The supply side is measured. The demand side is not, and the whole lane rests on it. Two things have to be true first:
+
+1. **Current Department of Tourism arrival figures by source market** for Japan, China, Korea and Spain. Not yet pulled
+2. **The answer to one email**, already drafted and sitting in Gmail: *"Your accreditation lapsed. Was that about the paperwork, or about the work?"* **If the work dried up, this is a graveyard and the lane closes.** That answer costs one email and decides the whole thing
+
+> **BOARD: send the five guide emails individually.** Do not mass-mail them. The Manila guiding community is small and a spray would be noticed. Drafts are in Gmail.
+
+**Nothing changes in the launch set until both come back.** The English walk ships at PHP 3,000 either way.
 
 ---
 
@@ -88,9 +135,11 @@ Not cut. Parked, with a trigger for each.
 
 ---
 
-## The two decisions that unblock the profitable half
+## The decisions that unblock the profitable half
 
-Both are Jordan's and neither needs more research.
+All of these are Jordan's and none needs more research.
+
+**0. The Desk price.** See amendment one. Three options, all costed. **This one blocks a film**, so it goes first.
 
 **1. The standards page and paid company films.**
 `standards.html` publicly says "no business can buy a place in a film." Company films are **29% of the conservative year**. Either amend the page to allow clearly-labelled commissioned films with a permanent recommendation ban, or drop the product. **Detail in `research/company-films-legal.md` section 1.**
