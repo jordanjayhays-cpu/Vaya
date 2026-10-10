@@ -453,3 +453,39 @@ Costs run **50 to 70% below the US, UK and Australia**, and Manila holds the dee
 | Unitel Straight Shooters | Makati, independent film production |
 | Roundhouse Productions | roundhouse.ph, Manila |
 | Contra, Upwork, ProductionHub | Freelance videographer directories, filterable to Metro Manila |
+
+---
+
+# Round four, 2026-10-10: the bilateral chambers
+
+**This was the biggest untouched category and it is where Vaya's customer already is.** A chamber of commerce does not buy anything, but its members relocate people into Manila constantly and somebody at the secretariat fields the questions that come after the job offer. That list is the film slate.
+
+| Who | Email | Status |
+|---|---|---|
+| **British Chamber of Commerce Philippines** | **info@britcham.org.ph** | **verified**, read off their own contact page. 5F One Neo Building, 3rd Ave cor 26th St, BGC, Taguig 1634. +63 2 85565232. 300+ member companies. **DRAFTED** |
+| **German-Philippine Chamber (GPCCI / AHK)** | **info@gpcci.org** | from search, several sources agreeing. 8F Döhle Haus Manila, 30-38 Sen. Gil Puyat Ave, Makati 1234. +63 2 8519 8110. **DRAFTED.** The hook is that there is not one accredited German-speaking guide in Manila |
+| **European Chamber (ECCP)** | **info@eccp.com** | from search. 19/F Philippine AXA Life Centre, Sen. Gil Puyat cor Tindalo, Makati. (+632) 8845 1323. 800+ companies. Regional: visayas@eccp.com, davao@eccp.com. **DRAFTED** |
+| **ANZCHAM Philippines** | **anzcham@anzcham.com** | from a New Zealand government page, **not from anzcham.com. May be stale.** 7F Oakwood Premier, Glorietta 4, Ayala Center, Makati. **DRAFTED, with a line in the body asking them to correct the address if it is wrong** |
+| **Canadian Chamber (CanCham)** | **none published** | Contact page is script-rendered and yields nothing. **Form only, body written in `outreach/11`** |
+| **Japanese Chamber (JCCIPI)** | **none published** | **DO NOT USE THEIR FORM.** It states in Japanese that sales, solicitation and appointment requests through it are firmly refused. 22F Trident Tower, 312 Sen. Gil Puyat Ave, Makati 1200. **Go through a member instead.** See `outreach/11` item 10 |
+
+## Also added this round
+
+| Who | Email | Status |
+|---|---|---|
+| **GSR Philippines** | **info@gsr-ph.com** | **verified**, read off their own contact page. (02) 8869-4444. 4/F Guijo Center, 7625 Guijo St cor Sacred Heart, San Antonio Village, Makati 1203. **Their own site title is "One-stop Japanese Property Management Solution in the Philippines."** The best single contact of this round, because it sits directly on `research/language-guide-scarcity.md`. **DRAFTED** |
+| **Acceler8 by UnionSPACE**, coworking | **connect@acceler8.ph** | from search, and the listings date from 2017 to 2018, **so treat the address and the Salcedo Village location as unconfirmed.** **DRAFTED**, as a real desk enquiry plus a filming request |
+| **Philippine Center for Investigative Journalism** | **pcij@pcij.org** | from a 2007-era directory listing. **Old. Verify or expect a bounce.** **DRAFTED**, asking what a Manila journalist is actually worth on retainer and where to look |
+| **Bureau of Immigration, tourist visa section** | **ird.tvs@immigration.gov.ph**, cc **touristvisaextensionph@gmail.com** | Already in this file, **never drafted until now.** **DRAFTED**, asking the two narrow factual questions that `visa.html` publicly admits it cannot answer |
+| **Romualdez Law Offices**, BGC | **executive@romualdezlaw.com** | **unverified, from a search result.** **DRAFTED**, the six-question lawyer hour. If it bounces, the same body goes into the forms at carpolaw.com, asglawpartners.com and abolawfirm.ph |
+
+## What this round proves about the method
+
+**Scraping Philippine SME contact pages for email addresses has a low and falling hit rate.** This round: six chambers and seven suppliers attempted, eight usable addresses found, and four sites returned 404 on the obvious contact URL. Almost everyone publishes a form.
+
+**So the bottleneck is not drafting. It is addresses.** Two things change that, and neither is more scraping:
+
+1. **Replies.** A reply gives you a named human with a real address, and that person knows five more. Thirty-nine drafts sitting unsent generate nothing
+2. **Being in the room.** Venture Networks on a Thursday, the Bridgehouse dinner on a Wednesday, and any chamber event produce addresses that no scraper will ever find
+
+**`outreach/11-form-paste-pack.md` is the answer for the rest.** Finished bodies for the form-only targets, which is the same work product without inventing an address.
