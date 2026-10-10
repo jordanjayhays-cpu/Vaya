@@ -108,15 +108,17 @@ If four of five hold, fix the fifth. Do not start the next city on four.
 | Service card | Done | The nine cards on `manila.html` |
 | Brand book | Done | `BRAND.md` |
 | Production kit | Done | `kit/` |
-| Release form | Draft | `outreach/05-release-form.md`, needs a lawyer's read |
+| Release form | Draft | `outreach/05-release-form.md`, **still needs a lawyer's read and it blocks the first shoot** |
 | Outreach messages | Done for Manila | `outreach/` |
 | Story briefs | Done | `research/story-briefs.md` |
 | **Partner kit** | Missing | How to become a Vaya host: the bar, the deal, the film. Next to write. |
+| **Newsroom process** | **Done 2026-10-10** | `ops/newsroom.md` (roles as deliverables, the film cycle, the week, corrections), `ops/day-one.md`, `ops/footage-pipeline.md`, `ops/publish-checklist.md` |
 | **Host agreement** | Missing | One page: flat fee or net rate, the standard, exclusivity on the route only, disclosure, the film. Needs a lawyer. |
-| **Episode brief** | Missing | One page per film: the question, the number, the person, the paid thing, the code, the shot list. |
-| **Numbers sheet** | Missing | Episode code, views, emails, bookings, revenue. One tab per city. |
+| **Episode brief** | **Done 2026-10-10** | `ops/episode-brief-template.md`. Four reject reasons, so Jordan can say no before a shoot day is spent |
+| **Numbers sheet** | **Done 2026-10-10** | `ops/episode-tracker.csv` for the funnel, `ops/revenue-tracker.csv` for the money. Both keyed on episode code |
 | **Crisis page** | Missing | Who speaks, what's said, what the insurance covers. |
-| **Site legal pages** | Missing | Terms, privacy, refunds. |
+| **Site legal pages** | **Done** | `terms.html`, `privacy.html`, `standards.html` all live |
+| **Correspondent engagement letter** | **Missing, and it blocks day one** | Same Philippine IP Code 178.4 problem as the videographer's. `ops/videographer-engagement.md` covers the camera only |
 
 ## 8. The numbers, per city
 
