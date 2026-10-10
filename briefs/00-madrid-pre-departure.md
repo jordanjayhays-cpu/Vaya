@@ -58,7 +58,7 @@ If you enjoy making these, hire the student in January and the whole plan works.
 
 # PRE02 · The visa I thought existed
 
-**The desk-research version of EP03. Proves you do the work.**
+**The desk-research version of EP02. Proves you do the work.**
 
 ## Premise, one line
 **"There is a Philippine digital nomad visa. It was signed in April 2025. You still cannot apply for it."**
@@ -95,7 +95,7 @@ If you enjoy making these, hire the student in January and the whole plan works.
 - Do not name the partner agency. Not signed yet
 
 ## The end
-**"When I land in January I am filing this myself, on camera."** Points at EP03 without selling it.
+**"When I land in January I am filing this myself, on camera."** Points at EP02 without selling it.
 
 ## Practical
 - **One day, entirely at a desk**
@@ -142,7 +142,7 @@ If you enjoy making these, hire the student in January and the whole plan works.
 - Do not pick a winner. The point is that you cannot
 
 ## The end
-**"In January I am going to look at five of these in person and film every one."** That is EP06 and you are not selling it yet.
+**"In January I am going to look at five of these in person and film every one."** That is EP05 and you are not selling it yet.
 
 ## Practical
 - **One day at a desk**

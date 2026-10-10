@@ -39,7 +39,7 @@ The test each one passed: **deliverable on day one, a film attached, a margin wo
 > 2. **Drop the per-filing fee to about PHP 1,200** and push everyone onto the PHP 1,500/mo tracking, which is recurring and higher lifetime value
 > 3. **Make the filing free for tracking subscribers** and sell nothing else. Cleanest story, least revenue per head
 >
-> **Do not shoot EP03 until this is decided**, because the film's last line is the price.
+> **Do not shoot EP02 until this is decided**, because the film's last line is the price.
 
 ---
 

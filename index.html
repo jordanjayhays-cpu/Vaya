@@ -116,6 +116,15 @@
   .film{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--card);display:flex;flex-direction:column}
   .thumb{aspect-ratio:16/9;background:linear-gradient(135deg,var(--paper2),var(--card));display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--line);position:relative}
   .thumb .play{width:52px;height:52px;border-radius:99px;background:var(--signal)}
+  /* Unpublished films show their episode code, not a play button that does nothing.
+     When a film goes live, swap <span class="code">EPnn</span> back to <span class="play"></span>
+     and wrap the whole .thumb in <a href="(youtube url)">. */
+  .thumb .code{font-family:var(--mono);font-size:26px;letter-spacing:.06em;color:var(--faint)}
+  a.thumb{cursor:pointer}
+  a.thumb:hover .play{transform:scale(1.08)}
+  .thumb .play{transition:transform .35s cubic-bezier(.34,1.56,.64,1)}
+  a.thumb:active .play{transform:scale(.94)}
+  @media(prefers-reduced-motion:reduce){.thumb .play{transition:none}}
   .thumb .tag{position:absolute;top:10px;left:10px;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;background:var(--stamp);color:#fff;padding:3px 7px;border-radius:4px}
   .film .b{padding:16px 18px;display:flex;flex-direction:column;flex:1}
   .film .b .n{font-family:var(--mono);font-size:11px;color:var(--stamp)}
@@ -211,36 +220,36 @@
     <div class="films five">
 
       <div class="film">
-        <div class="thumb"><span class="tag">In production</span><span class="play"></span></div>
-        <div class="b"><span class="n">01</span><h4>Block by Block, Makati</h4>
+        <div class="thumb"><span class="tag">In production</span><span class="code">EP01</span></div>
+        <div class="b"><span class="n">EP01</span><h4>Block by Block, Makati</h4>
         <p>Manila is ranked one of the worst cities in the world for quality of life. Makati scores 62 on safety where Manila scores 35. Here is what that difference actually looks like on the ground.</p>
-        <span class="tie none">The flagship. Nothing to sell.</span></div>
+        <a class="tie" href="starter-kit.html">Nothing to sell &rarr; the free Manila guide</a></div>
       </div>
 
       <div class="film">
-        <div class="thumb"><span class="tag">Coming soon</span><span class="play"></span></div>
-        <div class="b"><span class="n">02</span><h4>The Visa Truth</h4>
+        <div class="thumb"><span class="tag">Coming soon</span><span class="code">EP02</span></div>
+        <div class="b"><span class="n">EP02</span><h4>The Visa Truth</h4>
         <p>You get 30 days. You can stay 36 months. The nomad visa everyone talks about was signed in April 2025 and still does not exist.</p>
         <a class="tie" href="visa.html">If you want someone holding the dates &rarr; Vaya Desk</a></div>
       </div>
 
       <div class="film">
-        <div class="thumb"><span class="tag">Coming soon</span><span class="play"></span></div>
-        <div class="b"><span class="n">03</span><h4>What happens when you land at NAIA</h4>
+        <div class="thumb"><span class="tag">Coming soon</span><span class="code">EP03</span></div>
+        <div class="b"><span class="n">EP03</span><h4>What happens when you land at NAIA</h4>
         <p>A real arrival filmed start to finish, including the queue, the taxi touts, and the part where your phone has no +63 number so nothing works.</p>
         <a class="tie" href="landing.html">If you would rather skip it &rarr; Vaya Concierge</a></div>
       </div>
 
       <div class="film">
-        <div class="thumb"><span class="tag">Coming soon</span><span class="play"></span></div>
-        <div class="b"><span class="n">04</span><h4>Eat Here, Not There</h4>
+        <div class="thumb"><span class="tag">Coming soon</span><span class="code">EP04</span></div>
+        <div class="b"><span class="n">EP04</span><h4>Eat Here, Not There</h4>
         <p>The same dish at PHP 180 and PHP 1,200. Here is what you are actually paying for, and when the cheap one is better.</p>
         <a class="tie" href="food-tour.html">If you want walking through it &rarr; Vaya Tours</a></div>
       </div>
 
       <div class="film">
-        <div class="thumb"><span class="tag">Coming soon</span><span class="play"></span></div>
-        <div class="b"><span class="n">05</span><h4>Five days to a home in Makati</h4>
+        <div class="thumb"><span class="tag">Coming soon</span><span class="code">EP05</span></div>
+        <div class="b"><span class="n">EP05</span><h4>Five days to a home in Makati</h4>
         <p>Five viewings, one lease, and everything the brochure crops out. The lobby at 9pm, the lift at 8am, and what units on that floor actually closed at.</p>
         <a class="tie" href="move-in.html">If you want us to do it &rarr; Vaya Home</a></div>
       </div>

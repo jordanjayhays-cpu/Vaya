@@ -1,4 +1,4 @@
-# Eat Here, Not There — EP05
+# Eat Here, Not There — EP04
 
 **Sells: Vaya Tours — Food. Page: `food-tour.html`.**
 
@@ -36,7 +36,7 @@
 - Do not film inside without asking the owner. **Ask, release, then shoot**
 
 ## The end
-**"The guide in this film runs it on Saturdays."** Then `vayanews.com/food-tour`, **EP05**.
+**"The guide in this film runs it on Saturdays."** Then `vayanews.com/food-tour`, **EP04**.
 
 ## Practical
 - **Shoot it on the real tour, with paying guests**, landing week day 6

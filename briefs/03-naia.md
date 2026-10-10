@@ -1,4 +1,4 @@
-# What happens when you land at NAIA — EP04
+# What happens when you land at NAIA — EP03
 
 **Sells: Vaya Concierge — Landing. Page: `landing.html`.**
 
@@ -37,7 +37,7 @@
 - No "scam" framing of people doing a job
 
 ## The end
-**"The number in the corner of the screen is the one we called."** Then `vayanews.com/landing`, **EP04**.
+**"The number in the corner of the screen is the one we called."** Then `vayanews.com/landing`, **EP03**.
 
 ## Practical
 - **Shoot on Jordan's actual arrival**, day one. It only works once

@@ -42,6 +42,7 @@ Theme: **Hibiscus** (chosen 2026-09-06, open to change later).
 - `--stamp` tangerine `#ff8a3d` for badges and section labels.
 - One typeface, Plus Jakarta Sans, for display and body. DM Mono for labels and buttons.
 - Rounded: 20px cards, 26px panels, pill buttons and inputs.
+- **`FUNNEL.md` traces one viewer from a film to a payment, link by link, and marks what is cut.** Read it before changing a call to action, an episode code or an end-card URL.
 - `themes.html` shows the home page in the nine candidates that were considered. Working file, not linked from the site.
 - Archivo for headlines, Newsreader for body, IBM Plex Mono for labels and buttons.
 

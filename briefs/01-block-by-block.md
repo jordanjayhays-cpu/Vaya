@@ -38,7 +38,9 @@ Cold. **The Numbeo number on screen over a shot of traffic.** No music yet, no l
 - Do not name a business negatively without the fact-check step
 
 ## The end
-**No call to action.** Last line is the verdict, then the Vaya card. **This film earns the right to sell in the other three.**
+**No call to action.** Last line is the verdict, then the Vaya card. **This film earns the right to sell in the other four.**
+
+**But the card still carries a destination, because an audience with nowhere to go evaporates.** On the receipt end-card: **EP01**, and `vayanews.com/starter-kit`, which is the free Manila guide and asks for nothing. **Not a product page. Not the newsletter.** The one film with nothing to sell points at the one page that sells nothing.
 
 ## Practical
 - 2 shoot days. Correspondent plus videographer

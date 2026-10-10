@@ -1,4 +1,4 @@
-# The Visa Truth — EP03
+# The Visa Truth — EP02
 
 **Sells: Vaya Desk — Visa. Page is built: `visa.html`.**
 
@@ -45,7 +45,7 @@
 ## The end
 **"The filing is twenty minutes and it is free. Missing the date is a fine and a lawyer. We are only useful for the second one."**
 
-Then `vayanews.com/visa` on screen and in the description, with **EP03**.
+Then `vayanews.com/visa` on screen and in the description, with **EP02**.
 
 ## Practical
 - 1 shoot day plus the courier return
