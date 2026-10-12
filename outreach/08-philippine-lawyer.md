@@ -36,6 +36,10 @@ A services business: visa extension filings through an accredited agency, airpor
 
 **5. Contractor or employee.** I want to pay a videographer per month for delivered work, two shoot days, their own equipment, other clients. What keeps that a genuine independent contractor relationship rather than employment with back pay attached?
 
+**6b. The entity question, and it is now the biggest one.** Placewell is an existing licensed Philippine recruitment agency in the family. **Which activities should sit inside Placewell or another Philippine-national entity, and which inside a new foreign-owned one?** Specifically: if the BI-accredited filing operation, the driver and the caregiver placements all sit inside a Filipino-owned entity, does the Foreign Investments Act paid-in capital threshold apply to any of it? And what exposure do I create as an American if I hold equity in, am a director of, or am paid by a licensed recruitment agency? **This decides whether Vaya needs USD 200,000 of paid-in capital or none.**
+
+**6c. Bureau of Immigration accreditation.** BI Form 2014-03-001 accredits travel agencies, corporations, consultancy offices and liaison officers. **What are the ownership conditions on the accredited entity, and can its liaison officer be an employee of a related company rather than the accredited entity itself?**
+
 **6. Ownership and capital.** A services company with a foreign owner. What are my realistic options on the Foreign Investments Act thresholds, and what would you recommend for a business this small?
 
 I would also like you to look at one page of wording I use with people I film, to confirm the copyright assignment and the Data Privacy Act consent are adequate.
