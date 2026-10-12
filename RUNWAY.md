@@ -31,12 +31,24 @@ The organising rule has not changed: **anything that does not require your feet 
 
 **Under two hours, all of it. Nothing else on this page can be honestly attempted first.**
 
-- [ ] **Add `hello@vayanews.com` as an alias.** 5 min, free, Google Workspace. **All 17 call-to-action buttons on the live site bounce until this exists**, including the ones on `standards.html` and `terms.html` that promise a reply in two working days
+- [~] **`hello@` alias: DEFERRED by Jordan, 12 Oct.** **Consequence: 14 mailto links on the live site still bounce**, including the ones on `standards.html` and `terms.html` promising a reply in two working days. The two newsletter fallback lines were repointed at `jordan@`, which works. **The one-command fix is to repoint all 14 at `jordan@`. Say the word and it is done in a minute**
 - [x] **Create the beehiiv publication.** **DONE 12 Oct.** Publication id received, subscribe form wired into `index.html` and `manila.html`, `privacy.html` updated to name beehiiv as the processor. **Jordan: check it renders on your phone**
-- [ ] **Send five emails.** Romualdez Law, Bureau of Immigration, GSR Philippines, GPCCI, and The Savvy Expat's free call. ~40 min. All drafted, all sitting in Gmail
-- [ ] **Book the lawyer hour.** `outreach/08`, six questions, the annual report contradiction first
+- [ ] **Send the five emails labelled `Vaya SEND FIRST` in Gmail.** Bureau of Immigration, FilePino, GSR Philippines, GPCCI, MTSC. ~40 min. **All five are in that one red label, nothing else is, and the signature link defect is fixed on all five.** Romualdez is no longer among them because Jordan has a lawyer for December
+- [x] **Lawyer: BOOKED FOR DECEMBER by Jordan.** **Send `outreach/08`'s six questions in advance** so the hour is answers and not orientation. See the consequences block below, because a December answer moves two things
 
 > **Everything below is fiction until Tier 0 is done.** That is not rhetoric: Tiers 2, 3 and 4 each depend on a reply to an email that has not been sent.
+
+### What a December lawyer changes, 12 Oct
+
+**Mostly fine, two real consequences.**
+
+| Question | Answered Dec | What it does |
+|---|---|---|
+| **RESA, the flat relocation fee** | Dec | **Broker outreach cannot start until December.** So a signed licensed broker by mid-January is tight. **Vaya Home at PHP 45,000 is the highest-margin product and it probably launches without a broker partner.** Plan for that or accept it ships later |
+| **The annual report contradiction** | Dec | `visa.html` publicly promises this answer. **December is slow for a live promise, and the Bureau of Immigration email is the free fast path to the same answer.** That is why it is first in `Vaya SEND FIRST` |
+| **Mass media ownership** | Dec | The question that decides whether Vaya works in its current shape, answered one month before launch. Late, not fatal, but **do not build anything new on the assumption it comes back clean** |
+| **The release form** | Dec | Fine. The first shoot is January. **But it is week one of January, so a December answer leaves no slack** |
+| **Both engagement letters** | Dec | Fine. Nobody is hired yet |
 
 ---
 
