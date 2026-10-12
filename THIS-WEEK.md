@@ -1,12 +1,14 @@
-# This week: close September
+# This week: still closing September
 
-Rewritten 29 September 2026. The previous version was dated 6 September and is three weeks stale.
+**Re-scored 12 October 2026. The four items below have not moved since 29 September, and the version before that was dated 6 September.**
 
-**It said: "Twelve research docs exist and zero customers do."**
+**6 Sept: "Twelve research docs exist and zero customers do."**
+**29 Sept: "Thirty research docs exist and zero customers do."**
+**12 Oct: thirty research docs, forty email drafts, and zero customers.**
 
-**Today: thirty research docs exist and zero customers do.**
+The research is not the problem and neither is the drafting. **The same four items have been the whole blocker for six weeks**, and roughly thirty other things sit behind them. `RUNWAY.md` is now rewritten as a 13-week checklist ordered by dependency rather than by month, because planning by month has failed twice.
 
-The research is not the problem. Several findings this month genuinely changed the plan. But `RUNWAY.md` set a September gate and three of its six items are not done, which means October cannot begin.
+**Tier 0 of `RUNWAY.md` is this page.** It has not changed because it has not been done.
 
 ---
 
@@ -16,10 +18,10 @@ The research is not the problem. Several findings this month genuinely changed t
 |---|---|---|---|
 | **1** | **Add `hello@vayanews.com` as an alias.** admin.google.com → Directory → Users → your user → Add alternate email. Free, no new seat | **5 min** | Every CTA button on 11 live pages. They currently bounce |
 | **2** | **Create the beehiiv publication.** Free Launch plan, up to 2,500 subscribers. Send Claude the embed URL | **15 min** | The list. Every week without it is audience you will not have in January |
-| **3** | **Send three emails.** Venus via Airbnb messaging. FilePino and MTSC from Gmail drafts, already written | **20 min** | The guide, the visa partner, the driver. October's entire gate |
+| **3** | **Send five emails.** Romualdez Law, Bureau of Immigration, GSR Philippines and GPCCI from Gmail drafts. The Savvy Expat's free call from their form. All written | **40 min** | The lawyer hour, the annual report answer, the Japanese and German market questions, and one look inside the competitor who already sells all four products |
 | **4** | **Book one hour with a Philippine lawyer.** Questions are in `outreach/08`. Two or three firms, compare how they answer question one | **30 min to book** | Visa, Tours, Home and Care. All four products |
 
-**Total: about 70 minutes of your time.**
+**Total: about 90 minutes of your time. It has been outstanding for six weeks.**
 
 ---
 

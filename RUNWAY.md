@@ -1,177 +1,200 @@
-# The runway: everything before Manila, so landing day is execution
+# The runway: the checklist to January
 
-v1, 2026-09-06. The organising rule: **anything that does not require your feet on Philippine soil gets done from Madrid.** Manila time is the scarcest thing Vaya has. It is for filming, meeting people, and running the first tour. Nothing else.
+**v2, rewritten 2026-10-12.** Supersedes the v1 month-by-month plan, which has been overtaken by events twice.
 
-**Target: land in Manila in January 2027.** That is about 17 weeks from 6 September 2026, and the runway itself needs six. The slack is not spare time and it is not for building software. It is for the two things that compound: the email list, and publishing from Madrid so January is a warm start.
+**Landing target: mid-January 2027. That is 13 weeks.**
 
-## STATUS, 29 September 2026: September's gate is failed
+The organising rule has not changed: **anything that does not require your feet on Philippine soil gets done from Madrid.** Manila time is for filming, meeting people and running the first tour. Nothing else.
 
-Scored against this document's own September row.
+**What has changed is the diagnosis.** v1 planned by month. The months did not fail because the plan was wrong; they failed because **four items that take under two hours in total have been open since early September**, and roughly thirty other things sit behind them. So this version is ordered by **dependency, not by calendar.**
 
-| September gate | Status |
+---
+
+## Where you actually are, 12 October
+
+| September's own gate | Status |
 |---|---|
-| Site live | **DONE.** vayanews.com, 11 pages, HTTPS |
-| Mailbox | **DONE.** jordan@vayanews.com sends and receives, SPF/DKIM/MX/DMARC all verified. `hello@` alias still missing, so every CTA on the site bounces |
-| Landing page replacing the parking page | **DONE** |
-| **Newsletter capturing** | **NOT DONE.** beehiiv chosen, publication never created. The site says so honestly, which is better than lying, but it collects nothing |
-| **All four outreach messages sent** | **NOT DONE. Zero sent.** Twelve are drafted and sitting in Gmail |
-| **Lawyer hour done** | **NOT DONE.** Not booked |
+| Site live | **DONE.** vayanews.com, 11 pages, HTTPS, every link and anchor verified |
+| Mailbox | **PART DONE.** `jordan@` sends and receives, SPF/DKIM/MX/DMARC verified. **`hello@` alias still missing, so all 17 CTAs on the site bounce** |
+| Parking page replaced | **DONE** |
+| Newsletter capturing | **NOT DONE.** beehiiv chosen, publication never created |
+| All four outreach messages sent | **NOT DONE. Zero sent.** Forty drafts now sit in Gmail |
+| Lawyer hour done | **NOT DONE.** Not booked |
 
-**Three of six.**
+**Still three of six, six weeks later. October's gate never started.**
 
-**October's gate cannot start.** It reads "guide, visa agency, driver company and Placewell all confirmed in writing, first guide published, weekly newsletter running, insurance quoted." Every one of those depends on an email that has not been sent or a call that has not been booked.
+**Be honest about capacity.** You are an MBA student with coursework and a job in business development. These 13 weeks are not 13 weeks of Vaya. **That is exactly why the list below is ordered by what unblocks the most for the least time**, and why the research has to stop. Thirty research documents exist. Zero customers do.
 
-### What happened instead
+---
 
-`THIS-WEEK.md`, dated 6 September, opens: *"Twelve research docs exist and zero customers do."*
+## TIER 0: the four that have blocked everything since September
 
-On 29 September there are **thirty** research docs and still zero customers. The research is excellent and several findings genuinely changed the plan: the Bureau's eServices portal undercuts what Vaya Desk sells, foreign-language guiding in Manila is one person deep, and California Expat is running Vaya's positioning while actually publishing.
+**Under two hours, all of it. Nothing else on this page can be honestly attempted first.**
 
-**None of that is worth more than one sent email.**
+- [ ] **Add `hello@vayanews.com` as an alias.** 5 min, free, Google Workspace. **All 17 call-to-action buttons on the live site bounce until this exists**, including the ones on `standards.html` and `terms.html` that promise a reply in two working days
+- [ ] **Create the beehiiv publication.** 15 min, free tier. Send Claude the embed URL and the forms go live on two pages the same day
+- [ ] **Send five emails.** Romualdez Law, Bureau of Immigration, GSR Philippines, GPCCI, and The Savvy Expat's free call. ~40 min. All drafted, all sitting in Gmail
+- [ ] **Book the lawyer hour.** `outreach/08`, six questions, the annual report contradiction first
 
-### The correction
+> **Everything below is fiction until Tier 0 is done.** That is not rhetoric: Tiers 2, 3 and 4 each depend on a reply to an email that has not been sent.
 
-**The runway does not need replanning. It needs the September row closed.**
+---
 
-Four things, none of which takes an hour:
+## TIER 1: decisions only you can make
 
-1. Add the `hello@` alias
-2. Create the beehiiv publication
-3. Send the three sendable drafts: Venus via Airbnb, FilePino, MTSC
-4. Book the lawyer hour
+**Each is one line back to Claude. Each unblocks real work. None needs research.**
 
-Until those are done, every later month in this table is fiction, and no amount of further research changes that.
+- [ ] **The Vaya Desk price.** Three costed options in `OFFER.md` amendment one. **This blocks shooting EP02**, because the film's last line is the price
+- [ ] **How a customer pays you.** Three options on the board. **Nothing on the site says how to pay**, and `privacy.html` already claims a payment provider exists. **Decide this before the Desk price**, because a card processor may be gated on company structure
+- [ ] **The `standards.html` contradiction.** It promises both "everyone sees the finished piece" and "nobody outside Vaya sees a piece, not the businesses in it." Confirm the reading and Claude amends the page
+- [ ] **The correspondent's two fees:** per film, and the monthly retainer. **You cannot hire without these two numbers.** The PCIJ draft asks what the market rate is
+- [ ] **The food tour concept angle:** walking street-food tour, or a single market or food hall. On the board since 25 September
+- [ ] **Whether the foreign-language tour lane opens at all.** `OFFER.md` amendment two is deliberately unpriced, waiting on Department of Tourism arrival figures and one email to the lapsed guides
 
-**Re-score this table on the last day of each month.** A gate that is never scored is not a gate.
+---
 
-## The four months, by month
+## TIER 2: partners, each gated on a sent email
 
-| Month | The job | Done when |
+**Nothing here can be done from a document. Each one is a reply.**
+
+- [ ] **Visa agency confirmed in writing.** FilePino and Ascentium both drafted. Need: their fee, turnaround, courier arrangement, **and which transactions still require personal appearance**
+- [ ] **Transport rate confirmed.** MTSC drafted, VPI is a form. Need a real number for a sedan with driver
+- [ ] **Guide net rate agreed.** Five currently accredited guides drafted. **Send individually, never as a group**
+- [ ] **Insurance quoted, then bound.** AIG drafted. Public liability for the walking tour, media liability for the films. **Quoted before any tour date is published for sale**
+- [ ] **Broker. BLOCKED, and leave it blocked.** Do not send `outreach/06` or any broker email until the lawyer answers the RESA question
+- [ ] **Each partner gets the `ops/partner-agreement.md` email.** A WhatsApp "sure boss" is not a supply chain
+
+---
+
+## TIER 3: the people. This is the long pole
+
+**v1 said start this at T minus 5 and it was never started. It is now T minus 13 and still at zero.**
+
+- [ ] **Correspondent hired.** There is no shortlist and no candidate. Sources: the PCIJ reply, Placewell's network, the guides' networks, the IE Philippine clubs
+- [ ] **Videographer booked on named dates.** Not "available in January." Specific dates
+- [ ] **Both engagement letters signed before anyone works.** `ops/correspondent-engagement.md` and `ops/videographer-engagement.md`. **Philippine IP Code 178.4: paying for work does not give you the copyright in it**
+- [ ] **The release form read by a lawyer.** `outreach/05` says so itself, and its Data Privacy Act line is the risky one. **This blocks the first shoot, not just day one**
+- [ ] **Both have read `BRAND.md`, `kit/README.md` and `standards.html` before they land anywhere near a camera**
+
+**If this slips, the fallback stands:** you host film one yourself as the outsider who moved, and cast the local face from people you meet in week one. Not ideal, not fatal. **But decide that by T minus 4, not on landing day.**
+
+---
+
+## TIER 4: the channel and the content
+
+- [ ] **Create the YouTube channel.** It does not exist. Nothing in the repo references one. **This is free and takes ten minutes**, and every film brief already specifies the end-card URL and episode code
+- [ ] **Shoot and publish the Madrid Three.** `briefs/00`, PRE01 to PRE03, a phone and no budget. **These exist to prove three things before you spend money: that you finish things, that anyone watches, and that you enjoy it**
+- [ ] **PRE02 script written.** Claude's next unblocked job, waiting on nothing
+- [ ] **The EP05 brief.** `move-in.html` is live selling at PHP 45,000 and **has no film brief.** Four briefs exist for five films
+- [ ] **Shoot week booked with subjects confirmed.** Four film dates, each with a named person who has agreed and ideally signed
+- [ ] **Two tour dates published for sale.** **Somebody has paid before you fly** is the single best signal available
+
+---
+
+## TIER 5: money, kit and the ground
+
+- [ ] **Wise account, receiving foreign money and sending pesos.** Do not plan on a Philippine bank account before you land; most banks gate on an ACR I-Card, which only exists after the 59-day extension
+- [ ] **One paid cloud storage account.** Two 4K shoot days will not fit a free tier. **`ops/footage-pipeline.md` is the only process in the whole operation where a mistake cannot be undone**
+- [ ] **Two drives, and they do not travel in the same bag**
+- [ ] **WhatsApp Business number live**, with a named person answering Manila hours. **Two pages currently describe a WhatsApp step; one has been reworded to email because no number exists**
+- [ ] **Twenty blank releases printed, and two pens.** A phone PDF is useless when someone is standing in a market
+- [ ] **Your own visa position checked**, and the extension planned. **You are Vaya Desk's first customer and EP02 is you filing it**
+- [ ] **Accommodation booked in Makati or BGC.** You are also testing the product
+- [ ] **One page printed: every partner's name, number, and what they agreed to**
+- [ ] **Enough cash for the first tour's food and transport.** Do not start a partner relationship owing money
+
+---
+
+## TIER 6: still unwritten, and Claude can do most of it
+
+**Not blockers for January, but each is a gap `PLAYBOOK.md` section 7 has been flagging.**
+
+| Gap | Who | When it bites |
 |---|---|---|
-| **September** | Infrastructure and the list starts | Site live, mailbox, newsletter capturing, landing page replacing the parking page, all four outreach messages sent, lawyer hour done |
-| **October** | Partners signed, publishing begins | Guide, visa agency, driver company and Placewell all confirmed in writing. First guide published. Weekly newsletter running. Insurance quoted. |
-| **November** | People and pre-sell | Correspondent hired, videographer booked, shoot week scheduled with subjects confirmed. January tour dates published for sale. Insurance bound. |
-| **December** | The balikbayan month | Peak search season for the returnee audience. Publish to them from Madrid, grow the list hard. Everything for January booked and paid. |
-| **January** | Land and execute | The landing week below. |
+| **Host agreement** | Claude drafts, lawyer reads | Before the first paid tour |
+| **Crisis page.** Who speaks if someone is hurt on a tour | Claude drafts, Jordan decides | Before the first paid tour |
+| **Partner kit.** How to become a Vaya host | Claude | When a second guide wants in |
+| **EP05 brief** | Claude | Before the shoot week |
+| **PRE02 script** | Claude | Now. It is unblocked |
 
-**One trip, three ventures.** Vaya Manila, Puhunan's entrepreneur stories, and New Bali's Bantayan footage all need the same videographer, the same email infrastructure and the same content pipeline. New Bali's own notes say the Manila trip and the Bantayan trip are the same trip. Budget the videographer and the shoot days across all three, not just Vaya.
+---
 
-**On December.** You will not be in Manila to film the December arrivals peak. That is fine: December is when that audience is searching, not when they are convertible. Publish to them from Madrid in December, convert them in January, when the people who are actually moving act on new-year decisions.
+## The 13 weeks, as a calendar
 
-Everything below is written in T minus weeks against the January landing date.
+**Dates are when a thing must be TRUE, not when you start it.**
+
+| Week | Must be true by the end of it |
+|---|---|
+| **T-13, 12 Oct** | **All of Tier 0.** Plus the Desk price and the payment method decided |
+| **T-12, 19 Oct** | YouTube channel exists. PRE01 shot. The rest of Tier 1 decided |
+| **T-11, 26 Oct** | Lawyer hour done, answers written into `DECISIONS.md` the same day. **PRE01 published** |
+| **T-10, 2 Nov** | Visa agency and transport rates in writing. Insurance quoted. Newsletter sending weekly |
+| **T-9, 9 Nov** | Guide rate agreed. **Correspondent shortlist exists, with three names on it** |
+| **T-8, 16 Nov** | **Correspondent hired, letter signed.** PRE02 published |
+| **T-7, 23 Nov** | Videographer booked on named dates, letter signed. Release form lawyer-approved |
+| **T-6, 30 Nov** | Shoot week booked, four subjects confirmed. **Two tour dates published for sale** |
+| **T-5, 7 Dec** | Insurance bound. PRE03 published. Wise and cloud storage live |
+| **T-4, 14 Dec** | **Publish to the balikbayan search peak.** Grow the list hard. Fallback decision made on the correspondent if still unhired |
+| **T-3, 21 Dec** | Accommodation booked. WhatsApp number live. Gear list closed |
+| **T-2, 28 Dec** | Everything for January booked and paid. Partner page printed |
+| **T-1, 4 Jan** | Releases printed. Drives bought. Cash drawn. **Nothing left but the flight** |
+| **Land, 11 Jan** | `RUNWAY.md` landing week, below |
+
+**Re-score this at the end of every month.** A gate nobody scores is not a gate, and that is exactly how September passed.
+
+---
 
 ## What can ONLY be done in Manila
 
-Protect this list. Everything else is a distraction from it.
+**Protect this list. Everything else is a distraction from it.**
 
-1. Filming. Four films, two angles, b-roll.
-2. Meeting the guide, the correspondent, the videographer in person.
-3. Running the first food tour and the first Nights.
-4. Walking the routes: Salcedo, Poblacion, BGC High Street.
-5. Signing anything that needs wet ink, and the ACR biometrics if your stay goes past 59 days.
-6. Filming the retiree, the nurse, the driver.
+1. Filming. Five films, two angles, b-roll
+2. Meeting the guide, the correspondent and the videographer in person
+3. Running the first food tour
+4. Walking the routes: Salcedo, Poblacion, BGC High Street
+5. Anything needing wet ink, and the ACR biometrics past 59 days
+6. Filming the retiree, the nurse, the driver
 
-If a task is not on that list, it happens before you fly.
-
-## Pre-departure, by week
-
-### T minus 6 (September): the foundation
-Nothing else can start until these exist.
-
-| Do | Why it blocks everything |
-|---|---|
-| Enable Pages, point DNS, merge the branch | The site is the credibility you send partners |
-| Create hello@vayanews.com | Every service button on the Manila page emails it |
-| Pick the newsletter provider, send Claude the endpoint | Forms capture the same day; the launch list starts filling |
-| Replace the parking page with the manifesto and one email field | Every outlet studied built the list months ahead |
-
-### T minus 5 (September): the partner sweep
-All by email or Airbnb message, all from Madrid. Send them the same day so replies arrive together.
-
-| Send | To | Draft ready at |
-|---|---|---|
-| Guide partnership | Venus, then Mari | `outreach/01` |
-| Visa Desk filing partner | FilePino, plus one Placewell referral | `outreach/02` |
-| Car with driver, 22-day month | Three transport companies | `outreach/03` |
-| Retiree-with-a-nurse casting call | Two expat Facebook groups | `outreach/04` |
-| Employer of record, salary bands | Placewell (a call, not an email) | Ask for the license position |
-
-Also this week: one hour with a Philippine lawyer. Three questions, nothing else. Can a foreign-owned company sell these services. What is the libel exposure when a film names a business. Does the appearance release hold under Philippine law.
-
-### T minus 4 (October): money and cover
-- Insurance quotes: general liability for the experiences, media liability for the films. Both quoted before the first tour date is published.
-- Payment route: how a foreigner pays you. Wise or bank transfer to start, into a **separate Vaya balance**, never mixed with agency money.
-- Entity: the MVP runs through the existing family business entity. No new company before the trip. Invoices carry its registered name; the customer sees Vaya. The long-term entity question waits for the lawyer's answer and the first revenue.
-- Set the price scaffolds as real prices from the driver quotes.
-
-### T minus 3 (November): the people
-- **Correspondent hired.** This is the long pole. Placewell, plus the Facebook groups, plus the guides' own networks. Flat fee per film, terms in writing before they appear on camera.
-- **Videographer booked** for specific dates, with the kit sent to them in advance.
-- Both need to have read `kit/README.md` before you land.
-
-### T minus 2 (November to December): the schedule
-The shoot week is booked before you fly. Not sketched, booked.
-
-- Four film dates with the subject confirmed for each.
-- One Saturday food tour date, published for sale.
-- One Friday Nights date, published for sale.
-- Every subject has a signed release, sent and returned by email where possible.
-- Accommodation booked in Makati or BGC. You are also testing the product.
-
-### T minus 1 (December): the last mile
-- WhatsApp Business number live, with a named person answering Manila hours.
-- Standards page published.
-- Your own visa position checked. Most nationals get 30 days visa-free; your extension is the Visa Desk's first case.
-- **Money on the ground.** Do not plan on a Philippine bank account before you land: most banks gate on an ACR I-Card, which only exists after the 59-day extension, and tourist-visa applications get the most scrutiny ([Asian Nomad Hub](https://asiannomadhub.com/blog/philippines-bank-accounts-foreigners-2026), [Wise](https://wise.com/ph/blog/foreigner-open-bank-account)). Sequence: **Wise** for receiving foreign money and sending pesos to partners; a **registered Philippine SIM plus Maya** (passport-verified, unlike GCash) in week one; the bank account and full GCash in month two, off the back of your own ACR I-Card. BDO is the most foreigner-friendly, BPI second. Detail and sources: `research/visitor-mvps.md`.
-- Gear: whatever the videographer does not have. A second camera can be your phone.
-- One page printed: every partner's name, number, and what they agreed to.
+**If a task is not on that list, it happens before you fly.**
 
 ## Landing week, day by day
 
 | Day | What happens |
 |---|---|
-| **1** | Land. Test Vaya Landing on yourself: is someone there with your name, a SIM, GCash set up. Whatever breaks becomes the checklist. Sleep. |
-| **2** | Walk the routes with the guide. Salcedo, Poblacion, BGC. Time them. Fix the ones that do not work on foot. |
-| **3** | Meet the correspondent and videographer. Shoot test footage. Check the three-second rule against real material. |
-| **4** | Film one: Block by Block, Makati. The flagship. |
-| **5** | Film two: The Real Cost, with the retiree couple. |
-| **6** | **Run the food tour.** Paying guests. Film it. This is the first revenue and the ad for itself. |
-| **7** | Film three and four, or reshoot whatever failed. File your visa extension through the partner. |
+| **1** | Land. **Test Vaya Landing on yourself.** Whatever breaks becomes the checklist. Sleep |
+| **2** | Walk the routes with the guide. Time them. Fix what does not work on foot |
+| **3** | **`ops/day-one.md` with the correspondent and videographer.** Three hours of setup, then shoot the easiest thing on the slate, not the flagship |
+| **4** | **EP01, Block by Block, Makati.** The flagship |
+| **5** | **EP02, The Visa Truth.** File your own extension, on camera, through the partner |
+| **6** | **Run the food tour with paying guests.** First revenue, and the ad for itself |
+| **7** | EP03 and EP04, or reshoot whatever failed |
 
-Week two is Nights, the remaining films, and the partner meetings that need a face.
-
-## What you carry
-
-- The printed partner page: names, numbers, what each agreed.
-- Signed releases, or blanks for anyone who has not returned one.
-- The kit on your phone: open, lower third, price tag, receipt, thumbnail.
-- Enough cash for the first tour's food and transport. Do not start a partner relationship owing money.
-
-## The one thing that will slip
-
-The correspondent. Everything else is an email or a form. Finding a person in Manila who has a small following, will be on camera, and is available on your dates takes weeks and cannot be rushed from Madrid. **Start it at T minus 5, not T minus 3.**
-
-If you land without a correspondent, you host film one yourself as the outsider who moved, and cast the local face from people you meet in week one. Not ideal. Not fatal.
-
-## What the slack is NOT for
-
-With 17 weeks there is enough time to build a booking platform. That is exactly why the playbook forbids it before ten hosts and fifty bookings. The backend, until then, is: a newsletter tool for emails, WhatsApp plus a payment link for bookings, and a spreadsheet with episode codes for the numbers. Every hour spent on software is an hour not spent on the list.
+Week two: the remaining films, the partner meetings that need a face, and the first Desk filing for a stranger.
 
 ## The pre-departure spend, rough
 
-Assumptions, not quotes. Test each against the real numbers.
+Assumptions, not quotes. **Test each against a real number before you rely on it.**
 
 | Item | Estimate |
 |---|---|
-| Four films, host plus videographer plus edit | US$2,000 |
+| Five films: host, videographer, edit | US$2,000 |
 | Insurance, first year, both policies | US$800 to 1,500 |
 | Lawyer, one hour | US$150 to 300 |
-| Newsletter tool, domain, mailbox, year one | US$200 |
+| Newsletter, domain, mailbox, cloud storage, year one | US$300 |
+| Two drives | US$150 |
 | Accommodation, four weeks Makati or BGC | US$700 to 1,200 |
 | First tour costs before revenue | US$200 |
 
-About US$4,000 to 5,500 before the first peso comes in. Bootstrapped from the agency, per the decision log.
+**About US$4,300 to 5,650 before the first peso.** Bootstrapped from the agency, per `DECISIONS.md`.
+
+## What the slack is NOT for
+
+**There is enough time in 13 weeks to build a booking platform. That is exactly why the playbook forbids it before ten hosts and fifty bookings.** The backend until then is a newsletter tool, WhatsApp plus a payment link, and two CSVs keyed on episode code.
+
+**And no more research.** Thirty documents exist. The marginal one is worth less than the marginal sent email, and that was true in September too.
 
 ## Accept when
 
-The site is live and capturing emails, four partners have replied, the correspondent and videographer are booked on named dates, the shoot week is scheduled with subjects confirmed, two tour dates are published for sale, and insurance is quoted. Then you fly.
+Tier 0 is closed, every Tier 1 decision is made, four partners have replied in writing, the correspondent and videographer are booked on named dates with signed letters, the shoot week is scheduled with subjects confirmed, two tour dates are sold, insurance is bound, and **at least one Madrid film is published with an audience you can count.**
+
+**Then you fly.**
