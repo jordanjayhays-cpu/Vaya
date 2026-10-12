@@ -24,6 +24,7 @@ If-then rules. When a question comes up, check here first. If the answer isn't h
 | Question | Rule |
 |---|---|
 | **Should we add a service?** | Only if all three: a filmed person had the problem, a licensed partner can deliver it within 30 days, and Vaya's take is at least 20% or a flat fee that covers the coordination. |
+| **Is this thing worth selling at all?** | **Could a competent person with an AI produce it from public information in ten minutes? If yes, it is worth nothing, free or paid.** Vaya only sells what requires having physically been somewhere, having done the work, or having the relationship. Added 2026-10-12, and it supersedes the softer "nobody wakes up wanting to buy a report". |
 | **Should we make a series?** | Only if a paid thing already exists for it, and the first episode has a real number for the open. |
 | **Should we film this person?** | Only with a signed release before the first frame, a screening call, and, for health, family, or money stories, a second read by someone who isn't the filmmaker. |
 | **How do we price a tour or experience?** | Partner's net rate plus 20 to 30%, or a flat guide fee with Vaya selling at retail. Priced in pesos, dollars shown beside. Never below the local market's top tier; Vaya is the easy version, not the cheap version. |

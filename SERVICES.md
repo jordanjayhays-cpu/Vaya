@@ -27,10 +27,10 @@ Four emails. That is the whole supply side.
 
 | Service | Price | What it needs | Honestly |
 |---|---|---|---|
-| **Before You Land call** | PHP 1,500 (about US$26) | A calendar link and a payment link. Nothing else | 45 minutes on video walking someone through their first week. You already know more than they do |
-| **The Payment Setup call** | PHP 800 (about US$14) | Same | Maya versus GCash, SIM registration, the ATM, how much cash to carry. This is 20 minutes and it is `research/visitor-mvps.md` read aloud |
+| ~~The Payment Setup call~~ | ~~PHP 800~~ | **CUT 2026-10-12** | **This document described it as `research/visitor-mvps.md` read aloud.** That is selling information anyone can now generate in ten minutes. It fails the test in `PLAYBOOK.md` section 2 and it is gone |
+| **Before You Land call** | PHP 1,500 (about US$26) | A calendar link and a payment link | **Does not pass the test yet, and it will.** Right now Jordan would also be reading research aloud, because he has not lived there. **The same call from someone who has spent three months in Makati is a different product**, because the answers come from having been there. **Not sellable until he is on the ground** |
 
-**Neither needs a partner, an entity, a licence or a trip.** They need a Calendly and a Wise link. **This is your first revenue and it can happen before anything else on this page.**
+**Everything the Starter Kit covers stays free**, and that is the point: it is the thing AI can write, so it is worth nothing as a product and a great deal as a reason to trust Vaya.
 
 ---
 
