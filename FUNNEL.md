@@ -148,7 +148,7 @@ Do this on your phone, not a laptop, because that is what a viewer uses.
 
 ## What is deliberately not in this funnel
 
-- **No analytics, no cookies, no pixel.** The email subject line is the attribution: one film points at one page, and that page's button carries the code. **You count inbound emails by code.** It is manual and it is enough below a hundred a month, and it keeps `privacy.html` true, which is worth more than a dashboard
+- **No analytics, no pixel, and nothing third-party except the newsletter box.** The email subject line is the attribution: one film points at one page, and that page's button carries the code. **You count inbound emails by code.** It is manual and it is enough below a hundred a month. **Corrected 12 Oct:** the beehiiv subscribe form is loaded from beehiiv's servers, so it is one third-party embed, and `privacy.html` now says so. Everything else on the site is served from Vaya's own domain
 - **No signup wall on the free guide.** `starter-kit.html` asks for nothing. That is a decision already in `DECISIONS.md`: Vaya does not sell information
 - **No `?ep=` parameter yet.** `kit/README.md` specifies `vayanews.com/manila?ep=01`. It only earns its keep when two films point at one page, and today each film points at its own. **Add it when the flagship and a product film both send people to the same place**
 

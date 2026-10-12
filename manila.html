@@ -228,7 +228,13 @@
       <h2>Everything you need for Manila, free, right now.</h2>
       <p>The real costs, the right neighborhood, the setup checklist. No email required. It is a page, not a trade.</p>
       <a class="newsbtn" href="starter-kit.html">Read the Starter Kit &rarr;</a>
-      <small>Want the weekly one too? Email <a href="mailto:hello@vayanews.com?subject=Newsletter" style="color:inherit">hello@vayanews.com</a>. We have not built the signup form yet.</small>
+      <small>Want the weekly one too?</small><!-- beehiiv subscribe form. The UUID is the publication id and is public by design in embed code.
+           NEVER put a beehiiv API KEY on this site: it is static HTML with no server, so a key here is a published key. -->
+      <iframe src="https://embeds.beehiiv.com/8daffb36-9ffb-4d75-8bcb-8b70ec89b538" data-test-id="beehiiv-embed"
+              title="Subscribe to the Vaya newsletter" loading="lazy"
+              width="100%" height="320" frameborder="0" scrolling="no"
+              style="border:0;margin:14px 0 0;background:transparent;max-width:520px;border-radius:16px"></iframe>
+      <small>If the form does not load, <a href="mailto:hello@vayanews.com?subject=Newsletter" style="color:inherit"><b>email us</b></a> and we will add you by hand.</small>
     </div>
   </section>
 

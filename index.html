@@ -292,8 +292,13 @@
       <div class="lbl" style="color:var(--paper);opacity:.7">Newsletter</div>
       <h2>Thinking about a move? Get one city, unpacked, every week.</h2>
       <p>No fluff, no sponsored postcards. Just what it's really like, from the ground.</p>
-      <a class="newsbtn" href="mailto:hello@vayanews.com?subject=Newsletter">Email us to go on the list</a>
-      <small>We have not built the signup form yet, so this goes to a person, not a robot. Starts with Manila. Free, always.</small>
+<!-- beehiiv subscribe form. The UUID is the publication id and is public by design in embed code.
+           NEVER put a beehiiv API KEY on this site: it is static HTML with no server, so a key here is a published key. -->
+      <iframe src="https://embeds.beehiiv.com/8daffb36-9ffb-4d75-8bcb-8b70ec89b538" data-test-id="beehiiv-embed"
+              title="Subscribe to the Vaya newsletter" loading="lazy"
+              width="100%" height="320" frameborder="0" scrolling="no"
+              style="border:0;margin:18px 0 0;background:transparent;max-width:520px;border-radius:16px"></iframe>
+      <small>Starts with Manila. Free, always, and you can leave in one click. If the form above does not load, <a href="mailto:hello@vayanews.com?subject=Newsletter" style="color:inherit"><b>email us</b></a> and we will add you by hand.</small>
     </div>
   </section>
 

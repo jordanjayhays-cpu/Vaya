@@ -32,7 +32,7 @@ The organising rule has not changed: **anything that does not require your feet 
 **Under two hours, all of it. Nothing else on this page can be honestly attempted first.**
 
 - [ ] **Add `hello@vayanews.com` as an alias.** 5 min, free, Google Workspace. **All 17 call-to-action buttons on the live site bounce until this exists**, including the ones on `standards.html` and `terms.html` that promise a reply in two working days
-- [ ] **Create the beehiiv publication.** 15 min, free tier. Send Claude the embed URL and the forms go live on two pages the same day
+- [x] **Create the beehiiv publication.** **DONE 12 Oct.** Publication id received, subscribe form wired into `index.html` and `manila.html`, `privacy.html` updated to name beehiiv as the processor. **Jordan: check it renders on your phone**
 - [ ] **Send five emails.** Romualdez Law, Bureau of Immigration, GSR Philippines, GPCCI, and The Savvy Expat's free call. ~40 min. All drafted, all sitting in Gmail
 - [ ] **Book the lawyer hour.** `outreach/08`, six questions, the annual report contradiction first
 

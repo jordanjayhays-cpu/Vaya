@@ -17,7 +17,7 @@ The research is not the problem and neither is the drafting. **The same four ite
 | # | Do this | Takes | What it unblocks |
 |---|---|---|---|
 | **1** | **Add `hello@vayanews.com` as an alias.** admin.google.com → Directory → Users → your user → Add alternate email. Free, no new seat | **5 min** | Every CTA button on 11 live pages. They currently bounce |
-| **2** | **Create the beehiiv publication.** Free Launch plan, up to 2,500 subscribers. Send Claude the embed URL | **15 min** | The list. Every week without it is audience you will not have in January |
+| ~~2~~ | ~~Create the beehiiv publication~~ **DONE 12 Oct.** Form is live on `index.html` and `manila.html`. **Check it renders on your phone and send a screenshot if it looks wrong** | done | The list. It is now collecting |
 | **3** | **Send five emails.** Romualdez Law, Bureau of Immigration, GSR Philippines and GPCCI from Gmail drafts. The Savvy Expat's free call from their form. All written | **40 min** | The lawyer hour, the annual report answer, the Japanese and German market questions, and one look inside the competitor who already sells all four products |
 | **4** | **Book one hour with a Philippine lawyer.** Questions are in `outreach/08`. Two or three firms, compare how they answer question one | **30 min to book** | Visa, Tours, Home and Care. All four products |
 
